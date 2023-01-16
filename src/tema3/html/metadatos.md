@@ -9,7 +9,7 @@ El elemento `head` contiene información para procesar el documento: la codifica
   |:------:|:------:|
   | <iframe src="./files/encoding-1.html" width="100%" height="50" style="background:white;"></iframe> | <iframe src="./files/encoding-2.html" width="100%" height="50" style="background:white;"></iframe> |
 
-  > ⁉️ **Pregunta:** _Los dos documentos HTML están escritos con la misma codificación ¿cuál es y cuál está usando el navegador al leer cada uno de ellos?_
+  > ⁉️ **Pregunta:** _Los ficheros anteriores están guardados con diferente codificación, que está convenientemente declarada como metainformación en el HTML ¿cuáles son? ¿por qué solo uno de ellos se ve correctamente?_
 
   > 🔍 **Nota:** _Intenta ver el código fuente de cada uno de los marcos haciendo click derecho sobre ellos._
 

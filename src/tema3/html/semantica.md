@@ -9,7 +9,7 @@ Los elementos HTML deben organizarse en bloques semánticos para: mejorar el ind
 
   ```html
   <span>Título principal</span>
-  <div onclick="">Enviar formulario</span>
+  <div onclick="">Enviar formulario</div>
   <b>Este texto es importante resaltarlo</b>
   Párrafo 1<br><br>Párrafo 2
   Campo: <input type="text">
@@ -34,13 +34,13 @@ Los elementos HTML deben organizarse en bloques semánticos para: mejorar el ind
     <article> <!-- Algo autocontenido, distribuible, reusable de forma independiente -->
       <h2>Título del artículo</h2>
       <section>
-        <h3>Título de una sección dentro del artículo</h2>
+        <h3>Título de una sección dentro del artículo</h3>
         <p>Contenido de la sección</p>
       </section>
       <aside>
         <h3>Contenido relacionado indirectamente: citas, tabla de contenidos, etc.</h3>
         <figure>
-          <img alt="Imagen con leyenda" />
+          <img alt="Imagen con leyenda" src="img">
           <figcaption>Leyenda de la imagen</figcaption>
         </figure>
       </aside>

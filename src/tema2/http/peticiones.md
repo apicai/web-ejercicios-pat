@@ -60,4 +60,4 @@ La petición HTTP más sencilla se compone de `{MÉTODO} /{recurso} HTTP/{versio
 
 [^3]: Cada "chunk" se envía indicando primero su longitud en hexadecimal y después su contenido en una nueva línea. Para finalizar se envía un "chunk" vacío: `0\r\n\r\n`.
 
-[^4]: `Content-Type` es la cabecera que indica el tipo de datos que se envían. Se utilizan [MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types#important_mime_types_for_web_developers) para identificarlos. Por ejemplo, para las peticiones que hemos hecho usaríamos `Content-Type: text/plain`.
+[^4]: `Content-Type` es la cabecera que indica el tipo de datos que se envían. Se utilizan [MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types#important_mime_types_for_web_developers) para identificarlos. Además, puede venir acompañada de la codificación de caracteres utilizada en los datos. Por ejemplo, para las peticiones que hemos hecho usaríamos `Content-Type: text/plain; charset=utf-8`.
