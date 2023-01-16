@@ -5,7 +5,9 @@
 ## Objetivos
 
 - Usar Docker desde la línea de comandos para crear imágenes y arrancarlas localmente como contenedores.
+
 - Usar Docker Compose para montar un entorno de desarrollo local que nos permita hacer lo mismo que en la práctica de Git (que usaba el entorno de desarrollo en la nube Github-Codespaces).
+
 - Tener un entorno de desarrollo local con las herramientas necesarias para las prácticas (`git`, `java`, validadores, servidores, etc.).
 
 [^1]: Existen varios "runtimes", el que usa Docker está basado originalmente en [containerd](https://containerd.io/).

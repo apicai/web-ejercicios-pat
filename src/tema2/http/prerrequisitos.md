@@ -5,7 +5,7 @@ Para los ejercicios es necesario un terminal con los comandos `telnet`, `openssl
 
 ### Docker
 1. Arranca [Docker Desktop](https://www.docker.com/products/docker-desktop/).
-2. Descarga este [Dockerfile](./Dockerfile).
+2. Descarga este [Dockerfile](./files/Dockerfile).
 3. En ese directorio abre un terminal y ejecuta:
    ```bash
    docker build -t http . ; docker run -p 8080:8080 --rm -it http
@@ -17,3 +17,5 @@ Para los ejercicios es necesario un terminal con los comandos `telnet`, `openssl
    ```bash
    sudo apt update && sudo apt install -y telnet netcat
    ```
+
+> 🔍 **Nota:** _Como va a ser necesario durante los ejercicios repetir el mismo comando en cada paso, puedes utilizar la tecla <kbd>↑</kbd> en el terminal para recuperar el último comando ejecutado._

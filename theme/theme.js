@@ -101,4 +101,9 @@
     a.parentNode.insertBefore(link, a.nextSibling);
   });
 
+  // Add Codepen.io fill embeds script
+  const script = document.createElement('script');
+  script.src = "https://static.codepen.io/assets/embed/ei.js";
+  document.body.appendChild(script);
+
 })(this);

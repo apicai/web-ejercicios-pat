@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>A</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <p>El siguiente comentario ha sido publicado en el foro:</p>
+    <p id="comment"></p>
+    <script>document.getElementById("comment").innerHTML = new URLSearchParams(window.location.search).get('comment')</script>
+    <a href="form-xss.html">Volver</a>
+  </body>
+</html>

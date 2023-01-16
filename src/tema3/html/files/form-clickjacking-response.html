@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>A</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <p>Gracias por tus credenciales</p>
+    <p id="comment"></p>
+    <script>
+      const query = new URLSearchParams(window.location.search);
+      document.getElementById("comment").innerHTML = query.get('user') + ":" + query.get('user');
+    </script>
+  </body>
+</html>

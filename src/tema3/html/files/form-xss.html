@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Formulario XSS</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <form action="form-xss-response.html">
+      <fieldset>
+        <label for="comment_id">Envía un comentario al foro:</label><br>
+        <textarea rows="2" style="width:100%;" name="comment" id="comment_id" placeholder="Comentario"></textarea>
+      </fieldset>
+      <fieldset>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </body>
+</html>

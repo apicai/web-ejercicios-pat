@@ -8,7 +8,7 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
    nc -l -s 0.0.0.0 -p 8080
    ```
 
-1. En un navegador web abre o refresca [http://localhost:8080](http://localhost:8080) si estás usando **Docker**. En caso de usar **Codespaces** utiliza la URL que se indica al ejecutar el comando anterior en el terminal.
+1. En un navegador web abre o refresca [`http://localhost:8080`](http://localhost:8080) si estás usando **Docker**. En caso de usar **Codespaces** utiliza la URL que se indica al ejecutar el comando anterior en el terminal.
 
 1. Vuelve al terminal y comprueba que ha llegado la petición.
 
@@ -85,10 +85,11 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
     &lt;fieldset>
         &lt;input type="submit" value="Submit">
     &lt;/fieldset>
-    &lt;/form></pre></div>
-    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    &lt;/form>
+    </pre>
+    </div>
     </details>
 
    Edita el HTML y quita el `method="post"`. Repite el **paso 1** y envía el formulario con ese cambio.
 
-   > ⁉️ **Pregunta:** _¿Cuál es el método por defecto de un formulario web? ¿En qué situaciones elegirías uno u otro? Si envias "Ñ" en algún campo ¿en qué codificación llega al servidor?_
+   > ⁉️ **Pregunta:** _¿Cuál es el método por defecto de un formulario web? Si envias "Ñ" en algún campo ¿en qué codificación llega al servidor?_

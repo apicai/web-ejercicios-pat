@@ -5,5 +5,7 @@ HTTP es un protocolo basado en peticiones y respuestas enviadas en texto plano u
 ## Objetivos
 
 - Entender el protocolo como cliente, tecleando peticiones contra un servidor real.
-- Lo mismo pero como servidor, tecleando respuestas a peticiones de un navegador real.
+
+- Entender el protocolo como servidor, tecleando respuestas a peticiones de un navegador real.
+
 - Conocer herramientas para probar y depurar problemas.

@@ -26,8 +26,7 @@ fromEvent(button, "click")
 </details>
 
 <details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary>Playground...</summary><br/>
-<div class="cp-later" data-prefill data-height="400" data-theme-id="light" data-default-tab="js,result" 
-data-editable="true" style="opacity:0">
+<div class="cp-later" data-prefill data-height="400" data-theme-id="light" data-default-tab="js,result" data-editable="true" style="opacity:0">
 <pre data-lang="html" >
 &lt;button&gt;Click me in different places&lt;/button&gt;
 &lt;output&gt;&lt;/output&gt;
@@ -42,5 +41,4 @@ fromEvent(button, "click")
   .subscribe((max) =&gt; { output.textContent = "Max X = " + max; });
 </pre>
 </div>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 </details>

@@ -1,0 +1,83 @@
+<form action="./files/form.html" method="get">
+ <fieldset>
+  <legend>Datos personales</legend>
+  <p>
+   <label for="name_id">Nombre:</label><br>
+   <input type="text" name="name" id="name_id">
+  </p>
+  <p>
+   <label for="phone_id">Teléfono:</label><br>
+   <input type="tel" name="phone" id="phone_id">
+  </p>
+  <p>
+   <label for="email_id">Email:</label><br>
+   <input type="email" name="email" id="email_id" required>
+  </p>
+ </fieldset>
+ <fieldset>
+  <legend>Producto</legend>
+  <p>
+   <label for="model_id">Modelo:</label><br>
+   <select name="model" id="model_id" required>
+    <option value="Modelo 1">Modelo 1</option>
+    <option value="Modelo 2">Modelo 2</option>
+    <option value="Modelo 3">Modelo 3</option>
+   </select>
+  </p>
+  <p>Tamaño:
+   <ul>
+    <li>
+     <input type="radio" name="size" id="size-1_id" value="S" required>
+     <label for="size-1_id">S</label>
+    </li>
+    <li>
+     <input type="radio" name="size" id="size-2_id" value="M">
+     <label for="size-2_id">M</label>
+    </li>
+    <li>
+     <input type="radio" name="size" id="size-3_id" value="L">
+     <label for="size-3_id">L</label>
+    </li>
+   </ul>
+  </p>
+  <p>
+   <label for="color_id">Color:</label><br>
+   <input type="color" name="color" id="color_id" required>
+  </p>
+  <p>
+   <label for="amount_id">Cantidad:</label><br>
+   <input type="number" name="amount" id="amount_id" min="1" max="5" required>
+  </p>
+  <p>Extras:
+   <ul>
+    <li>
+     <input type="checkbox" name="extra-1" id="extra-1_id">
+     <label for="extra-1_id">Extra 1</label>
+    </li>
+    <li>
+     <input type="checkbox" name="extra-2" id="extra-2_id">
+     <label for="extra-2_id">Extra 2</label>
+    </li>
+    <li>
+     <input type="checkbox" name="size-3" id="extra-3_id">
+     <label for="extra-3_id">Extra 3</label>
+    </li>
+   </ul>
+  </p>
+ </fieldset>
+ <fieldset>
+  <legend>Entrega</legend>
+  <p>
+   <label for="fecha_id">Fecha:</label><br>
+   <input type="datetime-local" id="fecha_id" name="fecha" min="2023-05-01T00:00">
+  </p>
+  <p>
+   <label for="instructions_id">Instrucciones:</label><br>
+   <textarea rows="2" cols="25" name="instructions" id="instructions_id"></textarea>
+  </p>
+ </fieldset>
+ <fieldset>
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Limpiar">
+ </fieldset>
+</form>

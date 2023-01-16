@@ -1,11 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Signika+Negative:wght@300&display=swap');
+
+html {
+  font-family: "Noto Serif", 'Open Sans', sans-serif;
+}
 
 :root {
   --links: #1f8cff;
+  --code-font-size: 0.95em;
+}
+
+code, kbd {
+  font-style: normal;
+  vertical-align: unset !important;
 }
 
 code {
-  font-style: normal;
+  letter-spacing: -0.050em;
 }
 
 sup {
@@ -13,7 +23,7 @@ sup {
 }
 
 .footnote-definition p, blockquote em {
-  font-family: 'Signika Negative', sans-serif, serif;
+  font-family: 'Signika Negative', serif;
 }
 
 .part-title {
@@ -24,10 +34,6 @@ sup {
 
 .chapter li a.active, .chapter li a:hover {
 	color: var(--links);
-}
-
-.chapter li {
-  color: inherit;
 }
 
 .chapter>.chapter-item {
