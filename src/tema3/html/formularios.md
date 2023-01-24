@@ -15,7 +15,8 @@ Completa el HTML siguiente utilizando las etiquetas `<input>` del tipo adecuado,
 > 🔍 **Nota:** _Puedes consultar la documentacion de cada elemento en la web [Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#input_types)._
 
 <div class="codepen" data-prefill data-height="600" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
-<pre data-lang="html">&lt;form action="URL absoluta o relativa" method="get o post">
+<pre data-lang="html">&lt;body>
+&lt;form action="URL absoluta o relativa" method="get o post">
  &lt;fieldset>
   &lt;legend>Datos personales&lt;/legend>
   &lt;p>
@@ -94,4 +95,5 @@ Completa el HTML siguiente utilizando las etiquetas `<input>` del tipo adecuado,
   &lt;!-- Botón para resetear el formulario -->
  &lt;/fieldset>
 &lt;/form>
+&lt;/body>
 </pre></div>
