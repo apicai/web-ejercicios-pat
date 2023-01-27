@@ -48,15 +48,15 @@ La petición HTTP más sencilla se compone de `{MÉTODO} /{recurso} HTTP/{versio
 
 1. Hasta ahora, hemos usado HTTP 1.0 y 1.1. HTTP 2 y 3 son protocolos binarios y HTTP/3 no usa TCP por lo que no podemos probarlo con `telnet`. Además, no todos los clientes y servidores los implementan por lo que para usarlos se necesita negociar el protocolo previamente mediante HTTP o TLS. Ejecuta los siguientes comandos:
    ```bash
-   # ... negociación vía HTTP/1.1 ...
+   # Negociación vía HTTP/1.1:
    curl http://httpbin.org/anything -d "12345" -v --http2
-   # ... negociación vía TLS/ALPN ...
+   # Negociación vía TLS/ALPN:
    curl https://httpbin.org/anything -d "12345" -v --http2
    ```
 
 [^1]: Los métodos o verbos están definidos en la [especificación](https://httpwg.org/specs/rfc9110.html#methods). Los más comunes son `GET` y `POST`.
 
-[^2]: La ruta al recurso se puede componer de `/path?query#fragment`, y la `query` a su vez se compone de `param1=value1&param2=value2&...`.
+[^2]: La ruta al recurso se puede componer de `/path?query#fragment`, y la `query` a su vez se compone de `param1=value1&param2=value2&...`. Los parámetros de la "query" deben codificarse usando [URL encoding](https://en.wikipedia.org/wiki/URL_encoding).
 
 [^3]: Cada "chunk" se envía indicando primero su longitud en hexadecimal y después su contenido en una nueva línea. Para finalizar se envía un "chunk" vacío: `0\r\n\r\n`.
 

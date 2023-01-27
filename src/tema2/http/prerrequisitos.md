@@ -15,7 +15,7 @@ Para los ejercicios es necesario un terminal con los comandos `telnet`, `openssl
 1. Desde tu cuenta en Github [crea](https://github.com/codespaces/new) un Codespace en el repo `github/codespaces-blank` y arráncalo.
 2. En el terminal del Codespace ejecuta:
    ```bash
-   sudo apt update && sudo apt install -y telnet netcat
+   sudo apt update ; sudo apt install -y telnet netcat
    ```
 
 > 🔍 **Nota:** _Como va a ser necesario durante los ejercicios repetir el mismo comando en cada paso, puedes utilizar la tecla <kbd>↑</kbd> en el terminal para recuperar el último comando ejecutado._

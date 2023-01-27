@@ -40,7 +40,7 @@ Las cookies son datos creados en el servidor que se envían[^1] a los navegadore
    ```
    La página muestra las cookies que JS es capaz de leer. Además, vía JS añadimos una cookie. El botón "Submit" enviará una nueva petición al servidor pero a otra ruta. Antes de enviar, vuelve a hacer el **paso 1** de la página anterior.
 
-   > ⁉️ **Pregunta:** _¿Por qué JS solo ve una cookie? ¿Por qué se envía la cookie con `Path`? ¿Se envían al servidor las cookies creadas con JS?_
+   > ⁉️ **Pregunta:** _¿Por qué JS no ve todas las cookies? ¿Cuándo se reenvía la cookie con `Path` al servidor? ¿Se reenvían al servidor las cookies creadas con JS?_
 
 > ⚠️ **Importante**: _para o borra el [Codespace](https://github.com/codespaces) al terminar de usarlo._
 

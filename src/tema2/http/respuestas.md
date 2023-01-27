@@ -57,7 +57,7 @@ Las respuestas HTTP tienen un formato similar al de las peticiones, y están com
    ```
    > ⁉️ **Pregunta:** _La autenticacion básica no cifra el usuario y password de manera segura[^2]. Para asegurar que no se filtren ¿qué otra cosa deberíamos usar con este tipo de autenticación?_
 
-1. Los errores `5xx` corresponden a problemas en el servidor, como servidor sobrecargado o errores de implementación del servicio. Usa este `telnet` para hacer las siguientes peticiones:
+1. Los errores `5xx` corresponden a problemas en el servidor, como servidor sobrecargado o errores de implementación del servicio. Usa este `telnet` para hacer la siguiente petición:
    ```bash
    telnet httpbin.org 80
    ```
