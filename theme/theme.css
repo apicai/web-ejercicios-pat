@@ -47,6 +47,10 @@ sup {
   font-variant-caps: small-caps;
 }
 
+.chapter > li > ol > li {
+  font-size: 110%;
+}
+
 td>ol,
 td>ul {
   margin: 0;

@@ -4,11 +4,11 @@
 
 ## Objetivos
 
-* Usar Git desde la línea de comandos[^1] para gestionar los cambios.
+- Usar Git desde la línea de comandos[^1] para gestionar los cambios.
 
-* Usar Github para simular un flujo de trabajo colaborativo[^2] configurado con una integración y despliegue continuos (CI/CD)[^3].
+- Usar Github para simular un flujo de trabajo colaborativo[^2] configurado con una integración y despliegue continuos (CI/CD)[^3].
 
-* Crear una página web estática y publicarla en Internet[^4].
+- Crear una página web estática y publicarla en Internet[^4].
 
 [^1]: Usando el entorno de desarrollo en la nube [Github-Codespaces](https://github.com/features/codespaces).
 
