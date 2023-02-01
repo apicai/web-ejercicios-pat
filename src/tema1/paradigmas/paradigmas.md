@@ -4,6 +4,6 @@ Son una manera de clasificar los lenguajes de programación en función de cómo
 
 ## Objetivos
 
-- Revisar los paradigmas más importantes con ejemplos concretos en Javascript.
+- Revisar los paradigmas más importantes con ejemplos concretos en JavaScript.
 
 - Identificar las características que son intrínsecas al lenguaje y las que son derivadas del uso de librerías.

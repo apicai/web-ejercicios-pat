@@ -27,7 +27,7 @@ printMax([1,2,3,4,5]);
 ```
 </details>
 
-<details><summary>Playground...</summary>
+<details><summary>Prueba aquí...</summary>
 
 <br/><iframe
   width="750"

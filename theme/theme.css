@@ -32,6 +32,10 @@ sup {
   font-variant-caps: small-caps;
 }
 
+.chapter li {
+  color: inherit;
+}
+
 .chapter li a.active, .chapter li a:hover {
 	color: var(--links);
 }

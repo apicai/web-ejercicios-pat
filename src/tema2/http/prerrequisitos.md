@@ -6,7 +6,7 @@ Para los ejercicios es necesario un terminal con los comandos `telnet`, `openssl
 ### Docker
 1. Arranca [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 2. Descarga este [Dockerfile](./files/Dockerfile).
-3. En ese directorio abre un terminal y ejecuta:
+3. En ese directorio abre un terminal (PowerShell en Windows) y ejecuta:
    ```bash
    docker build -t http . ; docker run -p 8080:8080 --rm -it http
    ```

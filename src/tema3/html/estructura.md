@@ -9,7 +9,7 @@ Un documento HTML está formado por 4 etiquetas base que delimitan las siguiente
   <head>
     <title>Título obligatorio</title>
     <style><!-- Tema 4: CSS --></style>
-    <script><!-- Tema 5: JS --></script>
+    <script><!-- Tema 5: JavaScript --></script>
   </head>
   <body>
     <!-- Este tema -->

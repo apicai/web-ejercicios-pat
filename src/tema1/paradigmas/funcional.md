@@ -18,7 +18,7 @@ console.log(max([1, 2, 3, 4, 5]));
 > 🔍 **Nota:** _[documentación](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) de `array.reduce`._
 </details>
 
-<details><summary>Playground...</summary>
+<details><summary>Prueba aquí...</summary>
 
 <br/><iframe
   width="750"

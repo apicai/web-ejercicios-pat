@@ -41,7 +41,7 @@
     updateTitle() {
       const tasks = getListItems();
       const completed = tasks.map(t => read(t.id) ? 1 : 0).reduce((total, i) => total + i);
-      global.document.getElementById("tasks-title").innerHTML = this.title + `: completado ${completed} de ${tasks.length}`;
+      global.document.getElementById("tasks-title").textContent = this.title + `: completado ${completed} de ${tasks.length}`;
     }
   });
 
@@ -94,11 +94,9 @@
   // Open external links in a new tab
   Array.from(global.document.querySelectorAll("a[href^=http]:not(a[title])")).forEach(a => {
     const link = global.document.createElement("a");
-    link.innerHTML = "⤴︎";
-    link.href = a.href;
-    link.target = "_blank";
+    a.innerHTML += '<i class="fa fa-external-link" title="Abre en una pestaña nueva" style="font-size:0.7em;padding-left:0.7ch;"></i>';
+    a.target = "_blank";
     link.title = "Abre en una pestaña nueva";
-    a.parentNode.insertBefore(link, a.nextSibling);
   });
 
   // Add Codepen.io fill embeds script

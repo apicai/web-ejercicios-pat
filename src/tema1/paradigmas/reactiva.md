@@ -25,7 +25,7 @@ fromEvent(button, "click")
 > 🔍 **Nota:** _[documentación](https://rxjs.dev/guide/overview) de `rxjs`._
 </details>
 
-<details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary>Playground...</summary><br/>
+<details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary>Prueba aquí...</summary><br/>
 <div class="cp-later" data-prefill data-height="400" data-theme-id="light" data-default-tab="js,result" data-editable="true" style="opacity:0">
 <pre data-lang="html" >
 &lt;button&gt;Click me in different places&lt;/button&gt;

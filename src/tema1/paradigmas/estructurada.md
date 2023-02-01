@@ -7,8 +7,8 @@ Secuencia de órdenes con control de ejecución condicional (`if`, `else`) y rep
 
 ```js
 function max(integers) {
-  var m = Number.MIN_SAFE_INTEGER;
-  for (var i = 0; i < integers.length; i++) {
+  let m = Number.MIN_SAFE_INTEGER;
+  for (let i = 0; i < integers.length; i++) {
     if (m < integers[i]) m = integers[i];
   }
   return m;
@@ -18,7 +18,7 @@ console.log(max(integers));
 ```
 </details>
 
-<details><summary>Playground...</summary>
+<details><summary>Prueba aquí...</summary>
 
 <br/><iframe
   width="750"

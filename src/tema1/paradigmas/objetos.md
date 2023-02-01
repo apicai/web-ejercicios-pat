@@ -17,8 +17,8 @@ class MaxFinder {
 class MaxInteger extends MaxFinder {
   constructor(values) { super(values); }
   find() {
-    var m = Number.MIN_SAFE_INTEGER;
-    for (var i = 0; i < this.values.length; i++) {
+    let m = Number.MIN_SAFE_INTEGER;
+    for (let i = 0; i < this.values.length; i++) {
       if (m < this.values[i]) m = this.values[i];
     }
     return m;
@@ -29,7 +29,7 @@ console.log(maxFinder.find());
 ```
 </details>
 
-<details><summary>Playground...</summary>
+<details><summary>Prueba aquí...</summary>
 
 <br/><iframe
   width="750"

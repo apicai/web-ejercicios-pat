@@ -1,7 +1,7 @@
 # Bootstrap
 ## Componentes
 
-Bootstrap facilita la creación de los [contenidos y componentes](https://getbootstrap.com/docs/5.3/examples/cheatsheet/) típicos de un interfaz web mediante el uso de clases específicas sobre los elementos HTML. Algunas de estas clases son luego procesadas mediante Javascript para dar comportamiento. A continuación, se muestran algunos componentes basados puramente en el CSS de Bootstrap.
+Bootstrap facilita la creación de los [contenidos y componentes](https://getbootstrap.com/docs/5.3/examples/cheatsheet/) típicos de un interfaz web mediante el uso de clases específicas sobre los elementos HTML. Algunas de estas clases son luego procesadas mediante JavaScript para dar comportamiento. A continuación, se muestran algunos componentes basados puramente en el CSS de Bootstrap.
 
 <details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary><strong>Cabecera y pie</strong></summary><br/>
 <div class="cp-later" data-height="350" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0" data-prefill='{"stylesheets":["https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css","https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"]}'>

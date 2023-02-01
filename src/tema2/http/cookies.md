@@ -38,7 +38,7 @@ Las cookies son datos creados en el servidor que se envían[^1] a los navegadore
    <!DOCTYPE html><html><head></head><body><p>Current cookies: <code></code></p><form action="/ruta"><input type="submit" value="Submit"></form><script>document.getElementsByTagName("code")[0].innerHTML=document.cookie;document.cookie="mi-cookie-de-js=valor"</script></body></html>
 
    ```
-   La página muestra las cookies que JS es capaz de leer. Además, vía JS añadimos una cookie. El botón "Submit" enviará una nueva petición al servidor pero a otra ruta. Antes de enviar, vuelve a hacer el **paso 1** de la página anterior.
+   La página muestra las cookies que JavaScript (JS) es capaz de leer. Además, vía JS añadimos una cookie. El botón "Submit" enviará una nueva petición al servidor pero a otra ruta. Antes de enviar, vuelve a hacer el **paso 1** de la página anterior.
 
    > ⁉️ **Pregunta:** _¿Por qué JS no ve todas las cookies? ¿Cuándo se reenvía la cookie con `Path` al servidor? ¿Se reenvían al servidor las cookies creadas con JS?_
 
