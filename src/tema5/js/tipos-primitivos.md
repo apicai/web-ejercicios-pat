@@ -10,7 +10,8 @@ const booleano = true && !false || true;
 const numero = 10 + 2 * 2 / 4 - 1;
 const cadena = 'Cadena con \' (comilla simple escapada)';
 const cadenaConVariables = `Núm:${numero}, Booleano:${booleano}, Cadena:'${cadena}'`;
-// Pinta por consola para depurar
+
+// Comentario: ¡pinta por consola para depurar!
 console.log(cadenaConVariables);
 ```
 

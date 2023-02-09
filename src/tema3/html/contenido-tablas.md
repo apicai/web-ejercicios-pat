@@ -3,7 +3,7 @@
 
 ### Tablas
 
-Crea una tabla usando `<table>`, `<tr>` para las filas, y `<td>` para las celdas, con el siguiente contenido. Luego separa la cabecera con `<thead>` del resto con `<tbody>`.
+Crea una tabla usando `<table>`, `<tr>` para las filas, y `<td>` para las celdas, con el siguiente contenido. Luego separa la cabecera con `<thead>` del resto con `<tbody>`. Los `<td>` de la cabecera sustitúyelos por `<th>`.
 
 <div class="codepen" data-prefill data-height="250" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
 <pre data-lang="html">

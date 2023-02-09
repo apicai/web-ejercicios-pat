@@ -33,4 +33,9 @@ Para que un elemento flote y los adyacentes lo envuelvan se utiliza `float` (y `
 p {
   margin: 0 0 10px 0;
   font: 15px sans-serif;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }</pre></div>

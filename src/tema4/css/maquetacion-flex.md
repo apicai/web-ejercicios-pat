@@ -1,5 +1,5 @@
 # CSS
-## Disposición
+## Maquetación
 
 ### Flexbox
 

@@ -1,0 +1,50 @@
+# JavaScript
+## Web APIs
+
+Javascript, como el resto de lenguajes, tiene una [librería estándar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects) de funciones y objetos que nos facilitan escribir aplicaciones. A parte de ella, hay APIs o librerías adicionales dependiendo de su entorno de ejecución: navegadores, servidores, aplicaciones nativas móviles o de escritorio, etc. De la lista de [APIs disponibles en un navegador web](https://developer.mozilla.org/en-US/docs/Web/API), vamos a ver las siguientes:
+
+- BOM
+- DOM
+- Eventos
+- HTTP
+- Almacenamiento
+- Webcam
+- Web components
+
+Para que una página web cargue código JavaScript, existen dos posibilidades:
+
+1. Incluyendo el código JS en el propio HTML:
+
+   ```html
+   <!DOCTYPE html>
+   <html lang="es">
+   <head>
+     <title>Codificado junto al HTML</title>
+     <script>
+       console.log("Se ejecuta antes de cargar el HTML");
+     </script>
+   </head>
+   <body>
+     <!-- Contenido -->
+     <script>
+       console.log("Se ejecuta después de cargar el HTML");
+     </script>
+   </body>
+   </html>
+   ```
+
+1. Referenciando a ficheros JS externos:
+
+   ```html
+   <!DOCTYPE html>
+   <html lang="es">
+   <head>
+     <title>Importado como librería</title>
+     <script src="URL (absoluta o relativa) al fichero JS"></script>
+   </head>
+   <body>
+     <!-- Contenido -->
+     <script src="URL a otro fichero JS"></script>
+   </body>
+   </html>
+   ```   

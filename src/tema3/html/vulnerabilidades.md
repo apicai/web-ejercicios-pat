@@ -8,8 +8,14 @@ A continuación vamos a demostrar la vulnerabilidad en una página que procesa e
 <iframe src="./files/form-xss.html" width="100%" height="235" style="background:white;"></iframe>
 
 1. Envía un comentario normal.
-2. Envía este otro comentario `<img src='noexiste' onerror="alert('Enviando cookies...')">`.
-3. Envía este otro `<iframe src="form-clickjacking.html" width="100%" height="175" style="background:white;" onload="this.scrollIntoView()"></iframe>`
+2. Envía este otro comentario: 
+   ```html
+   <img src='noexiste' onerror="alert('Enviando cookies...')">
+   ```
+3. Envía este otro: 
+   ```html
+   <iframe src="form-clickjacking.html" width="100%" height="175" style="background:white;" onload="this.scrollIntoView()"></iframe>
+   ```
 
 > ⁉️ **Pregunta:** _¿Cómo piensas que se puede arreglar la vulnerabilidad?_
 

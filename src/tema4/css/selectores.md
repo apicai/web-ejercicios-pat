@@ -91,7 +91,7 @@ Pulsa en el botón CSS y añade, de una en una, las siguientes reglas, y observa
     th[rowspan] {
       font-family: Georgia, Times, serif;
       font-size: 11px;
-      writing-mode: sideways-lr;
+      writing-mode: vertical-lr;
       padding-right: 15px;
     }
     ```

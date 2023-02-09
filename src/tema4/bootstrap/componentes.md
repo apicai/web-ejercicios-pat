@@ -141,9 +141,9 @@ Bootstrap facilita la creación de los [contenidos y componentes](https://getboo
   &lt;div class="card-header">Destacado&lt;/div>
   &lt;div class="card-body row">
     &lt;div class="col">
-      &lt;h5 class="card-title">Título&lt;/h5>
-      &lt;p class="card-text">Descripción de la tarjeta&lt;/p>
-      &lt;a href="#" class="btn btn-primary">Continuar&lt;/a>
+      &lt;h5 class="card-title">Título tarjeta&lt;/h5>
+      &lt;p class="card-text">Descripción de la tarjeta. Hay muchas más versiones de tarjetas que puedes consultar en la documentación de Bootstrap.&lt;/p>
+      &lt;a href="https://getbootstrap.com/docs/5.3/examples/cheatsheet/#card" class="btn btn-primary">Documentación&lt;/a>
     &lt;/div>
     &lt;figure class="col-auto px-4 text-center">
       &lt;i class="bi bi-file-earmark-image" style="font-size: 4rem; color:gray;">&lt;/i>

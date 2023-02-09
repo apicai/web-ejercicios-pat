@@ -35,7 +35,7 @@ Las cookies son datos creados en el servidor que se envían[^1] a los navegadore
    Content-Type: text/html
    Content-Length: 278
 
-   <!DOCTYPE html><html><head></head><body><p>Current cookies: <code></code></p><form action="/ruta"><input type="submit" value="Submit"></form><script>document.getElementsByTagName("code")[0].innerHTML=document.cookie;document.cookie="mi-cookie-de-js=valor"</script></body></html>
+   <!DOCTYPE html><html><head></head><body><p>Cookies leídas por JS: <code></code></p><form action="/ruta"><input type="submit" value="Envía a /ruta"></form><script>document.getElementsByTagName("code")[0].innerHTML=document.cookie;document.cookie="mi-cookie-de-js=valor"</script></body></html>
 
    ```
    La página muestra las cookies que JavaScript (JS) es capaz de leer. Además, vía JS añadimos una cookie. El botón "Submit" enviará una nueva petición al servidor pero a otra ruta. Antes de enviar, vuelve a hacer el **paso 1** de la página anterior.

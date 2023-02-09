@@ -1,6 +1,6 @@
 # HTML
 
-Es el lenguaje en el que se crean los documentos diseñados para ver en un navegador web. Se apoya en otras tecnologías para separar el contenido de su presentación (CSS) y para añadir comportamiento (JS). Utiliza enlaces HTTP para navegar a otros documentos (hiperenlaces) o para descargar recursos (imágenes, estilos, scripts, etc.) utilizados en el documento actual.
+<abbr title="HyperText Markup Language">HTML</abbr> es el lenguaje en el que se crean los documentos diseñados para ver en un navegador web. Se apoya en otras tecnologías para separar el contenido de su presentación (CSS) y para añadir comportamiento (JavaScript). Utiliza enlaces HTTP para navegar a otros documentos (hiperenlaces) o para descargar recursos (imágenes, estilos, scripts, etc.) utilizados en el documento actual.
 
 ## Objetivos
 

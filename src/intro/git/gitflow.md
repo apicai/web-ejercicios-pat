@@ -27,4 +27,8 @@ Es el convenio que elige cada equipo de desarrollo para organizar el uso de las 
    ```
 
 > ⁉️ **Pregunta:** _¿Para qué han valido los comandos `git checkout -b`, `git checkout` y `git pull`? ¿Cuáles son los beneficios de usar este flujo de trabajo en el contexto de un desarrollo colaborativo?_
+> <details><summary>Diagrama de git y Gitflow</summary><br>
+> <object type="image/svg+xml" data="./files/git.excalidraw.svg" width="100%"></object>
+> </details>
+> <br>
 

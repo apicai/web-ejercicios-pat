@@ -1,5 +1,5 @@
 # CSS
-## Disposición
+## Maquetación
 
 ### Grid
 
@@ -13,7 +13,7 @@ Para diseños que requieren colocar elementos en ambas dimensiones es más senci
   &lt;aside class="indice">Índice del contenido&lt;/aside>
   &lt;footer class="pie">Pié de página&lt;/footer>
 &lt;/body></pre>
-  <pre data-lang="css" data-option-autoprefixer="true">body {
+  <pre data-lang="css">body {
   display: grid;
   grid-template-columns: 2fr 3fr 1fr;
   grid-template-areas:

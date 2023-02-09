@@ -1,6 +1,6 @@
 # JavaScript
 
-Es el lenguaje de programación nativo de los navegadores web[^1]. Es [multi-paradigma](/tema1/paradigmas/paradigmas.html), interpretado, ejecutado en un solo hilo y basado en eventos. ECMAScript es su especificación que está en permanente evolución[^2].
+Es el lenguaje de programación nativo de los navegadores web[^1]. Es [multi-paradigma](../../tema1/paradigmas/paradigmas.html), interpretado, ejecutado en un solo hilo y basado en eventos. ECMAScript es su especificación que está en permanente evolución[^2].
 
 ## Objetivos
 
@@ -10,7 +10,7 @@ Es el lenguaje de programación nativo de los navegadores web[^1]. Es [multi-par
 
 - Realizar peticiones al servidor en segundo plano sin necesidad de recargar la página.
 
-- Interactuar con un API REST pública y presentar sus respuestas generando el HTML dinámicamente.
+- Conocer las diferentes APIs disponibles en los navegadores web.
 
 [^1]: También se usa como lenguaje de lado servidor con [NodeJS](https://nodejs.org/en/).
 

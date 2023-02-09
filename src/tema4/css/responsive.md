@@ -5,7 +5,7 @@ Su objetivo es hacer que la misma página se vea bien en todos los tamaños de p
 
 ### Configuración de la ventana gráfica
 
-La siguiente etiqueta [`meta`](/tema3/html/metadatos-ventana.html) es **imprescindible** para que el contenido de la página se ajuste al ancho de la pantalla en los navegadores de todos los dispositivos:
+La siguiente etiqueta [`meta`](../../tema3/html/metadatos-ventana.html) es **imprescindible** para que el contenido de la página se ajuste al ancho de la pantalla y con el zoom adecuado en los navegadores de todos los dispositivos:
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1">

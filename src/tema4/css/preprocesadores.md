@@ -162,7 +162,7 @@ article {
   <pre data-lang="html">&lt;body>
 &lt;p>Este es un ejemplo de SCSS con el que puedes jugar directamente sin necesidad de compilar a CSS gracias a que la plataforma Codepen.io lo compila por ti. El mixin de ejemplo llamado "ellipsis" crea bloques de texto del ancho y número de líneas indicado. Si el contenido ocupa más que el número de líneas indicado, el texto se acorta y se muestra una elipsis ("…").&lt;/p>
 &lt;/body></pre>
-  <pre data-lang="scss" data-option-autoprefixer="true">@mixin ellipsis($lineas: 1, $ancho: 100%) {
+  <pre data-lang="scss">@mixin ellipsis($lineas: 1, $ancho: 100%) {
   width: $ancho;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -171,7 +171,11 @@ article {
   -webkit-line-clamp: $lineas;
   -webkit-box-orient: vertical;
 }
-
-p { @include ellipsis($lineas: 2, $ancho: 20rem); }</pre></div>
+/* 
+2 líneas como mucho, de ancho 20rem 
+*/
+p { 
+  @include ellipsis($lineas: 2, $ancho: 20rem);
+}</pre></div>
 
 [^1]: Esto implica tener un sistema de construcción del proyecto que automatice la generación de los CSS finales.

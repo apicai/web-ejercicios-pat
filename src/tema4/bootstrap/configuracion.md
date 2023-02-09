@@ -5,7 +5,7 @@ Para importar la CSS de Bootstrap de forma directa en una página web usa el sig
 
 ```html
 <!doctype html>
-<html lang="">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">

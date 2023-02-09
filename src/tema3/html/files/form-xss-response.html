@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <p>El siguiente comentario ha sido publicado en el foro:</p>
+    <p>Comentarios del foro:</p>
     <p id="comment"></p>
-    <script>document.getElementById("comment").innerHTML = new URLSearchParams(window.location.search).get('comment')</script>
+    <script>setTimeout(() => document.getElementById("comment").innerHTML = new URLSearchParams(window.location.search).get('comment'), 1500)</script>
     <a href="form-xss.html">Volver</a>
   </body>
 </html>

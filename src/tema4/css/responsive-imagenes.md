@@ -12,7 +12,7 @@ Las imágenes normalmente no van a tener las dimensiones exactas para que encaje
     &lt;figcaption>Imagen más grande que el contenedor&lt;/figcaption>
   &lt;/figure>
 &lt;/body></pre>
-  <pre data-lang="css" data-option-autoprefixer="true">img {
+  <pre data-lang="css">img {
   max-width: 100%;
   display: block;
 }

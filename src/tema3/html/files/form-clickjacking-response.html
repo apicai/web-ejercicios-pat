@@ -5,12 +5,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body>
-    <p>Gracias por tus credenciales</p>
+  <body style="color:white;background-color:black;">
+    <p>Web del hacker: "¡Gracias por tus credenciales!"</p>
     <p id="comment"></p>
     <script>
       const query = new URLSearchParams(window.location.search);
-      document.getElementById("comment").innerHTML = query.get('user') + ":" + query.get('user');
+      document.getElementById("comment").innerHTML = query.get('user') + ":" + query.get('pass');
     </script>
   </body>
 </html>
