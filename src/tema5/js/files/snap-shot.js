@@ -9,7 +9,7 @@ customElements.define('snap-shot', class extends HTMLElement {
     // Estos estilos solo afectan a este componente aislado del resto del DOM
     // Para cambiar las dimensiones modificar el font-size del <snap-shot>
     style.textContent =
-      'video, canvas {width: 30em; border-radius: 1em; padding: 0.5em; border: 1px dashed;}' +
+      'video, canvas {width: 30em; border-radius: 1em; padding: 0.5em; border: 1px dashed; box-sizing: border-box;}' +
       'canvas {border-color: black;}' +
       'video  {border-color: transparent;}';
     this.shadowRoot.append(style, this.video, this.canvas);
