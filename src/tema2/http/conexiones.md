@@ -30,7 +30,7 @@ En una comunicación HTTP, los clientes siempre crean la conexión. A continuaci
    ```bash
    time telnet httpbin.org 80
    ```
-   > ⁉️ **Pregunta:** _A parte del timeout de lectura y del lado servidor, ¿qué otros tipos de timeout se te ocurren y cuál sería su utilidad?_
+   > ⁉️ **Pregunta:** _Aparte del timeout de lectura y del lado servidor, ¿qué otros tipos de timeout se te ocurren y cuál sería su utilidad?_
 
 1. Hasta ahora hemos usado el puerto TCP 80 que es el de por defecto para conexiones HTTP. El puerto por defecto para conexiones seguras es 443. Repite el **paso 1** usando ese puerto.
 

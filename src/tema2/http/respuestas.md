@@ -42,7 +42,7 @@ Las respuestas HTTP tienen un formato similar al de las peticiones, y están com
    ```
    > ⁉️ **Pregunta:** _¿Para qué otros casos usarías redirecciones?_
 
-1. Los errores `4xx` corresponden a peticiones incorrectas, y normalmente repetirlas no va a hacer que funcione. El ejemplo típico es cuando se solicita un recurso inexistente: `404 Not Found`. Otro ejemplo ocurre cuando una web solicita credenciales para acceder. Usa este `telnet` para hacer las siguientes peticiones:
+1. <a name="4xx"></a>Los errores `4xx` corresponden a peticiones incorrectas, y normalmente repetirlas no va a hacer que funcione. El ejemplo típico es cuando se solicita un recurso inexistente: `404 Not Found`. Otro ejemplo ocurre cuando una web solicita credenciales para acceder. Usa este `telnet` para hacer las siguientes peticiones:
    ```bash
    telnet httpbin.org 80
    ```

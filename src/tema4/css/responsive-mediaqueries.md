@@ -27,7 +27,7 @@ Para ello se utilizan "media queries" que aplican ciertas reglas CSS solo si se 
   text-align: center;
   font: 12px sans-serif;
 }
-@media (max-width: 25em) {
+@media (max-width: 400px) {
   body {
     grid-template-columns: 1fr;
     grid-template-areas:

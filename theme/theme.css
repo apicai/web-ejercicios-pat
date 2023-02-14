@@ -167,3 +167,14 @@ task-list i:hover {
 @media print {
   #mark-all, #unmark-all { visibility: hidden !important; }
 }
+
+a:target::before {
+  content: '👀 ';
+  animation: blinker 1.25s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

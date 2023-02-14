@@ -25,7 +25,7 @@ Las cookies son datos creados en el servidor que se envían[^1] a los navegadore
 
    > ⁉️ **Pregunta:** _¿En qué casos utilizarías una cookie permanente?_
 
-1. Además de la caducidad, una cookie puede tener otras características, muchas de ellas relacionadas con su seguridad[^2]. Repite los **3 pasos iniciales** y envía esta respuesta:
+1. <a name="httponly"></a>Además de la caducidad, una cookie puede tener otras características, muchas de ellas relacionadas con su seguridad[^2]. Repite los **3 pasos iniciales** y envía esta respuesta:
    ```http
    HTTP/1.1 200 OK
    Set-Cookie: mi-cookie-en-otro-path=valor; Path=/ruta
@@ -33,9 +33,9 @@ Las cookies son datos creados en el servidor que se envían[^1] a los navegadore
    Set-Cookie: mi-cookie-solo-http=valor; HttpOnly
    Connection: keep-alive
    Content-Type: text/html
-   Content-Length: 278
+   Content-Length: 293
 
-   <!DOCTYPE html><html><head></head><body><p>Cookies leídas por JS: <code></code></p><form action="/ruta"><input type="submit" value="Envía a /ruta"></form><script>document.getElementsByTagName("code")[0].innerHTML=document.cookie;document.cookie="mi-cookie-de-js=valor"</script></body></html>
+   <!DOCTYPE html><html><head></head><body><p>Cookies leídas por JS: <code></code></p><form action="/ruta"><input type="submit" value="Envía a /ruta"></form><script>document.getElementsByTagName("code")[0].textContent=document.cookie;document.cookie="mi-cookie-de-js=valor"</script></body></html>
 
    ```
    La página muestra las cookies que JavaScript (JS) es capaz de leer. Además, vía JS añadimos una cookie. El botón "Submit" enviará una nueva petición al servidor pero a otra ruta. Antes de enviar, vuelve a hacer el **paso 1** de la página anterior.

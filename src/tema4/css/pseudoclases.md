@@ -32,7 +32,6 @@ Hay selectores de elementos que solo aplicarán cuando el elemento se encuentre 
 &lt;/section></pre>
   <pre data-lang="css">a:hover {
 	background-color: #0069d9;
-	border-color: #0062cc;
 }
 #menu1:target, #menu2:target {
   display: block;
@@ -52,6 +51,7 @@ input[type="text"]:valid {
   outline: green;
 }
 nav {
+  padding-top: 15px;
   width: 100%;
   text-align: center;
 }
@@ -62,7 +62,6 @@ a {
   padding: 7px 12px;
   border-radius: 5px;
   text-decoration: none;
-  user-select: none;
 }</pre></div>
 
 > ⁉️ **Ejercicio:** _Identifica todas las pseudo-clases, y explica su utilidad en el menú y formulario anterior._

@@ -99,6 +99,20 @@
     link.title = "Abre en una pestaña nueva";
   });
 
+  // Reconfigure codepen.io iframe to allow permissions
+  const codepen = global.document.querySelector("div[data-allow]");
+  if (codepen) {
+    new MutationObserver(function() {
+      const prefill = document.querySelector('iframe.cp_embed_iframe');
+      if (prefill) {
+        prefill.setAttribute('allow', codepen.getAttribute('data-allow'));
+        this.disconnect();
+      }
+    }).observe(document.getElementById('content'), {
+      attributes: false, childList: true, characterData: false, subtree: true
+    });
+  }
+
   // Add Codepen.io fill embeds script
   const script = document.createElement('script');
   script.src = "https://static.codepen.io/assets/embed/ei.js";

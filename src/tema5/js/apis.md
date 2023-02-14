@@ -1,7 +1,7 @@
 # JavaScript
 ## Web APIs
 
-Javascript, como el resto de lenguajes, tiene una [librería estándar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects) de funciones y objetos que nos facilitan escribir aplicaciones. A parte de ella, hay APIs o librerías adicionales dependiendo de su entorno de ejecución: navegadores, servidores, aplicaciones nativas móviles o de escritorio, etc. De la lista de [APIs disponibles en un navegador web](https://developer.mozilla.org/en-US/docs/Web/API), vamos a ver las siguientes:
+Javascript, como el resto de lenguajes, tiene una [librería estándar](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects) de funciones y objetos que nos facilitan escribir aplicaciones. Aparte de ella, hay APIs o librerías adicionales dependiendo de su entorno de ejecución: navegadores, servidores, aplicaciones nativas móviles o de escritorio, etc. De la lista de [APIs disponibles en un navegador web](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction), vamos a ver las siguientes:
 
 - BOM
 - DOM

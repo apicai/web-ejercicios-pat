@@ -10,7 +10,7 @@ Es el lenguaje de programación nativo de los navegadores web[^1]. Es [multi-par
 
 - Realizar peticiones al servidor en segundo plano sin necesidad de recargar la página.
 
-- Conocer las diferentes APIs disponibles en los navegadores web.
+- Conocer las vulnerabilidades típicas de las aplicaciones web.
 
 [^1]: También se usa como lenguaje de lado servidor con [NodeJS](https://nodejs.org/en/).
 

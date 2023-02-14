@@ -18,7 +18,7 @@ Las imágenes normalmente no van a tener las dimensiones exactas para que encaje
 }
 figure {
   border: 10px solid green;
-  width: 15rem;
+  width: 250px;
   text-align: center;
   font-family: sans-serif;
 }</pre></div>

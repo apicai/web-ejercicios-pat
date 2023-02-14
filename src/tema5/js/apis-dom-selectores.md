@@ -14,10 +14,10 @@ console.log('Obtiene el elemento con id "sidebar":',
 console.log('Obtiene los elementos cuya etiqueta es "button":', 
             document.getElementsByTagName('button'));
 
-console.log('Obtiene el 1er elemento que satiface el selector CSS pasado:',
+console.log('Obtiene el 1er elemento que satisface el selector CSS pasado:',
             document.querySelector('*[title]'));
 
-console.log('Obtiene todos los elementos que satifacen el selector CSS pasado:',
+console.log('Obtiene todos los elementos que satisfacen el selector CSS pasado:',
             document.querySelectorAll('.header'));
 ```
 

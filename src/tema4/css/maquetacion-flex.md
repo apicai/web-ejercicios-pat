@@ -47,9 +47,7 @@ Con [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) podemos c
   background: royalblue;
 }</pre></div>
 
-1. Para cambiar la dimensión sobre la que se distribuyen los elementos usa `flex-direction: column;` en el contenedor[^2].
-
-1. Deshaz el paso anterior y añade `justify-content: center;` al contenedor para centrar los elementos.
+1. Añade `justify-content: center;` al contenedor para centrar los elementos.
 
 1. Los elementos no están ocupando todo el espacio disponible en la dimensión horizontal porque tienen un valor de `flex-grow` igual a 0. Cambia el valor a 1 en la propiedad `flex` para que crezcan todos con la misma proporción.
 
@@ -57,7 +55,9 @@ Con [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) podemos c
 
 1. Para simular una situación en la que se encoge el elemento, podemos poner un tamaño inicial grande al resto: usa `flex: 1 4 0;` en el primero y `flex: 1 1 180px;` en el resto.
 
-> ⁉️ **Ejercicio:** _Comprueba visualmente que encoger 4 veces el primer elemento es igual a hacer 4 veces más grande el resto de elementos._
+   > ⁉️ **Ejercicio:** _Comprueba visualmente que encoger 4 veces el primer elemento es igual a hacer 4 veces más grande el resto de elementos._
+
+1. Para cambiar la dimensión sobre la que se distribuyen los elementos usa `flex-direction: column;` en el contenedor[^2].
 
 [^1]: Usar tamaños fijos no ayuda a adaptar el contenido a diferentes tamaños de pantalla. Usando proporciones podremos encoger o crecer en función del espacio disponible en cada pantalla.
 
