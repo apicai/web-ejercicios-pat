@@ -22,8 +22,13 @@ sup {
   line-height: 1em;
 }
 
-.footnote-definition p, blockquote em {
+.footnote-definition p, blockquote em, .footnote-definition > details {
   font-family: 'Signika Negative', serif;
+}
+
+.footnote-definition > details, .footnote-definition > details > summary {
+  display: contents;
+  color: var(--links);
 }
 
 .part-title {
@@ -177,4 +182,10 @@ a:target::before {
   50% {
     opacity: 0;
   }
+}
+
+.fa-external-link {
+  font-size: 0.7em;
+  padding-left: 0.7ch;
+  display: inline;
 }

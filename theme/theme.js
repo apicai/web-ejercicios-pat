@@ -93,10 +93,8 @@
 
   // Open external links in a new tab
   Array.from(global.document.querySelectorAll("a[href^=http]:not(a[title])")).forEach(a => {
-    const link = global.document.createElement("a");
-    a.innerHTML += '<i class="fa fa-external-link" title="Abre en una pestaña nueva" style="font-size:0.7em;padding-left:0.7ch;"></i>';
+    a.innerHTML += '<i class="fa fa-external-link" title="Abre en una pestaña nueva"></i>';
     a.target = "_blank";
-    link.title = "Abre en una pestaña nueva";
   });
 
   // Reconfigure codepen.io iframe to allow permissions

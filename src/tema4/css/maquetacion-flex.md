@@ -43,20 +43,52 @@ Con [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) podemos c
 }
 .contenedor li:hover {
   background: royalblue;
-}</pre></div>
+}
+</pre></div>
 
 1. Añade `justify-content: center;` al contenedor para centrar los elementos.
 
-1. Los elementos no están ocupando todo el espacio disponible en la dimensión horizontal porque tienen un valor de `flex-grow` igual a 0. Cambia el valor a 1 en la propiedad `flex` para que crezcan todos con la misma proporción.
+1. Los elementos no están ocupando todo el espacio disponible en la dimensión horizontal[^2] porque tienen un valor de `flex-grow` igual a 0. Cambia el valor a 1 en la propiedad `flex` para que crezcan todos con la misma proporción.
 
 1. Si, por ejemplo, quisiéramos que ocupara 4 veces más "Inicio" usaríamos `flex: 4 1 0;`. Añade esa propiedad al primer elemento.
 
 1. Para simular una situación en la que se encoge el elemento, podemos poner un tamaño inicial grande al resto: usa `flex: 1 4 0;` en el primero y `flex: 1 1 180px;` en el resto.
 
-   > ⁉️ **Ejercicio:** _Comprueba visualmente que encoger 4 veces el primer elemento es igual a hacer 4 veces más grande el resto de elementos._
+   > ⁉️ **Ejercicio 1:** _Comprueba visualmente que encoger 4 veces el primer elemento es igual a hacer 4 veces más grande el resto de elementos._
 
-1. Para cambiar la dimensión sobre la que se distribuyen los elementos usa `flex-direction: column;` en el contenedor[^2].
+Vamos a combinar los conceptos de [pseudoclase](../../tema4/css/pseudoclases.html), [posición](../../tema4/css/posicion-position.html) y maquetación, que ya hemos visto, para crear un sub-menú desplegable al pasar el ratón por encima de los menús anteriores.
+
+> ⁉️ **Ejercicio 2:** _Coloca el siguiente HTML, que representa un sub-menú, dentro de uno de los menús anteriores (después del `</a>`):_
+> <details><summary><em>1. HTML del sub-menú...</em></summary>
+>
+> ```html
+> <ul class="submenu">
+>   <li><a href="#">Submenú 1</a></li>
+>   <li><a href="#">Submenú 2</a></li>
+> </ul>
+> ```
+> </details>
+>
+> <details><summary><em>2. Añade y completa las <code>?</code> del siguiente CSS...</em></summary>
+>
+> ```css
+> .submenu {
+>   display: none;
+>   list-style: none;
+>   padding: 0;
+>   background: royalblue;
+>   position: ?
+> }
+> .submenu > li:? {
+>   background: dodgerblue;
+> }
+> .contenedor > li:? > .submenu {
+>   display: block;
+> }
+> ```
+> </details>
+> <br>
 
 [^1]: Usar tamaños fijos no ayuda a adaptar el contenido a diferentes tamaños de pantalla. Usando proporciones podremos encoger o crecer en función del espacio disponible en cada pantalla.
 
-[^2]: Si no se indica, se utiliza por defecto la dimensión horizontal `flex-direction: row;`.
+[^2]: Para cambiar la dimensión sobre la que se distribuyen los elementos usa `flex-direction: column;` en el contenedor. Si no se indica, se utiliza por defecto la dimensión horizontal `flex-direction: row;`.
