@@ -18,7 +18,7 @@ Utilizar dimensiones fijas/absolutas (píxeles) para definir los tamaños de la 
 &lt;section class="pixels">
   &lt;aside class="flota">&lt;/aside>
   &lt;p>Este contenedor está utilizando unidades de &lt;strong>píxeles&lt;/strong> para definir los tamaños de letras, márgenes, paddings, altos y anchos.&lt;/p>
-  &lt;p>Si reconfiguramos el tamaño de la fuente, este contenedor permanece igual con las mismas dimensiones. Eso puede ser interesante cuando se diseña la página para una resolución fija. Pero si esta página se viera en una pantalla pequeña puede que el los botones no sean lo suficientemente grandes para pulsarlos con facilidad.&lt;/p>
+  &lt;p>Si reconfiguramos el tamaño de la fuente, este contenedor permanece igual con las mismas dimensiones. Eso puede ser interesante cuando se diseña la página para una resolución fija. Pero si esta página se viera en una pantalla pequeña puede que los botones no sean lo suficientemente grandes para pulsarlos con facilidad.&lt;/p>
 &lt;/section>
 &lt;/body></pre>
   <pre data-lang="css">html {
@@ -65,7 +65,7 @@ En el ejemplo anterior, la propiedad `font-size` nos permite reconfigurar las pr
 
 ```css
 @media (max-width: 30rem) {
-  html { font-size: 50% !important; }
+  .relativas { font-size: 50%; }
 }
 ```
 
