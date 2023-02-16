@@ -6,9 +6,7 @@
 Con [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) podemos colocar los elementos con respecto a una de las dimensiones (la horizontal o la vertical), y a lo largo de esa dimensión controlar la proporción que ocupa cada elemento[^1]. Para ello se utiliza la propiedad `flex: flex-grow flex-shrink flex-basis;` en los elementos de un contenedor con `display: flex`:
 
 - `flex-grow`: indica en qué proporción crecerá el elemento respecto del resto cuando sobre espacio.
-
 - `flex-shrink`: indica en qué proporción encogerá el elemento respecto del resto cuando falte espacio.
-
 - `flex-basis`: indica el tamaño inicial para el elemento antes de redistribuir el espacio.
 
 <div class="codepen" data-prefill data-height="350" data-theme-id="light" data-default-tab="css,result" data-editable="true" style="opacity:0">

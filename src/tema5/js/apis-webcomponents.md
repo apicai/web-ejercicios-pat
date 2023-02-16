@@ -12,7 +12,7 @@ A continuación, se muestra el ejemplo anterior de la webcam pero implementado c
 &lt;div class="card">
   &lt;div class="card-body row">
     &lt;div class="col-12">
-      &lt;snap-shot id="snapshot">Cámara no disponible&lt;/snapshot>
+      &lt;snap-shot id="snapshot">Cámara no disponible o sin permisos&lt;/snapshot>
     &lt;/div>
     &lt;div class="col-12 text-center mt-3">
       &lt;button id="foto" type="button" class="btn btn-outline-secondary">

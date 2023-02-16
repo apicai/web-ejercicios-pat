@@ -3,7 +3,13 @@
 
 ### Grid
 
-Para diseños que requieren colocar elementos en ambas dimensiones es más sencillo utilizar [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/). Se trata de colocar los elementos en la cuadrícula definida en el contenedor. El tamaño de las filas y columnas se puede definir proporcionalmente al espacio disponible con la unidad `fr`. Existen muchas formas de definir la cuadrícula, a continuación vemos un ejemplo que utiliza nombres de áreas.
+Para diseños que requieren colocar elementos en ambas dimensiones es más sencillo utilizar [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/). Se activa con `display: grid` en el contenedor. 
+
+Se trata de colocar los elementos en la cuadrícula definida en el contenedor. Existen muchas formas de definir la cuadrícula, a continuación vemos un ejemplo que utiliza nombres de áreas:
+
+- Con la propiedad `grid-template-columns` en el contenedor, se definen las proporciones de las columnas[^1].
+- Con la propiedad `grid-template-areas` en el contenedor, se definen las áreas disponibles en la cuadrícula.
+- Con la propiedad `grid-area` en el elemento a colocar, se le asigna a una de las áreas indicadas en la propiedad anterior.
 
 <div class="codepen" data-prefill data-height="350" data-theme-id="light" data-default-tab="css,result" data-editable="true" style="opacity:0">
   <pre data-lang="html">&lt;body>
@@ -52,3 +58,5 @@ body * {
 }</pre></div>
 
 > ⁉️ **Ejercicio:** _Estudia la CSS y el diseño para añadir un índice a la derecha del contenido._
+
+[^1]: Utiliza la unidad `fr` para definir el ancho de las columnas proporcionalmente al espacio disponible. En vez de columnas, se puede definir la altura de las filas pero usando `grid-template-rows`.

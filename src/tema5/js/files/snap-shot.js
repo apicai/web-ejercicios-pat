@@ -16,7 +16,7 @@ customElements.define('snap-shot', class extends HTMLElement {
   }
   // Inicializamos el stream de video cuando se añade el <snap-shot> al DOM
   connectedCallback() {
-    this.showMessage('⚠️', 'Grant camera access permissions');
+    this.showMessage('⚠️', this.textContent.trim() || 'Grant camera access permissions');
     navigator.mediaDevices
       .getUserMedia({ video: true, audio: false })
       .then((stream) => {
@@ -26,10 +26,10 @@ customElements.define('snap-shot', class extends HTMLElement {
       }).catch((err) => {
         this.capturePhoto = this.downloadPhoto = this.photoData = this.closePhoto = function() { throw err };
         console.error('Video stream error:', err);
-        this.showMessage('⚠️', this.textContent || 'Video stream error');
+        this.showMessage('❌', this.textContent.trim() || 'Video stream error');
       });
   }
-  // Métodos del elemento HTML, para ser usados externamente
+  // Métodos del elemento del DOM, para ser usados externamente
   capturePhoto() {
     this.canvas.width = this.video.videoWidth;
     this.canvas.height = this.video.videoHeight;
@@ -53,8 +53,10 @@ customElements.define('snap-shot', class extends HTMLElement {
     this.canvas.hidden = true;
   }
   showMessage(icon, msg) {
-    this.canvas.width = this.canvas.width * 4;
-    this.canvas.height = this.canvas.height * 4;
+    this.canvas.originalWidth = this.canvas.originalWidth || this.canvas.width;
+    this.canvas.originalHeight = this.canvas.originalHeight || this.canvas.height;
+    this.canvas.width = this.canvas.originalWidth * 2;
+    this.canvas.height = this.canvas.originalHeight * 2;
     const context = this.canvas.getContext("2d");
     context.font = '10em sans-serif';
     context.textAlign = "center";

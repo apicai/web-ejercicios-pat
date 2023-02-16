@@ -11,7 +11,7 @@ array[0] = '1er elemento modificado';
 array.push('elemento nuevo añadido al final');
 
 console.log('Longitud del array:', array.length);
-console.log('Contenido de todo el array:', objeto);
+console.log('Contenido de todo el array:', array);
 ```
 
 > ⁉️ **Ejercicio 1:** _Copia y pega el código anterior en la consola JavaScript. Intenta leer la posición 10 del array. Asigna un valor a dicha posición, y mira de nuevo la longitud del array._

@@ -12,7 +12,7 @@ Utilizar dimensiones fijas/absolutas (píxeles) para definir los tamaños de la 
   <pre data-lang="html">&lt;body>
 &lt;section class="relativas">
   &lt;aside class="flota">&lt;/aside>
-  &lt;p>Este contenedor está utilizando unidades &lt;strong>rem&lt;/strong> para definir los tamaños de letras, márgenes, paddings, altos y anchos.&lt;/p>
+  &lt;p>Este contenedor está utilizando unidades &lt;strong>em&lt;/strong> para definir los tamaños de letras, márgenes, paddings, altos y anchos.&lt;/p>
   &lt;p>Si reconfiguramos el tamaño de la fuente, este contenedor modifica sus tamaños en la misma proporción. Cuando esta página se vea en pantallas o muy grandes o muy pequeñas, puede ser interesante cambiar esas proporciones para mejorar la legibilidad y el uso. Por ejemplo, aumentar el tamaño de un botón para que sea más fácil pulsarlo.&lt;/p>
 &lt;/section>
 &lt;section class="pixels">
@@ -27,20 +27,20 @@ Utilizar dimensiones fijas/absolutas (píxeles) para definir los tamaños de la 
 }
 .relativas .flota {
   float: left;
-  width: 5rem;
-  height: 9rem;
+  width: 5em;
+  height: 9em;
   background-color: green;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 .relativas {
-  width: 20rem;
+  width: 20em;
   border: 5px solid gray;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 1em;
+  margin: 1em;
 }
 .relativas p {
-  margin: 0 0 1rem 0;
+  margin: 0 0 1em 0;
 }
 .pixels .flota {
   float: left;
@@ -61,9 +61,17 @@ Utilizar dimensiones fijas/absolutas (píxeles) para definir los tamaños de la 
   font-size: 16px;
 }</pre></div>
 
-1. La propiedad `font-size` nos permite reconfigurar las proporciones del primer contenedor fácilmente, pero no del segundo. Ahora está al 100%, lo que indica que se está usando el valor por defecto de este navegador (o el configurado por el usuario). Manualmente, vamos a ponerlo a `font-size: 75%;` simulando lo que haría una media query en determinadas condiciones.
+En el ejemplo anterior, la propiedad `font-size` nos permite reconfigurar las proporciones del primer contenedor fácilmente, pero no del segundo. Ahora está al 100%, lo que indica que se está usando el valor por defecto de este navegador (o el configurado por el usuario). Añade la siguiente media query para ver lo fácil que es cambiar sus proporciones en caso de necesidad:
 
-2. Para ver cómo funciona la unidad `em` vamos a poner en el contenedor `relativas` un tamaño de fuente diferente: `font-size: 0.5rem;`. Como los elementos hijos usan `rem` siguen con las mismas dimensiones, pero sus textos han heredado el nuevo tamaño de fuente definido en el padre. Para que el diseño mantenga la proporción correcta, cambia los `rem` por `em` en todos sus elementos hijos.
+```css
+@media (max-width: 30rem) {
+  html { font-size: 50% !important; }
+}
+```
+
+Para ver la utilidad de lo anterior, vamos a ver lo que implicaría cambiar el segundo contenedor para ajustar sus proporciones a la mitad como hemos hecho con el primero.
+
+> ⁉️ **Ejercicio:** _Las reglas CSS del segundo contenedor utilizan la clase `pixels`. Cambia primero su `font-size` a `8px` para ver como sus proporciones se desajustan solo con el cambio del tamaño de fuente. Luego modifica el resto de sus propiedades con la mitad de píxeles._
 
 [^1]: Otra unidad relativa ampliamente utilizada es `%`: porcentaje relativo a la misma propiedad en el elemento padre. Por ejemplo, un elemento con `font-size: 50%;` tendrá un tamaño de letra la mitad de pequeño que el de su padre.
 

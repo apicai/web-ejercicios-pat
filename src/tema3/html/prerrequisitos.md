@@ -9,4 +9,4 @@ Para desplegar la web en Internet se utilizará [Github-Pages](https://pages.git
 
 > 🔍 **Nota:** _Estos mismos prerrequisitos aplican a los temas de CSS y JavaScript._
 
-[^1]: Puedes ver un ejemplo de configuración en la sección sobre [despliegue en Github](/intro/git/cd.html) del tema de Git.
+[^1]: Puedes ver un ejemplo de configuración en la sección sobre [despliegue en Github](../../intro/git/cd.html) del tema de Git. Solo cambiará el nombre de tu repo en lugar del `ci-cd` indicado en esos pasos.
