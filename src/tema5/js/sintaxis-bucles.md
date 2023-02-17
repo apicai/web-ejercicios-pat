@@ -8,7 +8,7 @@ JavaScript tiene los típicos bucles `for` y `while` para iterar. El más usado 
 ```js
 const array = []
 for (let i = 0; i < 10; i++) {
-  myArray.push(i)
+  array.push(i);
 }
 
 console.log(array);

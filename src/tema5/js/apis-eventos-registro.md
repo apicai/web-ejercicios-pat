@@ -17,7 +17,7 @@ Hay 3 formas de escuchar eventos sobre un elemento HTML, todas ellas pasando una
 
    ```js
    const boton = document.getElementById('boton');
-   const meHanPulsado = (event) => { boton.textContent = `Click nº ${event.detail}` };
+   const meHanPulsado = (event) => boton.textContent = `Click nº ${event.detail}`;
    boton.onclick = meHanPulsado;
    ```
 

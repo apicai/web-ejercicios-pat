@@ -76,11 +76,11 @@ Vamos a combinar los conceptos de [pseudoclase](../../tema4/css/pseudoclases.htm
 >   display: none;
 >   list-style: none;
 >   padding: 0;
->   background: royalblue;
+>   background: dodgerblue;
 >   position: ?
 > }
 > .submenu > li:? {
->   background: dodgerblue;
+>   background: royalblue;
 > }
 > .contenedor > li:? > .submenu {
 >   display: block;

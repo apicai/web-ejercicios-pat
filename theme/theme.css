@@ -184,6 +184,11 @@ a:target::before {
   }
 }
 
+object, iframe {
+  border-radius: 1em;
+  border: .2em solid var(--quote-border);
+}
+
 .fa-external-link {
   font-size: 0.7em;
   padding-left: 0.7ch;
