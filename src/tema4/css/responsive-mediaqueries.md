@@ -1,5 +1,5 @@
 # CSS
-## Diseño responsivo
+## Diseño adaptable
 
 ### Media queries
 
@@ -64,3 +64,5 @@ body * {
 }</pre></div>
 
 > ⁉️ **Ejercicio:** _En el ejemplo anterior, localiza la "media query" e intenta explicar qué hace._
+
+> 🔍 **Nota:** _Para probar las media queries puedes modificar el ancho de la ventana del navegador manualmente o usar las herramientas para desarrolladores: Botón derecho `➜` Inspeccionar `➜` Diseño adaptable o Barra de herramientas de dispositivos (icono de móvil/tablet)._

@@ -8,7 +8,7 @@ Realiza de una en una las siguientes modificaciones sobre la etiqueta `<img>` de
 <div class="codepen" data-prefill data-height="300" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
 <pre data-lang="html">&lt;body>
 &lt;p>
-Texto antes &lt;img src="URL imagen (absoluta o relativa)"/> Texto después 
+Texto antes &lt;img src="URL imagen (absoluta o relativa)"> Texto después 
 &lt;/p>
 &lt;/body>
 </pre>

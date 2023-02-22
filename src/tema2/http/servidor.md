@@ -53,7 +53,7 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
    > ⁉️ **Pregunta:** _¿Podrías conocer el password de un usuario de tu servidor con este tipo de autenticación?_
 
 1. Vamos a ver cómo el navegador manda los datos de un formulario web. Repite el **paso 1**, rellena el formulario siguiente y envíalo. Si usas Codespaces, sustituye `http://localhost:8080` en el HTML por la URL proporcionada en el entorno.
-    <details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary>Formulario...</summary><br/>
+    <details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary>Formulario...</summary><br>
     <div class="cp-later" data-height="370" data-theme-id="light" data-default-tab="html,result" data-editable="true" data-prefill style="opacity:0">
     <pre data-lang="html">&lt;form id="myForm" action="http://localhost:8080" method="post">
     &lt;fieldset>

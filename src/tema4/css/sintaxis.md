@@ -21,7 +21,7 @@ Para que se apliquen estos estilos a un documento HTML hay 3 posibilidades:
     <html lang="es">
     <head>
       <title>Recomendado</title>
-      <link rel="stylesheet" href="URL (absoluta o relativa) al fichero CSS" />
+      <link rel="stylesheet" href="URL (absoluta o relativa) al fichero CSS">
     </head>
     <body><h1>Elemento estilizado</h1></body>
     </html>

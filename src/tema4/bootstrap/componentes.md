@@ -3,7 +3,7 @@
 
 Bootstrap facilita la creación de los [contenidos y componentes](https://getbootstrap.com/docs/5.3/examples/cheatsheet/) típicos de un interfaz web mediante el uso de clases específicas sobre los elementos HTML. Algunas de estas clases son luego procesadas mediante JavaScript para dar comportamiento. A continuación, se muestran algunos componentes basados puramente en el CSS de Bootstrap.
 
-<details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary><strong>Cabecera y pie</strong></summary><br/>
+<details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary><strong>Cabecera y pie</strong></summary><br>
 <div class="cp-later" data-height="350" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0" data-prefill='{"stylesheets":["https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css","https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"]}'>
   <pre data-lang="html">&lt;body>
   &lt;nav class="navbar navbar-expand bg-dark" data-bs-theme="dark">
@@ -31,9 +31,9 @@ Bootstrap facilita la creación de los [contenidos y componentes](https://getboo
   &lt;/footer>
 &lt;/body></pre>
   <pre data-lang="css">html { font-size: 50%; }</pre></div>
-<br/></details>
+<br></details>
 
-<details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary><strong>Listas</strong></summary><br/>
+<details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary><strong>Listas</strong></summary><br>
 <div class="cp-later" data-height="350" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0" data-prefill='{"stylesheets":["https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css","https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"]}'>
   <pre data-lang="html">&lt;body>
 &lt;ul class="list-group list-group-numbered">
@@ -45,9 +45,9 @@ Bootstrap facilita la creación de los [contenidos y componentes](https://getboo
 &lt;/ul>
 &lt;/body></pre>
   <pre data-lang="css">html { font-size: 75%; padding: 2rem; }</pre></div>
-<br/></details>
+<br></details>
 
-<details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary><strong>Tablas</strong></summary><br/>
+<details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary><strong>Tablas</strong></summary><br>
 <div class="cp-later" data-height="350" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0" data-prefill='{"stylesheets":["https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css","https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"]}'>
   <pre data-lang="html">&lt;body>
 &lt;table class="table table-striped table-hover table-responsive">
@@ -95,9 +95,9 @@ Bootstrap facilita la creación de los [contenidos y componentes](https://getboo
 &lt;/table>
 &lt;/body></pre>
   <pre data-lang="css">html { font-size: 50%; padding: 2rem; }</pre></div>
-<br/></details>
+<br></details>
 
-<details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary><strong>Formularios</strong></summary><br/>
+<details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary><strong>Formularios</strong></summary><br>
 <div class="cp-later" data-height="350" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0" data-prefill='{"stylesheets":["https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css","https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"]}'>
   <pre data-lang="html">&lt;body>
   &lt;form class="row g-3">
@@ -132,9 +132,9 @@ Bootstrap facilita la creación de los [contenidos y componentes](https://getboo
   &lt;/form>
 &lt;/body></pre>
   <pre data-lang="css">html { font-size: 75%; padding: 2rem; }</pre></div>
-<br/></details>
+<br></details>
 
-<details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary><strong>Tarjetas</strong></summary><br/>
+<details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary><strong>Tarjetas</strong></summary><br>
 <div class="cp-later" data-height="350" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0" data-prefill='{"stylesheets":["https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css","https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"]}'>
   <pre data-lang="html">&lt;body>
   &lt;div class="card">

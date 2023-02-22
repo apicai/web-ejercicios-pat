@@ -1,7 +1,7 @@
 # CSS
-## Diseño responsivo
+## Diseño adaptable
 
-Su objetivo es hacer que la misma página se vea bien en todos los tamaños de pantalla. Flexbox y Grid permiten hacer diseños con proporciones de modo que los contenidos se adapten al espacio disponible en cada pantalla. Además de esas técnicas, hay otras recomendaciones para el diseño de webs responsivas.
+Su objetivo es hacer que la misma página se vea bien en todos los tamaños de pantalla. Flexbox y Grid permiten hacer diseños con proporciones de modo que los contenidos se adapten al espacio disponible en cada pantalla. Además de esas técnicas, hay otras recomendaciones para el diseño de webs adaptables.
 
 ### Configuración de la ventana gráfica
 

@@ -19,6 +19,7 @@ const usaRespuesta = async function() {
   try {
     const json = await peticion('URL', {
       method: 'POST',
+      mode: 'cors',
       headers: { 'Cabecera': 'valor' },
       body: 'cuerpo petición',
     });

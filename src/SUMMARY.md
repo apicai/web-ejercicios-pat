@@ -77,7 +77,7 @@
   - [Maquetación](tema4/css/maquetacion.md)
     - [Flexbox](tema4/css/maquetacion-flex.md)
     - [Grid](tema4/css/maquetacion-grid.md)
-  - [Diseño responsivo](tema4/css/responsive.md)
+  - [Diseño adaptable](tema4/css/responsive.md)
     - [Imágenes](tema4/css/responsive-imagenes.md)
     - [Media queries](tema4/css/responsive-mediaqueries.md)
     - [Unidades relativas](tema4/css/responsive-unidades.md)

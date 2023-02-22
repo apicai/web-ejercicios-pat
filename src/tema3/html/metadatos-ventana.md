@@ -13,6 +13,6 @@ Para que la experiencia de usuario sea buena en todos los tamaños y densidades 
 
 > ⁉️ **Pregunta:** _¿Cuál es la diferencia de comportamiento y qué etiqueta HTML lo activa?_
 
-[^1]: El "diseño web responsivo" se apoya en el uso de CSS y en la definición de elementos con ancho adaptable para evitar el scroll horizontal.
+[^1]: El diseño web "responsivo" se apoya en el uso de CSS y en la definición de elementos con ancho adaptable para evitar el scroll horizontal.
 
 [^2]: Los anchos del contenido se definen en píxeles abstractos, los cuales se traducen en diferente cantidad de píxeles reales dependiendo de la densidad de pantalla de cada dispositivo. Así una pantalla de alta densidad tendrá más píxeles reales por cada píxel abstracto que una de menos densidad, pero en ambas se presentará el contenido igual.

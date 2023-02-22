@@ -1,6 +1,6 @@
 # Bootstrap
 
-[Bootstrap](https://getbootstrap.com/) es un framework CSS[^1] que proporciona un estilo uniforme a toda la web: colores, tipografías, botones, campos de formulario, cabeceras, párrafos, listas, etc. Garantiza un diseño responsivo y compatible con la mayoría de los navegadores[^2].
+[Bootstrap](https://getbootstrap.com/) es un framework CSS[^1] que proporciona un estilo uniforme a toda la web: colores, tipografías, botones, campos de formulario, cabeceras, párrafos, listas, etc. Garantiza un diseño adaptable y compatible con la mayoría de los navegadores[^2].
 
 ## Objetivos
 

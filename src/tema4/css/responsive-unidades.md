@@ -1,5 +1,5 @@
 # CSS
-## Diseño responsivo
+## Diseño adaptable
 
 ### Unidades relativas
 
