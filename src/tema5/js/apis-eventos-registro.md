@@ -29,4 +29,4 @@ Hay 3 formas de escuchar eventos sobre un elemento HTML, todas ellas pasando una
 
 > ⁉️ **Ejercicio 1:** _Utilizando la consola JavaScript del navegador, haz que al pulsar sobre el título "Registro" de esta página, se ejecute la función `meHanPulsado` anterior._
 
-> ⁉️ **Ejercicio 2:** _Modifica la función, para que cuando el evento indique que se ha pulsado 10 veces, se restaure el título y se quite el handler (si usaste `addEventListener` deberás usar `removeEventListener`)._
+> ⁉️ **Ejercicio 2:** _Modifica la función, para que cuando el evento indique que se ha pulsado 3 veces, se restaure el título y se quite el handler (si usaste `addEventListener` deberás usar `removeEventListener`)._

@@ -73,6 +73,6 @@ Para ver la utilidad de lo anterior, vamos a ver lo que implicaría cambiar el s
 
 > ⁉️ **Ejercicio:** _Las reglas CSS del segundo contenedor utilizan la clase `pixels`. Cambia primero su `font-size` a `8px` para ver como sus proporciones se desajustan solo con el cambio del tamaño de fuente. Luego modifica el resto de sus propiedades con la mitad de píxeles._
 
-[^1]: Otra unidad relativa ampliamente utilizada es `%`: porcentaje relativo a la misma propiedad en el elemento padre. Por ejemplo, un elemento con `font-size: 50%;` tendrá un tamaño de letra la mitad de pequeño que el de su padre.
+[^1]: Otra unidad relativa ampliamente utilizada es `%`: porcentaje relativo a la misma propiedad en el elemento padre (contenedor). Por ejemplo, un elemento con `width: 50%;` ocupará la mitad del ancho disponible en el contenedor.
 
 [^2]: Cada navegador tiene un tamaño de letra razonable para las dimensiones del dispositivo en el que se ejecuta. Además, el usuario puede establecer otro tamaño que se ajuste más a sus necesidades. Utilizar este tamaño como referencia para la página web suele ser lo más adecuado.
