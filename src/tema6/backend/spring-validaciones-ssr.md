@@ -15,21 +15,21 @@ Vamos a crear un formulario y validar los campos introducidos por el usuario en 
    <html lang="es" xmlns:th="http://www.thymeleaf.org">
    <head><meta charset="UTF-8"><title>Contacto</title></head>
    <body>
-     <form action="/contacto" method="post">
-       <p>
-         <label for="email">Email: </label>
-         <input type="text" name="email" id="email" th:value="${errores}? ${contacto.email}">
-       </p>
-       <p>
-         <label for="message">Mensaje: </label>
-         <input type="text" name="mensaje" id="message" th:value="${errores}? ${contacto.mensaje}">
-       </p>
-       <p><input type="submit" value="Enviar"></p>
-     </form>
-     <ul th:if="${errores}">
-       <li th:each="err : ${#fields.errors('contacto.*')}" th:text="${err}"></li>
-     </ul>
-     <p th:if="!${errores} and ${contacto.email.length()} &gt; 0" th:text="'Gracias ' + ${contacto.email} + ', tu mensaje ha sido recibido.'"></p>
+    <form action="/contacto" method="post">
+     <p>
+      <label for="email">Email: </label>
+      <input type="text" name="email" id="email" th:value="!${exito}? ${contacto.email}">
+     </p>
+     <p>
+      <label for="message">Mensaje: </label>
+      <input type="text" name="mensaje" id="message" th:value="!${exito}? ${contacto.mensaje}">
+     </p>
+     <p><input type="submit" value="Enviar"></p>
+    </form>
+    <ul th:if="!${exito}">
+     <li th:each="err : ${#fields.errors('contacto.*')}" th:text="${err}"></li>
+    </ul>
+    <p th:if="${exito}" th:text="${exito}"></p>
    </body>
    </html>
    ```
@@ -63,9 +63,8 @@ Vamos a crear un formulario y validar los campos introducidos por el usuario en 
      Model model
    ) {
      if (!result.hasErrors()) {
-       // Procesar campos
+       model.addAttribute("exito", "Gracias " + contacto.email() + ", tu mensaje ha sido recibido.");
      }
-     model.addAttribute("errores", result.hasErrors());
      return "contacto";
    }
    ```

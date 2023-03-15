@@ -8,17 +8,17 @@
   <form action="/contacto" method="post">
     <p>
         <label for="email">Email: </label>
-        <input type="text" name="email" id="email" th:value="${errores}? ${contacto.email}">
+        <input type="text" name="email" id="email" th:value="!${exito}? ${contacto.email}">
     </p>
     <p>
         <label for="message">Mensaje: </label>
-        <input type="text" name="mensaje" id="message" th:value="${errores}? ${contacto.mensaje}">
+        <input type="text" name="mensaje" id="message" th:value="!${exito}? ${contacto.mensaje}">
     </p>
     <p><input type="submit" value="Enviar"></p>
   </form>
-  <ul th:if="${errores}">
+  <ul th:if="!${exito}">
       <li th:each="err : ${#fields.errors('contacto.*')}" th:text="${err}"></li>
   </ul>
-  <p th:if="!${errores} and ${contacto.email.length()} &gt; 0" th:text="'Gracias ' + ${contacto.email} + ', tu mensaje ha sido recibido.'"></p>
+  <p th:if="${exito}" th:text="${exito}"></p>
 </body>
 </html>

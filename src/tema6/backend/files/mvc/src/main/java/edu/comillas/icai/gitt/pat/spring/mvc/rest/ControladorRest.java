@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -33,7 +34,7 @@ public class ControladorRest {
     @ResponseStatus(HttpStatus.CREATED)
     public ModeloContador crea(@Valid @RequestBody ModeloContador contadorNuevo, BindingResult result) {
         if (result != null && result.hasErrors()) {
-            throw new ResponseStatusException(HttpStatus.BAD_REQUEST);
+            throw new ExcepcionContadorIncorrecto(result);
         }
         if (contadores.containsKey(contadorNuevo.nombre())) {
             throw new ResponseStatusException(HttpStatus.CONFLICT);
@@ -60,15 +61,17 @@ public class ControladorRest {
         contadores.remove(nombre);
     }
 
-    @ExceptionHandler(ExcepcionContadorNoExistente.class)
-    @ResponseStatus(HttpStatus.NOT_FOUND)
-    public ModeloError contadorNoExistente(ExcepcionContadorNoExistente ex) {
-        return new ModeloError(ex.getMessage());
+    @ExceptionHandler(ExcepcionContadorIncorrecto.class)
+    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    public List<ModeloCampoIncorrecto> contadorIncorrecto(ExcepcionContadorIncorrecto ex) {
+        return ex.getErrores().stream().map(error ->
+                new ModeloCampoIncorrecto(error.getDefaultMessage(), error.getField(), error.getRejectedValue())
+        ).toList();
     }
 
     private ModeloContador busca(String nombre) {
         if (!contadores.containsKey(nombre)) {
-            throw new ExcepcionContadorNoExistente("El contador '" + nombre + "' no existe");
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
         return contadores.get(nombre);
     }
