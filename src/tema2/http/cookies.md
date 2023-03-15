@@ -25,7 +25,7 @@ Las cookies son datos creados en el servidor que se envían[^1] a los navegadore
 
    > ⁉️ **Pregunta:** _¿En qué casos utilizarías una cookie permanente?_
 
-1. <a name="httponly"></a>Además de la caducidad, una cookie puede tener otras características, muchas de ellas relacionadas con su seguridad[^2]. Repite los **3 pasos iniciales** y envía esta respuesta:
+1. Además de la caducidad, una cookie puede tener otras características, muchas de ellas relacionadas con su seguridad[^2]<a name="httponly"></a>. Repite los **3 pasos iniciales** y envía esta respuesta:
    ```http
    HTTP/1.1 200 OK
    Set-Cookie: mi-cookie-en-otro-path=valor; Path=/ruta

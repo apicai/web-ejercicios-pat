@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+</head>
+<body>
+  <form action="/contacto" method="post">
+    <p>
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" th:value="${errores}? ${contacto.email}">
+    </p>
+    <p>
+        <label for="message">Mensaje: </label>
+        <input type="text" name="mensaje" id="message" th:value="${errores}? ${contacto.mensaje}">
+    </p>
+    <p><input type="submit" value="Enviar"></p>
+  </form>
+  <ul th:if="${errores}">
+      <li th:each="err : ${#fields.errors('contacto.*')}" th:text="${err}"></li>
+  </ul>
+  <p th:if="!${errores} and ${contacto.email.length()} &gt; 0" th:text="'Gracias ' + ${contacto.email} + ', tu mensaje ha sido recibido.'"></p>
+</body>
+</html>

@@ -7,12 +7,12 @@
 
 Existen dos tipos:
 
-- `sessionStorage`: los se datos se borran al cerrar el navegador.
+- `sessionStorage`: los datos se borran al cerrar el navegador.
 - `localStorage`: los datos permanecen hasta que el usuario o la aplicación JavaScript los borra.
 
 En ambos casos:
 
-- `setItem('clave', 'valor)`: para guardar.
+- `setItem('clave', 'valor')`: para guardar.
 - `getItem('clave')`: para recuperar lo guardado.
 - `clear()` o `removeItem('clave')` para borrar.
 

@@ -22,6 +22,10 @@ sup {
   line-height: 1em;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .footnote-definition p, blockquote em, .footnote-definition > details {
   font-family: 'Signika Negative', serif;
 }
