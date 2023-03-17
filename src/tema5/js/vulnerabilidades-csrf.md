@@ -18,4 +18,4 @@ Un ejemplo básico sería incluir esto en un correo electrónico o en una web ma
 Para prevenir el CSRF:
 1. Añadir un paso de confirmación del usuario para evitar la autorización automática.
 1. Utilizar cookies con [`SameSite`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies#samesite_attribute) igual a `Strict` para que no se envíen cuando se hacen peticiones desde un dominio diferente al que pertenecen.
-1. Programáticamente incluir un token y/o cabecera HTTP especial en las peticiones legítimas, que el servidor validará para autorizar la operación. Al contrario que las cookies, éstas cabeceras no se envían automáticamente, y el atacante no dispone de sus valores para incluirlos en su petición.
+1. Programáticamente incluir un token y/o cabecera HTTP especial en las peticiones legítimas, que el servidor validará para autorizar la operación. <a name="token"></a>Al contrario que las cookies, éstos tokens/cabeceras no se envían automáticamente, y el atacante no dispone de sus valores para incluirlos en su petición.

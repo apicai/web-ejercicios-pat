@@ -63,7 +63,8 @@ Vamos a crear un formulario y validar los campos introducidos por el usuario en 
      Model model
    ) {
      if (!result.hasErrors()) {
-       model.addAttribute("exito", "Gracias " + contacto.email() + ", tu mensaje ha sido recibido.");
+       model.addAttribute("exito", 
+         "Gracias " + contacto.email() + ", tu mensaje ha sido recibido.");
      }
      return "contacto";
    }
