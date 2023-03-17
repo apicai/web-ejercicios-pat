@@ -1,5 +1,0 @@
-# Backend
-
-## Spring
-
-### Otros componentes

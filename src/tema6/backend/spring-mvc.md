@@ -10,8 +10,8 @@ La implementación del patrón [MVC de Spring](https://docs.spring.io/spring-fra
 
 - Marcan las clases conteniendo la lógica de los [controladores](mvc.html#controlador) (`@Controller`, `@RestController`).
 
-- Seleccionan las funciones que implementan la lógica de cada [ruta/endpoint](jakarta.html#mapping) (`@GetMapping`, `@PostMapping`, etc.).
+- Seleccionan las funciones que implementan la lógica de cada [endpoint/recurso](jakarta-estandares.html#mapping) (`@GetMapping`, `@PostMapping`, etc.).
 
 - Indican qué objetos del [modelo](mvc.html#modelo) almacenarán los parámetros/contenidos de las peticiones y respuestas (`@RequestParam`, `@ModelAttribute`, `@PathVariable`, `@RequestBody`).
 
-> ⁉️ **Ejercicio:** _[Genera el esqueleto](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.0.4&packaging=jar&jvmVersion=17&groupId=edu.comillas.icai.gitt.pat.spring&artifactId=mvc&name=mvc&description=MVC&packageName=edu.comillas.icai.gitt.pat.spring.mvc&dependencies=web,thymeleaf) de una aplicación MVC y ábrela en [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/). Identifica la localización de: las dependencias, la lógica de la aplicación, las plantillas para las vistas, los recursos estáticos, y la configuración._
+> ⁉️ **Ejercicio:** _[Genera el esqueleto](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.0.4&packaging=jar&jvmVersion=17&groupId=edu.comillas.icai.gitt.pat.spring&artifactId=mvc&name=mvc&description=MVC&packageName=edu.comillas.icai.gitt.pat.spring.mvc&dependencies=web,thymeleaf) de una aplicación MVC y ábrela en [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/). Localiza: las dependencias, la lógica de la aplicación, las plantillas para las vistas, los recursos estáticos, y la configuración._

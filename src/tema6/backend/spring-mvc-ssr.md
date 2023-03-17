@@ -8,7 +8,7 @@
 
 Para generar la presentación en el servidor, normalmente se utiliza un lenguaje para procesar textos. Spring permite configurar uno de entre [varias librerías](https://docs.spring.io/spring-framework/docs/6.0.6/reference/html/web.html#mvc-view). En nuestro caso usaremos [Thymeleaf](https://www.thymeleaf.org/index.html).
 
-Vamos a crear un endpoint SSR `/saludo?nombre=tu-nombre` que devuelva un HTML mostrando un párrafo con el texto "¡Hola, tu-nombre!". Sobre el proyecto MVC generado anteriormente:
+Vamos a crear un endpoint/recurso SSR `/saludo?nombre=tu-nombre` que devuelva un HTML mostrando un párrafo con el texto "¡Hola, tu-nombre!". Sobre el proyecto MVC generado anteriormente:
 
 1. Crea el fichero `saludo.html` en el directorio de plantillas:
 

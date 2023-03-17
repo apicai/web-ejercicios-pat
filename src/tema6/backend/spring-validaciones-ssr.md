@@ -15,7 +15,7 @@ Vamos a crear un formulario y validar los campos introducidos por el usuario en 
    <html lang="es" xmlns:th="http://www.thymeleaf.org">
    <head><meta charset="UTF-8"><title>Contacto</title></head>
    <body>
-    <form action="/contacto" method="post">
+    <form action="#" th:action="@{/contacto}" method="post">
      <p>
       <label for="email">Email: </label>
       <input type="text" name="email" id="email" th:value="!${exito}? ${contacto.email}">
@@ -46,7 +46,7 @@ Vamos a crear un formulario y validar los campos introducidos por el usuario en 
    ) {}
    ```
 
-1. Añade estos endpoints a la clase `ControladorSSR`:
+1. Añade estos endpoints/recursos a la clase `ControladorSSR`:
 
    ```java
    @GetMapping("/contacto")

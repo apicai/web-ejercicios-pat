@@ -20,4 +20,4 @@ Para definir páginas personalizadas de error:
 
 > ⁉️ **Ejercicio 1:** _Ejecuta el proyecto desde el IDE. Abre en un navegador la URL [`http://localhost:8080/no-existo`](http://localhost:8080/no-existo). Comprueba la diferencia antes y después de aplicar los cambios anteriores._
 
-> ⁉️ **Ejercicio 2:** _Provoca una excepción en el código del endpoint [`http://localhost:8080/saludo`](http://localhost:8080/saludo) y comprueba el resultado antes y después de aplicar los cambios anteriores._
+> ⁉️ **Ejercicio 2:** _Provoca una excepción en el código del endpoint/recurso [`http://localhost:8080/saludo`](http://localhost:8080/saludo) y comprueba el resultado antes y después de aplicar los cambios anteriores._

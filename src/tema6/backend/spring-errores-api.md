@@ -6,13 +6,11 @@
 
 #### API
 
-Para controlar las respuestas JSON de error, se pueden definir localmente dentro de cada `RestController` o bien desde un manejador global de excepciones no capturadas (anotado con `@ControllerAdvice`).
+Las respuestas JSON de error se pueden definir localmente dentro de cada `RestController` o bien desde un manejador global de excepciones no capturadas (anotado con `@ControllerAdvice`). Vamos a personalizar las respuestas de error del API de contadores para los siguientes casos de error:
 
-Vamos a personalizar las respuestas de error del API de contadores para los siguientes casos de error:
-
-1. Se proporcionan datos incorrectos para crear un contador.
-1. Se intenta crear un contador que ya existe.
-1. Se intenta usar a un contador que no existe.
+- Se proporcionan datos incorrectos para crear un contador.
+- Se intenta crear un contador que ya existe.
+- Se intenta usar a un contador que no existe.
 
 Para ello, sobre el proyecto MVC realiza los siguientes cambios:
 
@@ -63,7 +61,7 @@ Para ello, sobre el proyecto MVC realiza los siguientes cambios:
 
 > ⁉️ **Ejercicio 1:** _Modifica el código de la función `crea` de `ControladorRest` para que, en caso de que la validación falle, lance la excepción `ExcepcionContadorIncorrecto(bindingResult)`._
 
-> ⁉️ **Ejercicio 2:** _Modifica el código de la función `crea` de `ControladorRest` para que, en caso de que el contador exista, lance la excepción `ResponseStatusException(HttpStatus.CONFLICT)`._
+> ⁉️ **Ejercicio 2:** _Modifica el código de la función `crea` de `ControladorRest` para que, en caso de que el contador ya exista, lance la excepción `ResponseStatusException(HttpStatus.CONFLICT)`._
 
 > ⁉️ **Ejercicio 3:** _Modifica el código de las funciones `contador` e `incrementa` de `ControladorRest` para que, en caso de que no exista el contador, lancen la excepción `ResponseStatusException(HttpStatus.NOT_FOUND)`._
 

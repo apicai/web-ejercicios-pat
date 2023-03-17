@@ -8,9 +8,9 @@ Para validar que los campos proporcionados son correctos también se utilizan [a
 
 > ⁉️ **Ejercicio:** _Añade a la lista de dependencias del proyecto MVC la siguiente, y haz que el IDE la descargue._
 > ```xml
->	<dependency>
->	  <groupId>org.springframework.boot</groupId>
->	  <artifactId>spring-boot-starter-validation</artifactId>
->	</dependency>
+> <dependency>
+>   <groupId>org.springframework.boot</groupId>
+>   <artifactId>spring-boot-starter-validation</artifactId>
+> </dependency>
 > ```
 

@@ -26,9 +26,8 @@ public class ControladorSSR {
     @PostMapping("/contacto")
     public String contacto(@Valid @ModelAttribute("contacto") ModeloFormularioContacto contacto, BindingResult result, Model model) {
         if (!result.hasErrors()) {
-            // Procesar campos
+            model.addAttribute("exito", "Gracias " + contacto.email() + ", tu mensaje ha sido recibido.");
         }
-        model.addAttribute("errores", result.hasErrors());
         return "contacto";
     }
 }
