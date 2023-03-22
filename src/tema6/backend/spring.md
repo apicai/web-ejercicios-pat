@@ -6,4 +6,4 @@
 
 [Spring Boot](https://spring.io/projects/spring-boot) es una distribución de Spring pre-configurada para desarrollar fácilmente aplicaciones que se ejecutan en su servidor embebido.
 
-[Spring Initializr](https://start.spring.io/) permite generar el esqueleto de las diferentes [aplicaciones empresariales](https://spring.io/projects) soportadas por el framework.
+[Spring Initializr](https://start.spring.io/) permite generar la estructura de ficheros inicial de un [proyecto Spring](https://spring.io/projects).

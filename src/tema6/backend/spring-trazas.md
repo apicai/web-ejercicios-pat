@@ -15,7 +15,7 @@ logger.debug("Información que ayuda a identificar problemas");
 logger.trace("Trazas de ayuda durante el {}", "desarrollo");
 ```
 
-La configuración por defecto del `logger` pinta las trazas de nivel `info` o superior (`warn` y `error`) por la salida estándar. En caso de necesidad, se puede cambiar dicho nivel con la siguiente configuración de la aplicación Spring:
+La configuración por defecto del `logger` sólo pinta las trazas de nivel `info` o superior (`warn` y `error`) por la salida estándar. En caso de necesidad, se puede cambiar dicho nivel con la siguiente configuración de la aplicación Spring:
 
 ```properties
 logging.level.root=debug

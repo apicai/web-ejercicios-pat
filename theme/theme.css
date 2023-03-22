@@ -180,6 +180,8 @@ task-list i:hover {
 a:target::before {
   content: '👀 ';
   animation: blinker 1.25s linear infinite;
+  border: 1px solid gray;
+  border-radius: 8px;
 }
 
 @keyframes blinker {
