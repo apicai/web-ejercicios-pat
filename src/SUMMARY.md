@@ -155,3 +155,14 @@
     - [Microservicios](tema6/backend/despliegue-microservicios.md)
     - [Monitorización](tema6/backend/despliegue-monitorizacion.md)
       - [Spring Actuator](tema6/backend/despliegue-monitorizacion-actuator.md)
+
+# Tema 7
+----
+- [Tests](tema7/tests/tests.md)
+  - [Tipos](tema7/tests/tipos.md)
+  - [Características](tema7/tests/caracteristicas.md)
+  - [Metodologías](tema7/tests/metodologias.md)
+  - [Herramientas](tema7/tests/herramientas.md)
+    - [Para unitarios](tema7/tests/herramientas-unit.md)
+    - [Para integración](tema7/tests/herramientas-integracion.md)
+    - [Para E2E](tema7/tests/herramientas-e2e.md)

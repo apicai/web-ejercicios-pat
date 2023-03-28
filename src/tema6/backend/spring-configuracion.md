@@ -4,7 +4,7 @@
 
 ### Configuración
 
-La lógica de una aplicación suele necesitar datos de configuración (URLs, credenciales, modos de funcionamiento, etc.). Estos datos pueden cambiar a menudo, por ejemplo, dependiendo del entorno en el que se ejecuta: desarrollo, testing, producción, etc. Para no tener que recompilar la aplicación cada vez que cambian, es conveniente externalizarlos en el fichero de propiedades de la aplicación Spring.
+La lógica de una aplicación suele necesitar datos de configuración (URLs, credenciales, modos de funcionamiento, etc.). Estos datos pueden cambiar a menudo, por ejemplo, dependiendo del entorno en el que se ejecuta: desarrollo, pruebas, producción, etc. Para no tener que recompilar la aplicación cada vez que cambian, es conveniente externalizarlos en el fichero de propiedades de la aplicación Spring.
 
 Spring permite utilizar diferentes perfiles de configuración:
 
