@@ -4,7 +4,7 @@
 
 ### Seguridad
 
-El módulo de [Spring Security](https://docs.spring.io/spring-security/reference/index.html) añade mecanismos de [autenticación](https://docs.spring.io/spring-security/reference/servlet/authentication/index.html) (identificación del usuario), [autorización](https://docs.spring.io/spring-security/reference/servlet/authorization/index.html) (control de acceso) y protección frente a vulnerabilidades web como [CSRF](../../tema5/js/vulnerabilidades-csrf.html)[^1]. Algunos de estos mecanismos permiten construir las aplicaciones separando totalmente su lógica principal de su la lógica de acceso (que suele delegarse en servicios externos usando SSO[^2] o OAuth[^3]).
+El módulo de [Spring Security](https://docs.spring.io/spring-security/reference/index.html) añade mecanismos de [autenticación](https://docs.spring.io/spring-security/reference/servlet/authentication/index.html) (identificación del usuario), [autorización](https://docs.spring.io/spring-security/reference/servlet/authorization/index.html) (control de acceso) y protección frente a vulnerabilidades web como [CSRF](../../tema5/js/vulnerabilidades-csrf.html)[^1]. Algunos de ellos permiten construir las aplicaciones separando totalmente su lógica principal de su la lógica de acceso (que suele delegarse en servicios externos usando SSO[^2] o OAuth[^3]).
 
 > ⁉️ **Ejercicio:** _Para habilitar Spring Security añade la siguiente dependencia al proyecto MVC:_
 > ```xml

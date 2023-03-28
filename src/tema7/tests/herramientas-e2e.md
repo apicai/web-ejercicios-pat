@@ -22,7 +22,7 @@ describe('Formulario de contacto', () => {
 
 > ⁉️ **Ejercicio 1:** _[Descarga Cypress](https://download.cypress.io/app) y añade el proyecto MVC para hacer "E2E Testing". Elige un navegador para ejecutarlo y crea una nueva "spec". Ábrela con un editor y copia el contenido JavaScript anterior. Arranca el proyecto MVC en el IDE. Y ejecuta la "spec" anterior. Añade un test adicional que valide el comportamiento cuando se introduce un email incorrecto._
 
-**Para interfaces/APIs REST**, existen herramientas gráficas como Postman para probar manual y [automáticamente](https://medium.com/better-practices/from-manual-to-automated-testing-the-roadblocks-and-the-journey-6333dfacc5ae). Spring también facilita hacer tests E2E levantando automáticamente el servidor:
+**Para interfaces/APIs REST**, existen herramientas gráficas como Postman para probar manual y [automáticamente](https://medium.com/better-practices/from-manual-to-automated-testing-the-roadblocks-and-the-journey-6333dfacc5ae). Spring Boot también facilita hacer tests E2E levantando automáticamente el servidor:
 
 ```java
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
