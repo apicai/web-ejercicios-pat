@@ -2,7 +2,7 @@
 
 ## Tipos
 
-Estas son algunas de las categorizaciones los tests:
+Estas son algunas de las formas de clasificarlos:
 
 - **Tests funcionales** (verifican que el software cumple los requisitos), y **no funcionales** (verifican su calidad en términos de velocidad, capacidad, seguridad, etc.).
 

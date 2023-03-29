@@ -166,3 +166,5 @@
     - [Para unitarios](tema7/tests/herramientas-unit.md)
     - [Para integración](tema7/tests/herramientas-integracion.md)
     - [Para E2E](tema7/tests/herramientas-e2e.md)
+      - [UI](tema7/tests/herramientas-e2e-ui.md)
+      - [API](tema7/tests/herramientas-e2e-api.md)
