@@ -15,7 +15,7 @@ class ControladorRestE2ETest {
   private final TestRestTemplate restTemplate;
 
   @Test
-  public void contadorExistenteTest() throws Exception {
+  public void contadorExistenteTest() {
     restTemplate.exchange(
       "http://localhost:8080/api/contadores", HttpMethod.POST,
       new HttpEntity<>(new ModeloContador("visitas", 0L)), ModeloContador.class

@@ -28,7 +28,7 @@ Para ello, sobre el proyecto MVC realiza los siguientes cambios:
    }
    ```
 
-1. Añade esta clase al modelo para personalizar la respuesta JSON de error:
+1. Añade este record al modelo para personalizar la respuesta JSON de error:
    
    ```java
    public record ModeloCampoIncorrecto(String error, String campo, Object valor) { }

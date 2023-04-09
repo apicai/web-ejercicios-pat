@@ -7,7 +7,7 @@ Para que la experiencia de usuario sea buena en todos los tamaños y densidades 
 
 1. Abre la página [A](./files/viewport-a.html) y la página [B](./files/viewport-b.html) en dos pestañas y comprueba que se ven idénticas en un navegador de ordenador.
 
-1. Ábrelas en tu móvil o, si no, abre las herramientas para desarrolladores del navegador del ordenador pulsando en el botón derecho `➜` Inspeccionar `➜` Diseño adaptable o Barra de herramientas de dispositivos (icono de móvil/tablet) sobre cada pestaña.
+1. Ábrelas en tu móvil o, si no, abre las herramientas para desarrolladores del navegador del ordenador pulsando en el botón derecho `➜` "Inspeccionar" `➜` "Diseño adaptable" o "Barra de herramientas de dispositivos" (icono de móvil/tablet) sobre cada pestaña.
 
 1. Comprueba que para el mismo dispositivo móvil la página A y la página B se ven distinto.
 

@@ -27,6 +27,6 @@ class ControladorRestIntegrationTest {
 }
 ```
 
-> ⁉️ **Ejercicio:** _Añade la clase anterior a los tests del proyecto MVC, e implementa un test que verifique la respuesta cuando la petición de crear contador es incorrecta. Ejecuta los tests con informe de cobertura: botón derecho sobre la clase `ControladorRestIntegrationTest` `➜` Run with Coverage._
+> ⁉️ **Ejercicio:** _Añade la clase anterior a los tests del proyecto MVC, e implementa un test que verifique la respuesta cuando la petición de crear contador es incorrecta. Ejecuta los tests con informe de cobertura: botón derecho sobre la clase `ControladorRestIntegrationTest` `➜` "Run with Coverage"._
 
 [^1]: Para ello, se suelen utilizar "mocks" que reemplazan a los componentes de los que depende el código a probar con versiones simples que devuelven resultados controlados por el propio test. Una librería que ayuda a crear dichos "mocks" es [Mockito](https://site.mockito.org/).

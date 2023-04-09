@@ -15,7 +15,7 @@ const cadenaConVariables = `Núm:${numero}, Booleano:${booleano}, Cadena:'${cade
 console.log(cadenaConVariables);
 ```
 
-Abre la consola JavaScript del navegador (Botón derecho `➜` Inspeccionar `➜` Consola), realiza los siguientes ejercicios e intenta explicar los resultados.
+Abre la consola JavaScript del navegador (Botón derecho `➜` "Inspeccionar" `➜` "Consola"), realiza los siguientes ejercicios e intenta explicar los resultados.
 
 > ⁉️ **Ejercicio 1:** _Divide, separadamente, el número `10` por el número `0`, la cadena `'2'` y la cadena `'a'`._
 

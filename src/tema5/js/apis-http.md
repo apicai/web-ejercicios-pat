@@ -9,7 +9,7 @@ Con las APIs de HTTP podemos hacer peticiones en segundo plano, iniciadas o no p
 
 A esta forma de implementar webs[^1] se le llama [Ajax](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX), y utiliza las APIs `XMLHttpRequest` o `Fetch` para hacer las peticiones HTTP desde JavaScript[^2].
 
-> 🔍 **Nota:** _Para ver este tipo de peticiones en el navegador: botón derecho `➜` Inspeccionar `➜` Red `➜` filtrar por XHR._
+> 🔍 **Nota:** _Para ver este tipo de peticiones en el navegador: botón derecho `➜` "Inspeccionar" `➜` "Red" `➜` filtrar por XHR._
 
 [^1]: Frameworks como [React](https://es.reactjs.org/) y [Angular](https://angular.io/), permiten crear aplicaciones web de una sola página (<abbr title="Single Page Application">SPA</abbr>), que están basadas en esta filosofía.
 

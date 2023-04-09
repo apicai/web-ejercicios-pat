@@ -34,7 +34,7 @@ Vamos a crear un formulario y validar los campos introducidos por el usuario en 
    </html>
    ```
 
-1. Crea la siguiente clase dentro del directorio con la lógica de la aplicación MVC:
+1. Crea el siguiente record dentro del directorio con la lógica de la aplicación MVC:
 
    ```java
    public record ModeloFormularioContacto(

@@ -128,6 +128,6 @@ Pulsa en el botón CSS y añade, de una en una, las siguientes reglas, y observa
 
     > ⁉️ **Ejercicio:** _La última regla CSS utiliza una pseudo-clase que veremos en la siguiente sección. Intenta modificar ese selector para que aplique a las líneas pares en vez de las impares._
 
-> 🔍 **Nota:** _Desde el navegador puedes inspeccionar cada elemento, modificar sus estilos y ver los cambios directamente reflejados: Botón derecho sobre el elemento `➜` Inspeccionar `➜` Inspector (CSS). Para obtener el selector CSS de un elemento: Inspector (HTML) `➜` botón derecho sobre el código HTML del elemento `➜` Copiar `➜` Selector CSS._
+> 🔍 **Nota:** _Desde el navegador puedes inspeccionar cada elemento, modificar sus estilos y ver los cambios directamente reflejados: Botón derecho sobre el elemento `➜` "Inspeccionar" `➜` "Inspector" (CSS). Para obtener el selector CSS de un elemento: "Inspector" (HTML) `➜` botón derecho sobre el código HTML del elemento `➜` "Copiar" `➜` "Selector CSS"._
 
 [^1]: Lista completa de [propiedades de estilo](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#index) disponibles en CSS.

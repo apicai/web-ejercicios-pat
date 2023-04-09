@@ -49,4 +49,4 @@ Para que una página web cargue código JavaScript, existen dos posibilidades:
    </html>
    ```
 
-> 🔍 **Nota:** _Para depurar el código JS: botón derecho `➜` Inspeccionar `➜` Depurador o Sources. Selecciona el fichero con el código JS en el árbol de ficheros de la izquierda. Para añadir un punto de ruptura y que la ejecución se pare, marca uno de los números de línea del fichero abierto. Recarga la página si esa línea se ejecutó al cargar la página._
+> 🔍 **Nota:** _Para depurar el código JS: botón derecho `➜` "Inspeccionar" `➜` "Depurador" o "Sources". Selecciona el fichero con el código JS en el árbol de ficheros de la izquierda. Para añadir un punto de ruptura y que la ejecución se pare, marca uno de los números de línea del fichero abierto. Recarga la página si esa línea se ejecutó al cargar la página._

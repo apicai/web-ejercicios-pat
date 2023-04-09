@@ -16,7 +16,7 @@ Vamos a crear un API REST que registra contadores para analítica de uso:
 | `GET`  | `/api/contadores/{nombre}` | Devuelve el valor actual del contador indicado |
 | `PUT`  | `/api/contadores/{nombre}/incremento/{incremento}` | Actualiza el valor del contador con el incremento indicado |
 
-1. Crea la siguiente clase dentro del directorio con la lógica de la aplicación MVC:
+1. Crea el siguiente record dentro del directorio con la lógica de la aplicación MVC:
 
    ```java
    public record ModeloContador(String nombre, Long valor) { }

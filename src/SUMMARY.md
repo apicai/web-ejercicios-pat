@@ -128,6 +128,7 @@
 # Tema 6
 ----
 - [Backend](tema6/backend/backend.md)
+  - [Prerrequisitos](tema6/backend/prerrequisitos.md)
   - [Tipos](tema6/backend/tipos.md)
   - [Patrón MVC](tema6/backend/mvc.md)
   - [Jakarta EE](tema6/backend/jakarta.md)
@@ -168,3 +169,19 @@
     - [Para E2E](tema7/tests/herramientas-e2e.md)
       - [UI](tema7/tests/herramientas-e2e-ui.md)
       - [API](tema7/tests/herramientas-e2e-api.md)
+
+# Tema 8
+----
+- [Persistencia](tema8/persistencia/persistencia.md)
+  - [Bases de datos](tema8/persistencia/bd.md)
+  - [Relacionales](tema8/persistencia/relacionales.md)
+  - [SQL](tema8/persistencia/sql.md)
+  - [JDBC y JPA](tema8/persistencia/java.md)
+  - [Spring Data](tema8/persistencia/spring-data.md)
+    - [Datasource](tema8/persistencia/spring-data-datasource.md)
+    - [Entidades](tema8/persistencia/spring-data-entidades.md)
+    - [Repositorios](tema8/persistencia/spring-data-repositorios.md)
+    - [Servicios](tema8/persistencia/spring-data-servicios.md)
+    - [Transacciones](tema8/persistencia/spring-data-transacciones.md)
+    - [Relaciones](tema8/persistencia/spring-data-relaciones.md)
+    - [Tests](tema8/persistencia/spring-data-tests.md)
