@@ -17,8 +17,7 @@ Spring permite utilizar diferentes perfiles de configuración:
 Para leer las propiedades anteriores en el código se utiliza la anotación `@Value`. Por ejemplo, el siguiente código inyectaría `valor` en `propiedadABC` si la propiedad `a.b.c=valor` se hubiera cargado de los ficheros de propiedades al arrancar:
 
 ```java
-@Value("${a.b.c}")
-private String propiedadABC;
+@Value("${a.b.c}") private String propiedadABC;
 ```
 
 > ⁉️ **Ejercicio 1:** _Externaliza alguna configuración del código del proyecto MVC._

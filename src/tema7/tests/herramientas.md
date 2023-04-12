@@ -12,6 +12,6 @@ Existen servicios, aplicaciones y librerías específicas que facilitan:
 
 - **La generación de informes con métricas de la calidad.** Por ejemplo, [SonarQube](https://docs.sonarqube.org/latest/) analiza el código para: buscar vulnerabilidades, calcular su complejidad y la cobertura de los tests[^2].
 
-[^1]: La [CI/CD](../../intro/git/cicd.html) requiere de una batería de tests que permita determinar si los cambios introducidos continuamente por el equipo de desarrollo no rompen el software actualmente desplegado, y en ese caso, proceder a su instalación automática.
+[^1]: La [CI/CD](../../intro/git/cicd.html) requiere de una batería de tests que permita determinar si los cambios introducidos continuamente por el equipo de desarrollo no rompen el software actualmente desplegado, y en ese caso, proceder a su instalación automática. Estos son los procesos de involucrados: <details><summary><i class="fa fa-picture-o" aria-hidden="true"></i></summary><br><object type="image/svg+xml" data="./files/img/ci-cd.excalidraw.svg" width="100%"></object><br></details>
 
 [^2]: La cobertura es el porcentaje de líneas de código que son ejecutadas/probadas por los tests.

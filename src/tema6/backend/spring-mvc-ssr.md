@@ -23,12 +23,9 @@ Vamos a crear un endpoint/recurso SSR `/saludo?nombre=tu-nombre` que devuelva un
 1. Crea la siguiente clase dentro del directorio con la lógica de la aplicación MVC:
 
     ```java
-    @Controller
-    public class ControladorSSR {
-      @GetMapping("/saludo")
-      public String saludo(
-        @RequestParam(name="nombre", required=false, defaultValue="Mundo") 
-        String nombre, 
+    @Controller public class ControladorSSR {
+      @GetMapping("/saludo") public String saludo(
+        @RequestParam(name="nombre", required=false, defaultValue="Mundo") String nombre, 
         Model model
       ) {
         model.addAttribute("nombre", nombre);

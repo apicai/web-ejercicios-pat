@@ -25,8 +25,7 @@ Vamos a crear un API REST que registra contadores para analítica de uso:
 1. Crea la siguiente clase dentro del directorio con la lógica de la aplicación MVC:
 
    ```java
-   @RestController
-   public class ControladorRest {
+   @RestController public class ControladorRest {
      private final Map<String, ModeloContador> contadores = new HashMap<>();
 
      @PostMapping("/api/contadores")

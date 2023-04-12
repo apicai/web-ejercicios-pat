@@ -20,7 +20,7 @@ class ControladorRestIntegrationTest {
 
     @Test
     @WithMockUser(roles = "ADMIN")
-    void creaContadorTest() throws Exception {
+    void creaContadorOkTest() throws Exception {
         String contador = "{\"nombre\":\"visitas\",\"valor\":0}";
         this.mockMvc
                 .perform(MockMvcRequestBuilders.post("/api/contadores")
@@ -28,5 +28,19 @@ class ControladorRestIntegrationTest {
                         .content(contador))
                 .andExpect(MockMvcResultMatchers.status().isCreated())
                 .andExpect(MockMvcResultMatchers.content().string(contador));
+    }
+
+    @Test
+    @WithMockUser(roles = "ADMIN")
+    void creaContadorIncorrectoTest() throws Exception {
+        String contador = "{\"nombre\":\"\",\"valor\":0}";
+        this.mockMvc
+                .perform(MockMvcRequestBuilders.post("/api/contadores")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(contador))
+                .andExpect(MockMvcResultMatchers.status().isBadRequest())
+                .andExpect(MockMvcResultMatchers.content().string(
+                        "[{\"error\":\"must not be blank\",\"campo\":\"nombre\",\"valor\":\"\"}]"
+                ));
     }
 }
