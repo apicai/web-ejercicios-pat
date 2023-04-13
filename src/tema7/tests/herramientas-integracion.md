@@ -11,16 +11,17 @@ En el caso de Spring Boot, la dependencia [`spring-boot-starter-test`](https://d
 ```java
 @WebMvcTest(ControladorRest.class)
 class ControladorRestIntegrationTest {
-  @Autowired
-  private MockMvc mockMvc;
+  @Autowired private MockMvc mockMvc;
 
-  @Test
-  void creaContadorOkTest() throws Exception {
+  @Test void creaContadorOkTest() throws Exception {
+    // Given ...
     String contador = "{\"nombre\":\"visitas\",\"valor\":0}";
+    // When ...
     this.mockMvc
         .perform(MockMvcRequestBuilders.post("/api/contadores")
            .contentType(MediaType.APPLICATION_JSON)
            .content(contador))
+    // Then ...
         .andExpect(MockMvcResultMatchers.status().isCreated())
         .andExpect(MockMvcResultMatchers.content().string(contador));
   }

@@ -5,11 +5,11 @@
 Para hacer tests de integración de JPA se utiliza la anotación `@DataJpaTest` que automáticamente configura una BD en memoria cuyos datos se resetean en cada test.
 
 ```java
-@DataJpaTest
-class RepoOperacionTest {
+@DataJpaTest class RepoOperacionTest {
   @Autowired RepoOperacion repoOperacion;
 
   @Test void jpaTest() {
+    // Given ...
     Usuario usuario = new Usuario();
     usuario.id = 1L;
     Contador contador = new Contador();
@@ -19,12 +19,12 @@ class RepoOperacionTest {
     operacion.fecha = Timestamp.from(Instant.now());
     operacion.contador = contador;
     operacion.usuario = usuario;
-
+    // When ...
     DataIntegrityViolationException error = null;
     try { 
       repoOperacion.save(operacion); 
     } catch (DataIntegrityViolationException e) { error = e; }
-
+    // Then ...
     assertNotNull(error);
   }
 }

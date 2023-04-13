@@ -9,13 +9,12 @@ La capacidad de **asociar datos entre tablas** es una de las características de
 Para definir las relaciones entre los campos de las entidades se utilizan anotaciones: `@ManyToOne`, `@OneToOne`, `@ManyToMany`, etc. Por ejemplo, para las relaciones de nuestro modelo:
 
 ```java
-@Entity
-public class Operacion {
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY) public Long id;
-    @ManyToOne(optional = false) public Usuario usuario;
-    @ManyToOne(optional = false) public Contador contador;
-    @Column(nullable = false) public String tipo;
-    @Column(nullable = false) public Timestamp fecha;
+@Entity public class Operacion {
+  @Id @GeneratedValue(strategy = GenerationType.IDENTITY) public Long id;
+  @ManyToOne(optional = false) public Usuario usuario;
+  @ManyToOne(optional = false) public Contador contador;
+  @Column(nullable = false) public String tipo;
+  @Column(nullable = false) public Timestamp fecha;
 }
 ```
 

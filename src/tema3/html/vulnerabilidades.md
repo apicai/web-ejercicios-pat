@@ -1,7 +1,7 @@
 # HTML
 ## Vulnerabilidades
 
-"HTML injection" consiste en introducir código HTML malicioso en un formulario o parámetro de la URL que luego será utilizado como contenido en la propia web[^1]. El código malicioso puede consistir en añadir código HTML/JavaScript[^2] para robar las cookies de sesión. Otro uso malicioso, que no usa JavaScript, es inyectar un `iframe`, que simula la página de sesión caducada de una web legítima, para que la víctima introduzca nuevamente sus credenciales (que llegarán al servidor del atacante en el que está alojada).
+HTML Injection consiste en introducir código HTML malicioso en un formulario o parámetro de la URL que luego será utilizado como contenido en la propia web[^1]. El código malicioso puede consistir en añadir código HTML/JavaScript[^2] para robar las cookies de sesión. Otro uso malicioso, que no usa JavaScript, es inyectar un `iframe`, que simula la página de sesión caducada de una web legítima, para que la víctima introduzca nuevamente sus credenciales (que llegarán al servidor del atacante en el que está alojada).
 
 A continuación vamos a demostrar la vulnerabilidad en una página que procesa el envío de un formulario[^3]:
 

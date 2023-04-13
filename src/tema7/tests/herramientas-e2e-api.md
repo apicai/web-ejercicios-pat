@@ -11,21 +11,20 @@ Para interfaces REST, existen herramientas gráficas como Postman que permiten p
 ```java
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 class ControladorRestE2ETest {
-  @Autowired
-  private final TestRestTemplate restTemplate;
+  @Autowired private final TestRestTemplate restTemplate;
 
-  @Test
-  public void contadorExistenteTest() {
+  @Test public void contadorExistenteTest() {
+    // Given ...
     restTemplate.exchange(
       "http://localhost:8080/api/contadores", HttpMethod.POST,
       new HttpEntity<>(new ModeloContador("visitas", 0L)), ModeloContador.class
     );
-
-    Assertions.assertEquals(
-      HttpStatus.OK,
-      restTemplate.exchange(
-        "http://localhost:8080/api/contadores/visitas", HttpMethod.GET,
-        HttpEntity.EMPTY, Void.class).getStatusCode());
+    // When ...
+    ResponseEntity<Void> response = restTemplate.exchange(
+      "http://localhost:8080/api/contadores/visitas",
+      HttpMethod.GET, HttpEntity.EMPTY, Void.class);
+    // Then ...
+    Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
   }
 }
 ```
