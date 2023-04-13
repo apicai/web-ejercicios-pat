@@ -1,38 +1,38 @@
 package edu.comillas.icai.gitt.pat.spring.mvc.rest;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class ControladorRestE2ETest {
 
     private final TestRestTemplate restTemplate =
             new TestRestTemplate("administrador", "clave");
 
-    @BeforeAll
-    public void beforeAll() {
-        restTemplate.exchange(
-                "http://localhost:8080/api/contadores", HttpMethod.POST,
-                new HttpEntity<>(new ModeloContador("visitas", 0L)), ModeloContador.class);
-    }
-
     @Test
     public void contadorExistenteTest() {
-        ResponseEntity<ModeloContador> response = restTemplate.exchange(
+        // Given ...
+        String contador = "{\"nombre\":\"visitas\",\"valor\":0}";
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_JSON);
+        restTemplate.exchange(
+                "http://localhost:8080/api/contadores", HttpMethod.POST,
+                new HttpEntity<>(contador, headers), String.class);
+        // When ...
+        ResponseEntity<String> response = restTemplate.exchange(
                 "http://localhost:8080/api/contadores/visitas",
-                HttpMethod.GET, HttpEntity.EMPTY, ModeloContador.class);
+                HttpMethod.GET, HttpEntity.EMPTY, String.class);
+        // Then ...
         Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
-        Assertions.assertEquals("visitas", response.getBody().nombre());
-        Assertions.assertEquals(0L, response.getBody().valor());
+        Assertions.assertEquals(contador, response.getBody());
     }
 
     @Test

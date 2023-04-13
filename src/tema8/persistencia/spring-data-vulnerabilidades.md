@@ -2,9 +2,9 @@
 ## Spring Data
 ### Vulnerabilidades
 
-Hay situaciones en las que es mejor no usar JPA[^1] y, en su lugar, codificar directamente las SQL que necesita el programa. Para enviarlas a la BD, Spring Data nos facilita el cliente JDBC `JdbcTemplate`.
+Hay situaciones en las que es mejor no usar JPA[^1] y, en su lugar, codificar directamente las SQL que necesita nuestro programa. Para enviarlas a la BD, Spring Data nos facilita el cliente JDBC `JdbcTemplate`.
 
-En este contexto, una de las vulnerabilidades típicas es el [SQL Injection](https://es.wikipedia.org/wiki/Inyecci%C3%B3n_SQL). Ocurre cuando un usuario malicioso introduce en algún lugar del interfaz de la aplicación, un SQL que acaba llegando al código que llama a la BD. A continuación, exploramos esta vulnerabilidad utilizando `JdbcTemplate` de forma incorrecta y de forma correcta.
+En este contexto, una de las vulnerabilidades típicas es el [SQL Injection](https://es.wikipedia.org/wiki/Inyecci%C3%B3n_SQL). Ocurre cuando un usuario malicioso introduce, en algún lugar del interfaz de la aplicación, un SQL que acaba llegando al código que llama a la BD. A continuación, exploramos esta vulnerabilidad utilizando `JdbcTemplate` de forma incorrecta y de forma correcta.
 
 ```java
 @DataJpaTest class JdbcTemplateTest {
@@ -39,4 +39,4 @@ En este contexto, una de las vulnerabilidades típicas es el [SQL Injection](htt
 
 > ⁉️ **Pregunta:** _¿Cómo se te ocurriría explotar la vulnerabilidad SQL Injection? ¿A qué otra vulnerabilidad te recuerda?_
 
-[^1]: Cuando la BD ya existía de antes y tiene un modelo de datos difícil de representar con entidades, cuando hay que usar SQLs específicas para optimizar, etc.
+[^1]: Por ejemplo, cuando la BD ya existía de antes y tiene un modelo de datos difícil de representar con entidades. O cuando hay que usar SQLs específicas para optimizar el rendimiento.

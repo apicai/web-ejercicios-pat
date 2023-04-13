@@ -15,18 +15,19 @@ class ControladorRestE2ETest {
 
   @Test public void contadorExistenteTest() {
     // Given ...
+    String contador = "{\"nombre\":\"visitas\",\"valor\":0}";
+    HttpHeaders headers = new HttpHeaders();
+    headers.setContentType(MediaType.APPLICATION_JSON);
     restTemplate.exchange(
       "http://localhost:8080/api/contadores", HttpMethod.POST,
-      new HttpEntity<>(new ModeloContador("visitas", 0L)), ModeloContador.class
-    );
+      new HttpEntity<>(contador, headers), String.class);
     // When ...
-    ResponseEntity<ModeloContador> response = restTemplate.exchange(
+    ResponseEntity<String> response = restTemplate.exchange(
       "http://localhost:8080/api/contadores/visitas",
-      HttpMethod.GET, HttpEntity.EMPTY, ModeloContador.class);
+      HttpMethod.GET, HttpEntity.EMPTY, String.class);
     // Then ...
     Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
-    Assertions.assertEquals("visitas", response.getBody().nombre());
-    Assertions.assertEquals(0L, response.getBody().valor());    
+    Assertions.assertEquals(contador, response.getBody());
   }
 }
 ```
