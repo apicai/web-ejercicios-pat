@@ -27,10 +27,12 @@ class ControladorRestE2ETest {
 
     @Test
     public void contadorExistenteTest() {
-        ResponseEntity<Void> response = restTemplate.exchange(
+        ResponseEntity<ModeloContador> response = restTemplate.exchange(
                 "http://localhost:8080/api/contadores/visitas",
-                HttpMethod.GET, HttpEntity.EMPTY, Void.class);
+                HttpMethod.GET, HttpEntity.EMPTY, ModeloContador.class);
         Assertions.assertEquals(HttpStatus.OK, response.getStatusCode());
+        Assertions.assertEquals("visitas", response.getBody().nombre());
+        Assertions.assertEquals(0L, response.getBody().valor());
     }
 
     @Test
