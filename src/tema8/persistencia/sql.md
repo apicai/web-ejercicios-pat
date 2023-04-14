@@ -55,7 +55,7 @@ INSERT INTO USUARIO (ID, EMAIL, CREDENCIALES)
 INSERT INTO CONTADOR (ID, NOMBRE, VALOR)
   VALUES (1, 'visitas', 0);
 INSERT INTO CONTADOR (ID, NOMBRE, VALOR)
-  VALUES (2, 'clicks', 1);
+  VALUES (2, 'clicks', 0);
 
 INSERT INTO OPERACION (ID, USUARIO_ID, CONTADOR_ID, TIPO, FECHA)
   VALUES (1, 1, 1, 'creación', '2023-01-01 00:00:00');
@@ -67,11 +67,11 @@ INSERT INTO OPERACION (ID, USUARIO_ID, CONTADOR_ID, TIPO, FECHA)
 -- Para actualizar:
 UPDATE CONTADOR 
   SET VALOR = VALOR + 1 
-  WHERE NOMBRE = 'visitas';
+  WHERE NOMBRE = 'clicks';
 
 -- Para consultar:
 SELECT NOMBRE, VALOR FROM CONTADOR 
-  WHERE NOMBRE = 'visitas';
+  WHERE NOMBRE = 'clicks';
 
 -- Para borrar:
 DELETE FROM USUARIO
@@ -100,7 +100,7 @@ DELETE FROM USUARIO
 > ⁉️ **Ejercicio 4:** _Intenta borrar el contador 'visitas' y explica el resultado._
 
 
-[^1]: Otro tipo de `SELECT` involucrando varias tablas, utiliza `JOIN` para añadir datos de otras tablas a los elementos de la tabla indicada en el `FROM`. Por ejemplo, la siguiente SQL lista todos los usuarios, hayan o no hecho operaciones (al contrario que la `SELECT` del ejercicio 1, que sólo puede mostrar los que tienen operaciones/correspondencias): <details><summary><i class="fa fa-database" aria-hidden="true"></i></summary><br>
+[^1]: Otro tipo de `SELECT` involucrando varias tablas, utiliza `JOIN` para añadir datos de otras tablas a los elementos de la tabla indicada en el `FROM`. Por ejemplo, la siguiente SQL lista todos los usuarios, hayan o no hecho operaciones (al contrario que la `SELECT` del ejercicio 1, que sólo puede mostrar los que tienen operaciones/correspondencias): <details><summary><i class="fa fa-picture-o" aria-hidden="true"></i></summary><br>
 ```sql
 SELECT USUARIO.EMAIL, OPERACION.TIPO, CONTADOR.NOMBRE 
 FROM USUARIO 

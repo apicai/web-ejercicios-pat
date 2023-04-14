@@ -1,10 +1,9 @@
 # Persistencia
-## Spring Data
-### Vulnerabilidades
+## Vulnerabilidades
 
-Hay situaciones en las que es mejor no usar JPA[^1] y, en su lugar, codificar directamente las SQL que necesita nuestro programa. Para enviarlas a la BD, Spring Data nos facilita el cliente JDBC `JdbcTemplate`.
+Una de las vulnerabilidades típicas en BD relacionales es [SQL Injection](https://es.wikipedia.org/wiki/Inyecci%C3%B3n_SQL). Ocurre cuando un usuario malicioso introduce, en algún lugar del interfaz de la aplicación, un SQL que acaba llegando al código que llama a la BD. 
 
-En este contexto, una de las vulnerabilidades típicas es el [SQL Injection](https://es.wikipedia.org/wiki/Inyecci%C3%B3n_SQL). Ocurre cuando un usuario malicioso introduce, en algún lugar del interfaz de la aplicación, un SQL que acaba llegando al código que llama a la BD. A continuación, exploramos esta vulnerabilidad utilizando `JdbcTemplate` de forma incorrecta y de forma correcta.
+Las librerías que implementan JPA no están expuestas, ya que son ellas las que generan automáticamente el SQL final. Pero hay situaciones[^1] en las es necesario codificar directamente las SQL que necesita nuestro programa. A continuación, exploramos esta vulnerabilidad utilizando `JdbcTemplate`[^2] de forma incorrecta y de forma correcta.
 
 ```java
 @DataJpaTest class JdbcTemplateTest {
@@ -39,4 +38,6 @@ En este contexto, una de las vulnerabilidades típicas es el [SQL Injection](htt
 
 > ⁉️ **Pregunta:** _¿Cómo se te ocurriría explotar la vulnerabilidad SQL Injection? ¿A qué otra vulnerabilidad te recuerda?_
 
-[^1]: Por ejemplo, cuando la BD ya existía de antes y tiene un modelo de datos difícil de representar con entidades. O cuando hay que usar SQLs específicas para optimizar el rendimiento.
+[^1]: Por ejemplo, cuando la BD ya existe de antes y tiene un modelo de datos difícil de representar con entidades. O cuando hay que usar SQLs específicas para optimizar el rendimiento.
+
+[^2]: El cliente de JDBC facilitado por Spring Data, que nos permite enviar sentencias SQL directamente a la BD.

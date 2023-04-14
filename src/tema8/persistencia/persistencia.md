@@ -1,6 +1,6 @@
 # Persistencia
 
-Las aplicaciones necesitan almacenar sus datos de modo que sean accesibles de forma **programática, duradera y segura**. Para ello, utilizan sistemas especializados llamados bases de datos.
+Las aplicaciones necesitan almacenar sus datos de modo que sean accesibles de forma **organizada, duradera y segura**. Para ello, utilizan sistemas especializados llamados bases de datos.
 
 ## Objetivos
 

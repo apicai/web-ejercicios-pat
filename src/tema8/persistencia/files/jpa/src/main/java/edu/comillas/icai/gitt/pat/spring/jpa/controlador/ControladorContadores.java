@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.server.ResponseStatusException;
 
 @RestController
 public class ControladorContadores {
@@ -26,7 +27,11 @@ public class ControladorContadores {
 
     @GetMapping("/api/contadores/{nombre}")
     public Contador lee(@PathVariable String nombre) {
-        return repoContador.findByNombre(nombre);
+        Contador contador = repoContador.findByNombre(nombre);
+        if (contador == null) {
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+        }
+        return contador;
     }
 
     @PutMapping("/api/contadores/{nombre}/incremento/{incremento}")
