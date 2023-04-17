@@ -185,4 +185,6 @@
     - [Transacciones](tema8/persistencia/spring-data-transacciones.md)
     - [Relaciones](tema8/persistencia/spring-data-relaciones.md)
     - [Tests](tema8/persistencia/spring-data-tests.md)
+      - [Integración](tema8/persistencia/spring-data-tests-integracion.md)
+      - [E2E](tema8/persistencia/spring-data-tests-e2e.md)
   - [Vulnerabilidades](tema8/persistencia/vulnerabilidades.md)
