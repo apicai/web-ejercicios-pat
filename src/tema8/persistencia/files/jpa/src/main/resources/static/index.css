@@ -1,4 +1,4 @@
-/* TODO: modificar con el Look&Feel de tu aplicación */
+/* TODO: modificar con el Look&Feel común de tu aplicación */
 
 body {
   margin: 0;
@@ -8,7 +8,6 @@ body {
 header {
   background-color: #333;
   color: #fff;
-  padding: 1rem;
 }
 
 nav ul {
@@ -19,7 +18,11 @@ nav ul {
 }
 
 nav li {
-  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+}
+
+nav li:hover, nav li:focus-within {
+  background-color: gray;
 }
 
 nav a {
