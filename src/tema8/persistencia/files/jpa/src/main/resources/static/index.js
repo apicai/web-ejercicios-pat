@@ -16,8 +16,10 @@ function incrementaCreaContador(contador) {
     });
 }
 
+let usuarioLogado;
+
 document.getElementById("entrar").onclick = function() {
-  peticionApi(`/api/usuario`, null, null, document.getElementById("usuario").value, document.getElementById("clave").value)
+  peticionApi(`/api/usuarios/login`, null, null, document.getElementById("usuario").value, document.getElementById("clave").value)
     .then(respuesta => respuesta.json())
     .then(json => {
       document.getElementById("login").hidden = true;
@@ -25,8 +27,8 @@ document.getElementById("entrar").onclick = function() {
       if (json.email) {
         document.getElementById("accion").value = 'Salir';
         document.getElementById("mensaje").textContent = json.email;
-        json.clave = document.getElementById("clave").value;
-        usuario = json;
+        document.getElementById("clave").value = '';
+        usuarioLogado = json;
       } else if (json.status === 401) {
         document.getElementById("accion").value = 'Volver';
         document.getElementById("mensaje").textContent = 'Credenciales incorrectas';
@@ -45,9 +47,8 @@ document.getElementById("entrar").onclick = function() {
 document.getElementById("accion").onclick = function() {
   document.getElementById("login").hidden = false;
   document.getElementById("estado").hidden = true;
-  document.getElementById("usuario").value = '';
-  document.getElementById("clave").value = '';
-  usuario = null;
+  peticionApi(`/api/usuarios/logout`).finally(_ => {});
+  usuarioLogado = null;
 };
 
 document.getElementById("usuario").addEventListener("keyup", function(event) {
@@ -63,3 +64,11 @@ document.getElementById("clave").addEventListener("keyup", function(event) {
     document.getElementById("entrar").click();
   }
 });
+
+const peticionApiSinLogout = peticionApi;
+peticionApi = function peticionApi(...args) {
+  return peticionApiSinLogout(...args).then(response => {
+    response.status === 401 && usuarioLogado && document.getElementById("accion").click();
+    return response;
+  });
+}
