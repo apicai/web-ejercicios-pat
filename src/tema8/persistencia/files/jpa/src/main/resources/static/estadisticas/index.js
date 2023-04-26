@@ -20,6 +20,8 @@ document.getElementById("consultar").onclick = function() {
         resultado.textContent = `El valor del contador "${json.nombre}" es: ${json.valor}.`;
       } else if (json.status === 404) {
         resultado.textContent = `El contador "${contador.value}" no existe todavía.`;
+      } else if (json.status === 401) {
+        resultado.textContent = `Tienes que estar logado para consultar contadores`;
       } else {
         throw json;
       }
@@ -35,6 +37,10 @@ document.getElementById("borrar").onclick = function() {
     .then(respuesta => {
       if (respuesta.status === 200) {
         resultado.textContent = `El contador "${contador.value}" ha sido borrado.`;
+      } else if (respuesta.status === 401) {
+        resultado.textContent = `Tienes que estar logado para borrar contadores`;
+      } else if (respuesta.status === 403) {
+        resultado.textContent = `No tienes permisos para borrar contadores`;
       } else {
         throw respuesta;
       }
