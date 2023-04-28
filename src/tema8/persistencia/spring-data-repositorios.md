@@ -33,7 +33,7 @@ Representan **las operaciones** de persistencia que se pueden realizar sobre las
 
 > ⁉️ **Ejercicio 3:** _Implementa el método `incrementa`, primero leyendo (ejercicio 2), y luego guardando (ejercicio 1) la entidad **incrementada**._
 
-> ⁉️ **Ejercicio 4:** _JPA permite utilizar [queries "SQL"](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.at-query) para consultas más complejas que no puedan hacerse con los mecanismos anteriores. Para implementar `borra`[^2], añade el siguiente método al repositorio, y completa su "SQL" para que borre por nombre del contador: `@Query("SQL") @Transanctional @Modifying int borraPorNombre(String nombre)`._
+> ⁉️ **Ejercicio 4:** _JPA permite utilizar SQL para consultas más complejas que no puedan hacerse con los mecanismos anteriores. Para implementar `borra`[^2], añade el siguiente método al repositorio, y completa su "SQL" para que borre por nombre del contador: `@Query(value = "SQL", nativeQuery = true) @Transanctional @Modifying int borraPorNombre(String nombre)`._
 
 [^1]: Su valor ha sido inyectado automáticamente por el contenedor de Spring con la implementación automática del repositorio del punto 1.
 

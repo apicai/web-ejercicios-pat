@@ -10,6 +10,6 @@ public interface RepoContador extends CrudRepository<Contador, Long> {
     Contador findByNombre(String name);
     @Transactional
     @Modifying
-    @Query("DELETE Contador c WHERE c.nombre = :nombre")
+    @Query(value = "DELETE contador WHERE nombre = :nombre", nativeQuery = true)
     void borraPorNombre(String nombre);
 }
