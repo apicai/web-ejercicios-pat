@@ -19,7 +19,10 @@ function incrementaCreaContador(contador) {
 let usuarioLogado;
 
 document.getElementById("entrar").onclick = function() {
-  peticionApi(`/api/usuarios/login`, null, null, document.getElementById("usuario").value, document.getElementById("clave").value)
+  if (!document.getElementById("formulario-login").reportValidity()) return;
+  const email = document.getElementById("email").value;
+  const clave = document.getElementById("clave").value;
+  peticionApi(`/api/usuarios/${email}/login`, null, null, email, clave)
     .then(respuesta => respuesta.json())
     .then(json => {
       document.getElementById("login").hidden = true;
@@ -47,11 +50,11 @@ document.getElementById("entrar").onclick = function() {
 document.getElementById("accion").onclick = function() {
   document.getElementById("login").hidden = false;
   document.getElementById("estado").hidden = true;
-  peticionApi(`/api/usuarios/logout`).finally(_ => {});
+  usuarioLogado && peticionApi(`/api/usuarios/${usuarioLogado.email}/logout`).finally(_ => {});
   usuarioLogado = null;
 };
 
-document.getElementById("usuario").addEventListener("keyup", function(event) {
+document.getElementById("email").addEventListener("keyup", function(event) {
   if(event.key === 'Enter') {
     event.preventDefault();
     document.getElementById("clave").focus();

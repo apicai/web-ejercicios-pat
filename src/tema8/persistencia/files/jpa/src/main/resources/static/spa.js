@@ -11,10 +11,21 @@ function peticionApi(ruta, metodo, cuerpo, usuario, clave) {
   });
 }
 
-// Puedes usar esta función para mostrar una página concreta usando JS, ejemplo: muestraPagina('editor')
-function muestraPagina(id) {
+// Puedes usar esta función para mostrar una seccion concreta usando JS, ejemplo: muestraSeccion('editor')
+function muestraSeccion(id) {
+  if (id) return window.location.hash = id;
   const paginaInicial = window.location.hash || document.querySelector('nav a').getAttribute('href');
-  descargaPagina(id || paginaInicial.substring(1), document.querySelector('main'));
+  descargaPagina(paginaInicial.substring(1), document.querySelector('main'));
+}
+
+// Puedes usar esta función para crear elementos del DOM a partir de un html:
+// const fila = creaElemento('<tr><td>celda</td></tr>');
+// fila.onclick = e => console.log(e.target);
+// document.getElementById('tabla').appendChild(fila);
+function creaElemento(html) {
+  var template = document.createElement('template');
+  template.innerHTML = html.trim();
+  return template.content.firstChild;
 }
 
 // Funciones privadas sin uso externo
@@ -39,12 +50,12 @@ function descargaScript(id, padre) {
       else throw respuesta;
     }).then(js => {
       const script = document.createElement("script");
-      script.text = `(function() { ${js} })();`;
+      script.text = `(function() { ${js} })();//# sourceURL=${id}/index.js`;
       padre.appendChild(script);
     }).catch(error => {
       console.warn('No se puede descargar el script', id, error);
     });
 }
 
-window.addEventListener('hashchange', () => muestraPagina());
-window.addEventListener('load', () => muestraPagina());
+window.addEventListener('hashchange', () => muestraSeccion());
+window.addEventListener('load', () => muestraSeccion());

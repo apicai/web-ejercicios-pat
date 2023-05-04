@@ -2,6 +2,8 @@
 
 incrementaCreaContador('estadísticas');
 
+console.log("El usuario actualmente logado es:", usuarioLogado);
+
 // Completo el menú de contadores en el HTML
 
 const contador = document.getElementById("contador");

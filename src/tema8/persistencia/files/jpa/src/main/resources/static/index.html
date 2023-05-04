@@ -28,11 +28,13 @@
   </nav>
   <aside>
     <section id="login">
-      <label for="usuario">Usuario:</label>
-      <input type="text" id="usuario"/>
-      <label for="clave">Clave:</label>
-      <input type="password" id="clave"/>
-      <input type="button" id="entrar" value="Entrar"/>  
+      <form id="formulario-login">
+        <label for="email">Email:</label>
+        <input type="text" id="email" required/>
+        <label for="clave">Clave:</label>
+        <input type="password" id="clave" required/>
+        <input type="button" id="entrar" value="Entrar"/>
+      </form>
     </section>
     <section id="estado" hidden>
       <span id="mensaje"></span>
