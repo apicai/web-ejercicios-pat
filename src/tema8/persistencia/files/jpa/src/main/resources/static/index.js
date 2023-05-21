@@ -16,7 +16,7 @@ function incrementaCreaContador(contador) {
     });
 }
 
-let usuarioLogado;
+var usuarioLogado;
 
 document.getElementById("entrar").onclick = function() {
   if (!document.getElementById("formulario-login").reportValidity()) return;
