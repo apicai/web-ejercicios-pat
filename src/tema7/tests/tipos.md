@@ -12,4 +12,4 @@ Estas son algunas de las formas de clasificarlos:
 
 - **Sanity/smoke tests** (prueban la funcionalidad básica/fundamental de la aplicación para garantizar que es estable), y **de regresión** (prueban que los cambios realizados al software no rompen funcionalidades previas).
 
-[^1]: En general, los proyectos suelen tener esta relación de número de tests: **unitarios** (más rápidos y fáciles de hacer/mantener) **`>`** **integración** **`>`** **E2E** (más lentos y difíciles de hacer/mantener).
+[^1]: En general, los proyectos suelen tener esta relación de número de tests llamada [Pirámide de testing](https://en.m.wikipedia.org/wiki/Test_automation#Unit,_integration,_and_end-to-end_levels): **unitarios** (más rápidos y fáciles de hacer/mantener) **`>`** **integración** **`>`** **E2E** (más lentos y difíciles de hacer/mantener).

@@ -50,7 +50,7 @@ function descargaScript(id, padre) {
       else throw respuesta;
     }).then(js => {
       const script = document.createElement("script");
-      script.text = `(function() { ${js} })();//# sourceURL=${id}/index.js`;
+      script.text = `(function() { ${js} })();//# sourceURL=${location.origin}/${id}/index.js`;
       padre.appendChild(script);
     }).catch(error => {
       console.warn('No se puede descargar el script', id, error);

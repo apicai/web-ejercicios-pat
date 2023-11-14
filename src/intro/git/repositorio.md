@@ -1,7 +1,7 @@
 # Git
 ## Repositorio
 
-Los repositorios alojan el código junto con la metainformación asociada al histórico de cambios. Github proporciona uno basado en el VCS Git como un servicio en la nube.
+Los repositorios alojan el código junto con la meta-información asociada al histórico de cambios. Github proporciona uno basado en el VCS Git como un servicio en la nube.
 
 1. Desde tu cuenta personal de Github [crea](https://github.com/new) un nuevo repositorio **público** llamado `ci-cd` inicializado con un fichero `README.md` .
 
