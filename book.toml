@@ -11,3 +11,6 @@ additional-css = ["theme/theme.css"]
 no-section-label = true
 git-repository-url = "https://github.com/apicai/web-ejercicios-pat-2023"
 edit-url-template = "https://github.com/apicai/web-ejercicios-pat-2023/edit/main/{path}"
+
+[output.html.print]
+enable = false

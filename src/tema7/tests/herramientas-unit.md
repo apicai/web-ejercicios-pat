@@ -28,4 +28,4 @@ const fizzBuzz = function fizzBuzz(numero) {
 }</pre></div>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-> ⁉️ **Ejercicio:** _Completa la función del ejemplo para que cumpla los requisitos. ¿Qué metodología de desarrollo+pruebas se ha utilizado?_
+> **❓ Ejercicio:** _Completa la función del ejemplo para que cumpla los requisitos. ¿Qué metodología de desarrollo+pruebas se ha utilizado?_

@@ -31,7 +31,7 @@ const usaRespuesta = async function() {
 usaRespuesta();
 ```
 
-> ⁉️ **Ejercicio:** _Modifica el ejercicio anterior que usa XHR para que en su lugar utilice `fetch` usando:._
+> **❓ Ejercicio:** _Modifica el ejercicio anterior que usa XHR para que en su lugar utilice `fetch` usando:._
 > <details><summary><em>Async y await</em></summary>
 > 
 > ```js

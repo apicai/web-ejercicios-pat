@@ -64,6 +64,6 @@ const actualizar = function() {
 }
 </pre><pre data-lang="css">html { font-size: 75%; padding: 2rem; }</pre></div>
 
-> ⁉️ **Pregunta:** _¿Para qué crees que vale el `URLSearchParams` de la query de la URL? ¿Y las cabeceras HTTP? ([pista](../../tema2/http/peticiones.html))._
+> **❓ Pregunta:** _¿Para qué crees que vale el `URLSearchParams` de la query de la URL? ¿Y las cabeceras HTTP? ([pista](../../tema2/http/peticiones.html))._
 
-> ⁉️ **Ejercicio:** _El evento `onload` nos permite procesar la respuesta cuando llega, ya venga con un [código HTTP de éxito o de fallo](../../tema2/http/respuestas.html). Pero si la conexión TCP fallara o se produjera un timeout, no se notificaría por el evento `onload`. Cambia el dominio de la URL a uno que no exista, y comprueba el comportamiento. Para arreglar el problema, utiliza el evento `onerror`._
+> **❓ Ejercicio:** _El evento `onload` nos permite procesar la respuesta cuando llega, ya venga con un [código HTTP de éxito o de fallo](../../tema2/http/respuestas.html). Pero si la conexión TCP fallara o se produjera un timeout, no se notificaría por el evento `onload`. Cambia el dominio de la URL a uno que no exista, y comprueba el comportamiento. Para arreglar el problema, utiliza el evento `onerror`._

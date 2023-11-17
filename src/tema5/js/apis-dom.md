@@ -16,7 +16,7 @@ console.log('HTML del 1er elemento del 4to elemento del body:',
             document.body.childNodes[3].childNodes[0].innerHTML);
 ```
 
-> ⁉️ **Ejercicio:** _En el siguiente Codepen, muestra el elemento del DOM del "Menú 2" usando una alerta. Ojo, que el DOM también considera como elementos los comentarios, los textos y retornos de carro que hay entre los elementos._
+> **❓ Ejercicio:** _En el siguiente Codepen, muestra el elemento del DOM del "Menú 2" usando una alerta. Ojo, que el DOM también considera como elementos los comentarios, los textos y retornos de carro que hay entre los elementos._
 
 <div class="codepen" data-prefill data-height="350" data-theme-id="light" data-default-tab="js,html" data-editable="true" style="opacity:0">
   <pre data-lang="html">&lt;body>

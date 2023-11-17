@@ -31,4 +31,4 @@ Para probar sólo las entidades y sus repositorios, se utiliza la anotación `@D
 }
 ```
 
-> ⁉️ **Pregunta:** _Teniendo en cuenta el modelo de datos de contadores, ¿qué característica está probando el test anterior?_
+> **❓ Pregunta:** _Teniendo en cuenta el modelo de datos de contadores, ¿qué característica está probando el test anterior?_

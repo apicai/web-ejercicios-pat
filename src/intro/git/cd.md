@@ -11,4 +11,4 @@ El despliegue continuo permite instalar automáticamente los cambios una vez que
 
 1. Comprueba que la página web se puede ver desde `https://{usuario}.github.io/ci-cd/`.
 
-> ⁉️ **Pregunta:** _¿Por qué se ha disparado la ejecución de la CI y del CD? ¿Qué problema ves en que se haya ejecutado correctamente el CD cuando ha fallado la CI?_
+> **❓ Pregunta:** _¿Por qué se ha disparado la ejecución de la CI y del CD? ¿Qué problema ves en que se haya ejecutado correctamente el CD cuando ha fallado la CI?_

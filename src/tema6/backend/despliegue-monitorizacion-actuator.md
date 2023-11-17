@@ -24,7 +24,7 @@ management.endpoint.health.show-details=always
 management.endpoint.health.probes.enabled=true
 ```
 
-> ⁉️ **Ejercicio:** _Añade la dependencia anterior a tu proyecto MVC. Re-arranca el servidor, prueba los siguientes endpoints, e intenta explicar para qué podrían valer:_
+> **❓ Ejercicio:** _Añade la dependencia anterior a tu proyecto MVC. Re-arranca el servidor, prueba los siguientes endpoints, e intenta explicar para qué podrían valer:_
 > - [`/actuator/health`](http://localhost:8080/actuator/health)
 > - [`/actuator/metrics`](http://localhost:8080/actuator/metrics)
 > - [`/actuator/metrics/process.cpu.usage`](http://localhost:8080/actuator/metrics/process.cpu.usage)

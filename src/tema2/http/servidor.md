@@ -20,7 +20,7 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
 
    Respuesta
    ```
-   > ⁉️ **Pregunta:** _Para que netcat se dé cuenta de que la conexión la cerró el navegador, pulsa <kbd>↲</kbd> varias veces. ¿Por qué se cerró la conexión?_
+   > **❓ Pregunta:** _Para que netcat se dé cuenta de que la conexión la cerró el navegador, pulsa <kbd>↲</kbd> varias veces. ¿Por qué se cerró la conexión?_
 
 1. Vamos a simular una descarga. Repite los **pasos anteriores** pero en el último usa esta otra respuesta:
    ```http
@@ -39,7 +39,7 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
    Location: https://www.google.com/search?q=browser+cache+301+redirect
 
    ```
-   > ⁉️ **Pregunta:** _¿Qué pasaría si hubiéramos devuelto una redirección `301` permanente? Consejo: ¡no lo pruebes!_
+   > **❓ Pregunta:** _¿Qué pasaría si hubiéramos devuelto una redirección `301` permanente? Consejo: ¡no lo pruebes!_
 
 1. Vamos a simular una autenticación básica. Repite los **pasos 1, 2 y 3**, y usa esta otra respuesta:
    ```http
@@ -50,7 +50,7 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
    ```
    Completa en el navegador los campos para introducir el usuario y password, y dale a enviar. Vuelve al terminal y observa como te llega el usuario y password. Para terminar, pega la respuesta del **paso 4**.
 
-   > ⁉️ **Pregunta:** _¿Podrías conocer el password de un usuario de tu servidor con este tipo de autenticación?_
+   > **❓ Pregunta:** _¿Podrías conocer el password de un usuario de tu servidor con este tipo de autenticación?_
 
 1. Vamos a ver cómo el navegador manda los datos de un formulario web. Repite el **paso 1**, rellena el formulario siguiente y envíalo. Si usas Codespaces, sustituye `http://localhost:8080` en el HTML por la URL proporcionada en el entorno.
     <details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary>Formulario...</summary><br>
@@ -92,4 +92,4 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
 
    Edita el HTML y quita el `method="post"`. Repite el **paso 1** y envía el formulario con ese cambio.
 
-   > ⁉️ **Pregunta:** _¿Cuál es el método por defecto de un formulario web? Si envias "Ñ" en algún campo ¿en qué codificación llega al servidor?_
+   > **❓ Pregunta:** _¿Cuál es el método por defecto de un formulario web? Si envias "Ñ" en algún campo ¿en qué codificación llega al servidor?_

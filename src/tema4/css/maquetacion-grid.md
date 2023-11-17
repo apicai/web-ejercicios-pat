@@ -57,6 +57,6 @@ body * {
   display: none;
 }</pre></div>
 
-> ⁉️ **Ejercicio:** _Estudia la CSS y el diseño para añadir un índice a la derecha del contenido._
+> **❓ Ejercicio:** _Estudia la CSS y el diseño para añadir un índice a la derecha del contenido._
 
 [^1]: Utiliza la unidad `fr` para definir el ancho de las columnas proporcionalmente al espacio disponible. En vez de columnas, se puede definir la altura de las filas pero usando `grid-template-rows`.

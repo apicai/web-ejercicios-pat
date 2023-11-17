@@ -35,6 +35,6 @@ div {
 </pre>
 </div>
 
-> ⁉️ **Ejercicio:** _Identifica qué tipo de "display" (`block`, `inline` o `inline-block`) está usando cada uno de los anteriores elementos._
+> **❓ Ejercicio:** _Identifica qué tipo de "display" (`block`, `inline` o `inline-block`) está usando cada uno de los anteriores elementos._
 
-> ⁉️ **Ejercicio:** _Modifica el `display: none;` del "Elemento 3", y luego añade la propiedad CSS `visibility: hidden;` al "Elemento 2". Intenta explicar la diferencia entre ambas propiedades._
+> **❓ Ejercicio:** _Modifica el `display: none;` del "Elemento 3", y luego añade la propiedad CSS `visibility: hidden;` al "Elemento 2". Intenta explicar la diferencia entre ambas propiedades._

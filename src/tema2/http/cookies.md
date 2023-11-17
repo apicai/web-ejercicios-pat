@@ -12,7 +12,7 @@ Las cookies son datos creados en el servidor que se envían[^1] a los navegadore
    ```
    Vuelve a repetir los **3 primeros pasos**, y comprueba que ahora el navegador envía la cookie en la petición. Comprueba si con cerrar la pestaña es suficiente o has de salir del navegador para que la cookie de sesión deje de enviarse.
 
-   > ⁉️ **Pregunta:** _¿En qué casos utilizarías una cookie de sesión?_
+   > **❓ Pregunta:** _¿En qué casos utilizarías una cookie de sesión?_
 
 1. Las cookies "permanentes" las deja de enviar el navegador en la fecha indicada por el servidor. Repite los pasos para enviar esta respuesta:
    ```http
@@ -23,7 +23,7 @@ Las cookies son datos creados en el servidor que se envían[^1] a los navegadore
    ```
    Comprueba que el navegador envía la cookie en su siguiente petición pero que, pasado 1 minuto, deja de enviarla.
 
-   > ⁉️ **Pregunta:** _¿En qué casos utilizarías una cookie permanente?_
+   > **❓ Pregunta:** _¿En qué casos utilizarías una cookie permanente?_
 
 1. Además de la caducidad, una cookie puede tener otras características, muchas de ellas relacionadas con su seguridad[^2]<a name="httponly"></a>. Repite los **3 pasos iniciales** y envía esta respuesta:
    ```http
@@ -40,7 +40,7 @@ Las cookies son datos creados en el servidor que se envían[^1] a los navegadore
    ```
    La página muestra las cookies que JavaScript (JS) es capaz de leer. Además, vía JS añadimos una cookie. El botón "Submit" enviará una nueva petición al servidor pero a otra ruta. Antes de enviar, vuelve a hacer el **paso 1** de la página anterior.
 
-   > ⁉️ **Pregunta:** _¿Por qué JS no ve todas las cookies? ¿Cuándo se reenvía la cookie con `Path` al servidor? ¿Se reenvían al servidor las cookies creadas con JS?_
+   > **❓ Pregunta:** _¿Por qué JS no ve todas las cookies? ¿Cuándo se reenvía la cookie con `Path` al servidor? ¿Se reenvían al servidor las cookies creadas con JS?_
 
 > ⚠️ **Importante**: _para o borra el [Codespace](https://github.com/codespaces) al terminar de usarlo._
 

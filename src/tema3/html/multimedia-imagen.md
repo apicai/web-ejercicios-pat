@@ -22,4 +22,4 @@ Texto antes &lt;img src="URL imagen (absoluta o relativa)"> Texto después
 
 1. Añade el atributo `height="100"`.
 
-> ⁉️ **Pregunta:** _¿Qué efecto tiene sobre la imagen el cambiar las dimensiones del elemento `img`?_
+> **❓ Pregunta:** _¿Qué efecto tiene sobre la imagen el cambiar las dimensiones del elemento `img`?_

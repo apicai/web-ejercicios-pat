@@ -30,6 +30,6 @@ console.log(array != ['a']);
 
 > ⚠️ **Importante**: _Es mejor no usar la (des)igualdad no estricta, usar siempre la estricta: `===` y `!==`._
 
-> ⁉️ **Ejercicio 1:** _En la consola JavaScript crea dos objetos con mismos campos en su interior. Comprueba si son iguales usando alguna de las dos igualdades._
+> **❓ Ejercicio 1:** _En la consola JavaScript crea dos objetos con mismos campos en su interior. Comprueba si son iguales usando alguna de las dos igualdades._
 
-> ⁉️ **Ejercicio 2:** _Compara los dos objetos pero conviértelos a una cadena con formato JSON previamente._
+> **❓ Ejercicio 2:** _Compara los dos objetos pero conviértelos a una cadena con formato JSON previamente._

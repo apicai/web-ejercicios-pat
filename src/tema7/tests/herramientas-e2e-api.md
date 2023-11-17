@@ -32,4 +32,4 @@ class ControladorRestE2ETest {
 }
 ```
 
-> ⁉️ **Ejercicio:** _Añade la clase anterior a los tests del proyecto MVC, e implementa un test que verifique la respuesta cuando se intenta recuperar un contador no existente. Vuelve a ejecutar los tests con informe de cobertura para ver si ha aumentado._
+> **❓ Ejercicio:** _Añade la clase anterior a los tests del proyecto MVC, e implementa un test que verifique la respuesta cuando se intenta recuperar un contador no existente. Vuelve a ejecutar los tests con informe de cobertura para ver si ha aumentado._

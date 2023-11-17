@@ -26,7 +26,7 @@ const timeoutId = setTimeout(() => console.log('Salgo dentro de 2s'), 2000);
 const intervalId = setInterval(() => console.log('Salgo cada 2s'), 2000);
 ```
 
-> ⁉️ **Ejercicio:** _El método `clearInterval(intervalId)` permite cancelar una ejecución a intervalos previamente programada. En la consola JavaScript del navegador, crea una que se ejecute cada 2 segundos y que se cancele a los 10s._
+> **❓ Ejercicio:** _El método `clearInterval(intervalId)` permite cancelar una ejecución a intervalos previamente programada. En la consola JavaScript del navegador, crea una que se ejecute cada 2 segundos y que se cancele a los 10s._
 
 #### Otras APIs
 

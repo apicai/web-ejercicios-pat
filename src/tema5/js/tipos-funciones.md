@@ -30,7 +30,7 @@ setTimeout(
 );
 ```
 
-> ⁉️ **Ejercicio:** _Utilizando [`setTimeout`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout), obtén la [fecha](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) fecha dentro de 5s._
+> **❓ Ejercicio:** _Utilizando [`setTimeout`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout), obtén la [fecha](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) fecha dentro de 5s._
 
 [^1]: Esa sintaxis tiene más peculiaridades que puedes consultar en la web de [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
 

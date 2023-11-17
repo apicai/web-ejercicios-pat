@@ -36,7 +36,7 @@ Las librerías que implementan JPA no están expuestas, ya que son ellas las que
 }
 ```
 
-> ⁉️ **Pregunta:** _¿Cómo se te ocurriría explotar la vulnerabilidad SQL Injection? ¿A qué otra vulnerabilidad te recuerda?_
+> **❓ Pregunta:** _¿Cómo se te ocurriría explotar la vulnerabilidad SQL Injection? ¿A qué otra vulnerabilidad te recuerda?_
 
 [^1]: Por ejemplo, cuando la BD ya existe de antes, y tiene un modelo de datos difícil de representar con entidades. O cuando hay que usar SQLs específicas para optimizar el rendimiento.
 

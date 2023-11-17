@@ -11,7 +11,7 @@ Para crear una imagen que contenga las librerías, herramientas, configuraciones
    RUN echo -e "source /usr/share/bash-completion/completions/git\nsource /root/.bash-git-prompt/gitprompt.sh" > /root/.bashrc
    CMD ["/bin/bash"]
    ```
-   > ⁉️ **Pregunta:** _¿Para que valen las instrucciones `FROM`, `RUN` y `CMD`? ¿Qué software estará disponible en la imagen?_
+   > **❓ Pregunta:** _¿Para que valen las instrucciones `FROM`, `RUN` y `CMD`? ¿Qué software estará disponible en la imagen?_
 
 1. Con Docker arrancando, ejecuta en un terminal:
    ```bash
@@ -20,6 +20,6 @@ Para crear una imagen que contenga las librerías, herramientas, configuraciones
    docker images
    ```
 
-   > ⁉️ **Pregunta:** _¿Qué hacen los comandos `docker` anteriores? ¿Cuál es el "registry", "repository" y "tag" de la imagen padre descargada?_
+   > **❓ Pregunta:** _¿Qué hacen los comandos `docker` anteriores? ¿Cuál es el "registry", "repository" y "tag" de la imagen padre descargada?_
 
 [^1]: Identificadas con este formato de nombre: `registry/repository:tag`

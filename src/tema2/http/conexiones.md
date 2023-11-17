@@ -12,7 +12,7 @@ En una comunicación HTTP, los clientes siempre crean la conexión. A continuaci
    HEAD /html HTTP/1.0
 
    ```
-   > ⁉️ **Pregunta:** _Para establecer la conexión y teniendo en cuenta los parámetros que le hemos pasado a `telnet`, ¿qué ha tenido éste que hacer por nosotros?_
+   > **❓ Pregunta:** _Para establecer la conexión y teniendo en cuenta los parámetros que le hemos pasado a `telnet`, ¿qué ha tenido éste que hacer por nosotros?_
 
 1. El servidor contesta con un `OK` y unas cabeceras de respuesta sin cuerpo. Vuelve a hacer el **paso 1** pero esta vez pon `HTTP/1.1`.
 
@@ -30,7 +30,7 @@ En una comunicación HTTP, los clientes siempre crean la conexión. A continuaci
    ```bash
    time telnet httpbin.org 80
    ```
-   > ⁉️ **Pregunta:** _Aparte del timeout de lectura y del lado servidor, ¿qué otros tipos de timeout se te ocurren y cuál sería su utilidad?_
+   > **❓ Pregunta:** _Aparte del timeout de lectura y del lado servidor, ¿qué otros tipos de timeout se te ocurren y cuál sería su utilidad?_
 
 1. Hasta ahora hemos usado el puerto TCP 80 que es el de por defecto para conexiones HTTP. El puerto por defecto para conexiones seguras es 443. Repite el **paso 1** usando ese puerto.
 
@@ -38,7 +38,7 @@ En una comunicación HTTP, los clientes siempre crean la conexión. A continuaci
    ```bash
    openssl s_client -state -connect httpbin.org:443
    ```
-   > ⁉️ **Pregunta:** `openssl` _se encarga de cifrar y descifrar los mensajes que enviamos y recibimos con la clave de cifrado intercambiada[^4]. Esta forma de funcionar, ¿a qué arquitectura se asemeja?_
+   > **❓ Pregunta:** `openssl` _se encarga de cifrar y descifrar los mensajes que enviamos y recibimos con la clave de cifrado intercambiada[^4]. Esta forma de funcionar, ¿a qué arquitectura se asemeja?_
 
 [^1]: La línea en blanco (en realidad **dos** retorno de carro + nueva línea o `CRLF` o `\r\n`) indica el fin del mensaje de la petición, y en ese momento el servidor envía el mensaje de respuesta.
 

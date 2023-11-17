@@ -42,4 +42,4 @@ p {
 
 1. Quita la propiedad `z-index` del elemento verde.
 
-> ⁉️ **Ejercicio:** _Para cada uno de los casos anteriores, identifica el punto de referencia utilizado para recolocar el elemento verde. Explica qué hace la propiedad eliminada en el último punto._
+> **❓ Ejercicio:** _Para cada uno de los casos anteriores, identifica el punto de referencia utilizado para recolocar el elemento verde. Explica qué hace la propiedad eliminada en el último punto._

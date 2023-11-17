@@ -11,7 +11,7 @@ La petición HTTP más sencilla se compone de `{MÉTODO} /{recurso} HTTP/{versio
    GET /anything?param1=?&#=&param2=value2 HTTP/1.0
 
    ```
-   > ⁉️ **Pregunta:** _¿Qué problema puede causar el valor del primer parámetro? ¿qué ocurre cuando mandas `GET /anything?param1=%3F%26%23%3D&param2=value2 HTTP/1.0`?_
+   > **❓ Pregunta:** _¿Qué problema puede causar el valor del primer parámetro? ¿qué ocurre cuando mandas `GET /anything?param1=%3F%26%23%3D&param2=value2 HTTP/1.0`?_
 
    > 🔍 **Nota:** _[httpbin.org](https://httpbin.org) es un servicio para jugar con diversas funcionalidades de HTTP. La petición a `/anything`, por ejemplo, nos responde con lo que le ha llegado en la petición._
 
@@ -23,7 +23,7 @@ La petición HTTP más sencilla se compone de `{MÉTODO} /{recurso} HTTP/{versio
     12345
 
     ```
-    > ⁉️ **Pregunta:** _¿Qué ocurre si indicamos un tamaño del contenido inferior a lo que realmente mandamos?_
+    > **❓ Pregunta:** _¿Qué ocurre si indicamos un tamaño del contenido inferior a lo que realmente mandamos?_
 
 1. Si no sabemos el tamaño de los datos que queremos mandar, se puede enviar la información por partes de tamaño conocido[^3]. Prueba esta otra petición:
    ```http
@@ -42,7 +42,7 @@ La petición HTTP más sencilla se compone de `{MÉTODO} /{recurso} HTTP/{versio
    1. Entra en [Httpie](https://httpie.io/app).
    2. Envía un `POST` multipart a `https://httpbin.org/anything`.
    3. Previsualiza la petición enviada.
-   > ⁉️ **Pregunta:** _¿En qué caso de uso real puede ser útil "multipart"? ¿y "chunked"?_
+   > **❓ Pregunta:** _¿En qué caso de uso real puede ser útil "multipart"? ¿y "chunked"?_
    
    > 🔍 **Nota:** _Aparte de los navegadores web y sus herramientas para desarrolladores, existen muchas aplicaciones para hacer peticiones HTTP. La más popular es [Postman](https://www.postman.com/), aunque hay muchas más con interfaz gráfica. También hay clientes por línea de comandos como [Curl](https://curl.se/) y [Wget](https://en.wikipedia.org/wiki/Wget). [Httpie](https://httpie.io/) tiene versión gráfica y por línea de comandos._
 

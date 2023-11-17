@@ -98,11 +98,11 @@ const validaImagen = () => {
 // Tarea 3: comprueba que la imagen es válida antes de enviar el formulario
 </pre></div>
 
-> ⁉️ **Ejercicio 1:** _Escucha al evento `keyup` en el elemento `cuerpo` para que al introducir un caracter en él se actualice el número de caracteres restantes (llamando a la función `caracteresRestantes`)._
+> **❓ Ejercicio 1:** _Escucha al evento `keyup` en el elemento `cuerpo` para que al introducir un caracter en él se actualice el número de caracteres restantes (llamando a la función `caracteresRestantes`)._
 
-> ⁉️ **Ejercicio 2:** _Escucha al evento `change` en los elementos `fichero` y `url` para que cuando cambien su valor, se previsualice la imagen a su derecha (llamando a las funciones `verImagenFichero` y `verImagenUrl`, respectivamente)._
+> **❓ Ejercicio 2:** _Escucha al evento `change` en los elementos `fichero` y `url` para que cuando cambien su valor, se previsualice la imagen a su derecha (llamando a las funciones `verImagenFichero` y `verImagenUrl`, respectivamente)._
 
-> ⁉️ **Ejercicio 3:** _Escucha al evento `submit` en el elemento `formulario` para validar que la imagen es correcta antes del envío (llamando a la función `validaImagen`). En caso de no ser válida, tendrás que parar el envío devolviendo `false`._
+> **❓ Ejercicio 3:** _Escucha al evento `submit` en el elemento `formulario` para validar que la imagen es correcta antes del envío (llamando a la función `validaImagen`). En caso de no ser válida, tendrás que parar el envío devolviendo `false`._
 
-> ⁉️ **Ejercicio 4:** _Si el usuario rellenara los dos campos para proporcionar la imagen, ambos se enviarían al servidor. Para evitar eso, cuando se seleccione una imagen por uno de ellos habría que resetear el otro campo. Añade al código del ejercicio 2: `url.value = ''` o `fichero.value = ''`._
+> **❓ Ejercicio 4:** _Si el usuario rellenara los dos campos para proporcionar la imagen, ambos se enviarían al servidor. Para evitar eso, cuando se seleccione una imagen por uno de ellos habría que resetear el otro campo. Añade al código del ejercicio 2: `url.value = ''` o `fichero.value = ''`._
 

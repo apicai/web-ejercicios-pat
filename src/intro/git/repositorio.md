@@ -14,4 +14,4 @@ Los repositorios alojan el código junto con la meta-información asociada al hi
    ```
    > 🔍 **Nota:** _Cambia `{usuario}` por tu nombre de usuario en Github._
 
-   > ⁉️ **Pregunta:** _¿Para qué vale `git clone`? ¿en qué se diferencia de un "fork" del repo? ¿y de `git init`?_
+   > **❓ Pregunta:** _¿Para qué vale `git clone`? ¿en qué se diferencia de un "fork" del repo? ¿y de `git init`?_

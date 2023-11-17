@@ -21,7 +21,7 @@ console.log('Obtiene todos los elementos que satisfacen el selector CSS pasado:'
             document.querySelectorAll('.header'));
 ```
 
-> ⁉️ **Ejercicio:** _En el siguiente Codepen, obtén el elemento con id "pie", los elementos `li`, los enlaces cuya URL sea "#" y los elementos que tenga la clase "prueba"._
+> **❓ Ejercicio:** _En el siguiente Codepen, obtén el elemento con id "pie", los elementos `li`, los enlaces cuya URL sea "#" y los elementos que tenga la clase "prueba"._
 
 <div class="codepen" data-prefill data-height="300" data-theme-id="light" data-default-tab="js,html" data-editable="true" style="opacity:0">
   <pre data-lang="html">&lt;body>

@@ -15,7 +15,7 @@ const suma = function suma(a, b) {
 }
 ```
 
-> ⁉️ **Ejercicio:** _Copia y pega en la consola JavaScript el código anterior. Intenta provocar el error. Luego corrige el código para que cuando la suma sea 0, no dé error._
+> **❓ Ejercicio:** _Copia y pega en la consola JavaScript el código anterior. Intenta provocar el error. Luego corrige el código para que cuando la suma sea 0, no dé error._
 
 ### Manejo de excepciones
 
@@ -31,5 +31,5 @@ const jsonAobjeto = function jsonAobjeto(json) {
 }
 ```
 
-> ⁉️ **Ejercicio:** _Copia y pega en la consola JavaScript el código anterior. Comprueba que valor se retorna en caso de error. Luego devuelve uno por defecto en caso de error._
+> **❓ Ejercicio:** _Copia y pega en la consola JavaScript el código anterior. Comprueba que valor se retorna en caso de error. Luego devuelve uno por defecto en caso de error._
 

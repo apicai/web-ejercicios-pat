@@ -21,4 +21,4 @@
 &lt;/body></pre>
   <pre data-lang="css">section { font-size: 75%; border-radius: 0 !important; margin-bottom: 0 !important; }</pre></div>
 
-> ⁉️ **Ejercicio:** _Modifica el HTML para que las 3 columnas ocupen el mismo ancho. ¿Qué pasa si las clases de las columnas no suman 12?_
+> **❓ Ejercicio:** _Modifica el HTML para que las 3 columnas ocupen el mismo ancho. ¿Qué pasa si las clases de las columnas no suman 12?_

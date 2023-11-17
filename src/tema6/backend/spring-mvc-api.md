@@ -52,8 +52,8 @@ Vamos a crear un API REST que registra contadores para analítica de uso:
    }
    ```
 
-> ⁉️ **Ejercicio 1:** _Compila y ejecuta el proyecto desde el IDE. Utilizando [Postman](https://www.postman.com/), [Httpie](https://httpie.io/) u otra aplicación para hacer peticiones HTTP, prueba el API llamando a `http://localhost:8080/api/contadores*` con el método, path y cuerpo correctos._
+> **❓ Ejercicio 1:** _Compila y ejecuta el proyecto desde el IDE. Utilizando [Postman](https://www.postman.com/), [Httpie](https://httpie.io/) u otra aplicación para hacer peticiones HTTP, prueba el API llamando a `http://localhost:8080/api/contadores*` con el método, path y cuerpo correctos._
 
-> ⁉️ **Ejercicio 2:** _Crea un nuevo endpoint/recurso para que se pueda eliminar un contador dado utilizando la anotacion `@DeleteMapping`._
+> **❓ Ejercicio 2:** _Crea un nuevo endpoint/recurso para que se pueda eliminar un contador dado utilizando la anotacion `@DeleteMapping`._
 
-> ⁉️ **Ejercicio 3:** _¿Qué problema de concurrencia tiene el código anterior? ¿Cómo lo arreglarías?_
+> **❓ Ejercicio 3:** _¿Qué problema de concurrencia tiene el código anterior? ¿Cómo lo arreglarías?_

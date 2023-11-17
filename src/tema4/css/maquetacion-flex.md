@@ -54,11 +54,11 @@ Con [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) podemos c
 
 1. Para simular una situación en la que se encoge el elemento, podemos poner un tamaño inicial grande al resto: usa `flex: 1 4 0;` en el primero y `flex: 1 1 180px;` en el resto.
 
-   > ⁉️ **Ejercicio 1:** _Comprueba visualmente que encoger 4 veces el primer elemento es igual a hacer 4 veces más grande el resto de elementos._
+   > **❓ Ejercicio 1:** _Comprueba visualmente que encoger 4 veces el primer elemento es igual a hacer 4 veces más grande el resto de elementos._
 
 Vamos a combinar los conceptos de [pseudoclase](../../tema4/css/pseudoclases.html), [posición](../../tema4/css/posicion-position.html) y maquetación, que ya hemos visto, para crear un sub-menú desplegable al pasar el ratón por encima de los menús anteriores.
 
-> ⁉️ **Ejercicio 2:** _Coloca el siguiente HTML, que representa un sub-menú, dentro de uno de los menús anteriores (después del `</a>`):_
+> **❓ Ejercicio 2:** _Coloca el siguiente HTML, que representa un sub-menú, dentro de uno de los menús anteriores (después del `</a>`):_
 > <details><summary><em>1. HTML del sub-menú...</em></summary>
 >
 > ```html

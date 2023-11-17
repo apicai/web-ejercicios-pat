@@ -59,10 +59,10 @@ Para ello, sobre el proyecto MVC realiza los siguientes cambios:
    }
    ```
 
-> ⁉️ **Ejercicio 1:** _Modifica el código de la función `crea` de `ControladorRest` para que, en caso de que la validación falle, lance la excepción `ExcepcionContadorIncorrecto(bindingResult)`._
+> **❓ Ejercicio 1:** _Modifica el código de la función `crea` de `ControladorRest` para que, en caso de que la validación falle, lance la excepción `ExcepcionContadorIncorrecto(bindingResult)`._
 
-> ⁉️ **Ejercicio 2:** _Modifica el código de la función `crea` de `ControladorRest` para que, en caso de que el contador ya exista, lance la excepción `ResponseStatusException(HttpStatus.CONFLICT)`._
+> **❓ Ejercicio 2:** _Modifica el código de la función `crea` de `ControladorRest` para que, en caso de que el contador ya exista, lance la excepción `ResponseStatusException(HttpStatus.CONFLICT)`._
 
-> ⁉️ **Ejercicio 3:** _Modifica el código de las funciones `contador` e `incrementa` de `ControladorRest` para que, en caso de que no exista el contador, lancen la excepción `ResponseStatusException(HttpStatus.NOT_FOUND)`._
+> **❓ Ejercicio 3:** _Modifica el código de las funciones `contador` e `incrementa` de `ControladorRest` para que, en caso de que no exista el contador, lancen la excepción `ResponseStatusException(HttpStatus.NOT_FOUND)`._
 
 

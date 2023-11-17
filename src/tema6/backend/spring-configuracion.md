@@ -20,6 +20,6 @@ Para leer las propiedades anteriores en el código se utiliza la anotación `@Va
 @Value("${a.b.c}") private String propiedadABC;
 ```
 
-> ⁉️ **Ejercicio 1:** _Externaliza alguna configuración del código del proyecto MVC._
+> **❓ Ejercicio 1:** _Externaliza alguna configuración del código del proyecto MVC._
 
-> ⁉️ **Ejercicio 2:** _Crea un fichero de propiedades para un nuevo perfil y añade las propiedades externalizadas anteriormente con otros valores. Arranca la aplicación para que utilice el nuevo perfil._
+> **❓ Ejercicio 2:** _Crea un fichero de propiedades para un nuevo perfil y añade las propiedades externalizadas anteriormente con otros valores. Arranca la aplicación para que utilice el nuevo perfil._

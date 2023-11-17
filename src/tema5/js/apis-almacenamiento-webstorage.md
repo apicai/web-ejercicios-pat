@@ -16,7 +16,7 @@ En ambos casos:
 - `getItem('clave')`: para recuperar lo guardado.
 - `clear()` o `removeItem('clave')` para borrar.
 
-> ⁉️ **Ejercicio:** _En el siguiente ejemplo queremos que si el servidor falla al enviar el mensaje, que éste se guarde localmente para no perderlo y reintentar el envío en otro momento. Implementa las funciones `autoGuardado` y `autoRecuperado` para que, respectivamente, guarden y lean el mensaje introducido por el usuario. Usa `localStorage` y el método `mensajeJson` para guardar su valor como JSON._
+> **❓ Ejercicio:** _En el siguiente ejemplo queremos que si el servidor falla al enviar el mensaje, que éste se guarde localmente para no perderlo y reintentar el envío en otro momento. Implementa las funciones `autoGuardado` y `autoRecuperado` para que, respectivamente, guarden y lean el mensaje introducido por el usuario. Usa `localStorage` y el método `mensajeJson` para guardar su valor como JSON._
 
 <div class="codepen" data-height="350" data-theme-id="light" data-default-tab="js,result" data-editable="true" style="opacity:0" data-prefill='{"stylesheets":["https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css","https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"]}'>
   <pre data-lang="html">&lt;form id="formulario" class="row g-3" novalidate>

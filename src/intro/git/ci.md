@@ -20,6 +20,6 @@ La integración continua consiste en la ejecución automática de pruebas y la o
 
 1. Guarda los cambios en el repo dando a "Start commit" `➜` "Commit new file" y comprueba el resultado de la ejecución en las Actions del repo (`https://github.com/{usuario}/ci-cd/actions`).
 
-> ⁉️ **Pregunta:** _¿Por qué se ha disparado la ejecución de la CI? ¿Cuál ha sido el resultado de la ejecución de la CI y qué objetivo ha tenido?_
+> **❓ Pregunta:** _¿Por qué se ha disparado la ejecución de la CI? ¿Cuál ha sido el resultado de la ejecución de la CI y qué objetivo ha tenido?_
 
 

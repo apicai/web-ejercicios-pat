@@ -34,6 +34,6 @@ En general, los repositorios de software contienen un `Dockerfile` para su const
 
 1. Entra en Github y crea la PR (`https://github.com/{usuario}/ci-cd/pull/new/feat/local-env`).
 
-> ⁉️ **Pregunta:** _El entorno de desarrollo local nos permite descargar, modificar, construir, validar, probar y subir el código. ¿Desde dónde y con qué realizarías cada una de esas acciones en el entorno local basado en contenedores que hemos montado?_
+> **❓ Pregunta:** _El entorno de desarrollo local nos permite descargar, modificar, construir, validar, probar y subir el código. ¿Desde dónde y con qué realizarías cada una de esas acciones en el entorno local basado en contenedores que hemos montado?_
 
-> ⁉️ **Pregunta:** _Los pasos de configuración de Git podrían haberse incluido en la imagen como instrucciones `RUN` y `ADD` del Dockerfile. ¿Cuáles son las ventajas y desventajas con respecto a hacerlo en el contenedor?_
+> **❓ Pregunta:** _Los pasos de configuración de Git podrían haberse incluido en la imagen como instrucciones `RUN` y `ADD` del Dockerfile. ¿Cuáles son las ventajas y desventajas con respecto a hacerlo en el contenedor?_

@@ -23,4 +23,4 @@ try {
 }
 ```
 
-> ⁉️ **Ejercicio:** _Crea una tarea nueva en la clase `TareasProgramadas` que se ejecute una vez cada 5 minutos para imprimir en el log de la aplicación el último comic de XKCD llamando a su [API](https://xkcd.com/info.0.json), sólo si éste ha cambiado._
+> **❓ Ejercicio:** _Crea una tarea nueva en la clase `TareasProgramadas` que se ejecute una vez cada 5 minutos para imprimir en el log de la aplicación el último comic de XKCD llamando a su [API](https://xkcd.com/info.0.json), sólo si éste ha cambiado._

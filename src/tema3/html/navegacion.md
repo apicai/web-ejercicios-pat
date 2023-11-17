@@ -36,7 +36,7 @@ Para que un enlace se abra en una nueva pestaña o ventana del navegador se util
 href="mailto:usuario@email.com?subject=Asunto&body=Contenido"
 ```
 
-> ⁉️ **Ejercicio:** _Modifica uno de los enlaces anteriores para que se abra en una ventana/pestaña nueva, y otro para que al pulsar se redacte un correo._
+> **❓ Ejercicio:** _Modifica uno de los enlaces anteriores para que se abra en una ventana/pestaña nueva, y otro para que al pulsar se redacte un correo._
 
 [^1]: El enlace relativo del primer ejercicio lo es al dominio en el que se encuentra alojado que es Codepen.io, donde probablemente no exista el fichero `./dir/file.html`.
 

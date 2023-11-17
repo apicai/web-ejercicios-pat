@@ -16,7 +16,7 @@ Campo: <input type="text">
 Más información sobre accesibilidad <a href="">aquí</a>.
 ```
 
-> ⁉️ **Pregunta:** _¿Con qué etiquetas semánticas sustituirías los anteriores elementos?_
+> **❓ Pregunta:** _¿Con qué etiquetas semánticas sustituirías los anteriores elementos?_
 
 A continuación se muestra un ejemplo de organización de una web usando los correspondientes bloques semánticos:
 
@@ -53,4 +53,4 @@ A continuación se muestra un ejemplo de organización de una web usando los cor
 </body>
 ```
 
-> ⁉️ **Ejercicio:** _Entra en [esta página web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure) e identifica cada sección con alguno de los bloques semánticos anteriores._
+> **❓ Ejercicio:** _Entra en [esta página web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure) e identifica cada sección con alguno de los bloques semánticos anteriores._

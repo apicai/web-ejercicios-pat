@@ -64,4 +64,4 @@ a {
   text-decoration: none;
 }</pre></div>
 
-> ⁉️ **Ejercicio:** _Identifica todas las pseudo-clases, y explica su utilidad en el menú y formulario anterior._
+> **❓ Ejercicio:** _Identifica todas las pseudo-clases, y explica su utilidad en el menú y formulario anterior._

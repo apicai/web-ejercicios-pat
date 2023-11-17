@@ -30,6 +30,6 @@ public class ConfiguracionSeguridad {
 }
 ```
 
-> ⁉️ **Ejercicio 1:** _Añade la clase anterior al proyecto MVC. Intenta acceder a [`http://localhost:8080/contacto`](http://localhost:8080/contacto). Utilizando el inspector de red del navegador, identifica como se produce la autenticación y se mantiene en sucesivas peticiones._
+> **❓ Ejercicio 1:** _Añade la clase anterior al proyecto MVC. Intenta acceder a [`http://localhost:8080/contacto`](http://localhost:8080/contacto). Utilizando el inspector de red del navegador, identifica como se produce la autenticación y se mantiene en sucesivas peticiones._
 
-> ⁉️ **Ejercicio 2:** _Intenta llamar al API de contadores `http://localhost:8080/api/contadores*` utilizando la autenticación básica de HTTP._
+> **❓ Ejercicio 2:** _Intenta llamar al API de contadores `http://localhost:8080/api/contadores*` utilizando la autenticación básica de HTTP._

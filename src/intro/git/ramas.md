@@ -22,6 +22,6 @@ Los cambios en Git se realizan utilizando ramas. Las ramas representan una líne
    ```
    Comprueba que el nuevo directorio/fichero se encuentra ahora en el repo remoto (`https://github.com/{usuario}/ci-cd`).
 
-   > ⁉️ **Pregunta:** _¿Para qué han valido cada uno de los comandos `git` anteriores?_
+   > **❓ Pregunta:** _¿Para qué han valido cada uno de los comandos `git` anteriores?_
 
 [^1]: Antes se llamaba `master` y hay algunos repos que consevan ese nombre.

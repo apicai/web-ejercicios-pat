@@ -23,4 +23,4 @@ describe('Formulario de contacto', () => {
 });
 ```
 
-> ⁉️ **Ejercicio:** _[Descarga Cypress](https://download.cypress.io/app) y añade el proyecto MVC para hacer "E2E Testing". Elige un navegador para ejecutarlo y crea una nueva "spec". Ábrela con un editor y copia el contenido JavaScript anterior. Arranca el proyecto MVC en IntelliJ. Y ejecuta la "spec" anterior. Implementa un test adicional que valide el comportamiento cuando se introduce un email incorrecto._
+> **❓ Ejercicio:** _[Descarga Cypress](https://download.cypress.io/app) y añade el proyecto MVC para hacer "E2E Testing". Elige un navegador para ejecutarlo y crea una nueva "spec". Ábrela con un editor y copia el contenido JavaScript anterior. Arranca el proyecto MVC en IntelliJ. Y ejecuta la "spec" anterior. Implementa un test adicional que valide el comportamiento cuando se introduce un email incorrecto._

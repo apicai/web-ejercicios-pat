@@ -22,6 +22,6 @@ const condicion = true;
 const resultado = condicion ? 1 : 2;
 ```
 
-> ⁉️ **Ejercicio 1:** _En la consola JavaScript convierte la anterior línea en un `if ... else ...`._
+> **❓ Ejercicio 1:** _En la consola JavaScript convierte la anterior línea en un `if ... else ...`._
 
-> ⁉️ **Ejercicio 2:** _Utiliza los siguientes valores como condición y observa el resultado: `0`, `''`, `undefined`, `null`, `NaN`, `1`, `'a'`, `[]`, `{}`._
+> **❓ Ejercicio 2:** _Utiliza los siguientes valores como condición y observa el resultado: `0`, `''`, `undefined`, `null`, `NaN`, `1`, `'a'`, `[]`, `{}`._

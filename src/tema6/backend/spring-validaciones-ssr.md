@@ -70,6 +70,6 @@ Vamos a crear un formulario y validar los campos introducidos por el usuario en 
    }
    ```
 
-> ⁉️ **Ejercicio 1:** _Compila y ejecuta el proyecto desde el IDE. Abre en un navegador la URL [`http://localhost:8080/contacto`](http://localhost:8080/contacto). Prueba todas las posibles situaciones de error._
+> **❓ Ejercicio 1:** _Compila y ejecuta el proyecto desde el IDE. Abre en un navegador la URL [`http://localhost:8080/contacto`](http://localhost:8080/contacto). Prueba todas las posibles situaciones de error._
 
-> ⁉️ **Ejercicio 2:** _Comprueba la diferencia entre `@NotNull` y `@NotBlank`. Añade una validación extra para que el tamaño del mensaje no supere los 20 caracteres usando `@Size`._
+> **❓ Ejercicio 2:** _Comprueba la diferencia entre `@NotNull` y `@NotBlank`. Añade una validación extra para que el tamaño del mensaje no supere los 20 caracteres usando `@Size`._

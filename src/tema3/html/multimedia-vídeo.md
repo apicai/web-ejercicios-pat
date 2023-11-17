@@ -24,6 +24,6 @@ Texto después
 
 1. Cambia la etiqueta `video` por `audio`[^1].
 
-> ⁉️ **Pregunta:** _A diferencia de las imágenes ¿qué efecto tiene el cambiar las dimensiones del elemento `video`?_
+> **❓ Pregunta:** _A diferencia de las imágenes ¿qué efecto tiene el cambiar las dimensiones del elemento `video`?_
 
 [^1]: El reproductor de audio ignora las dimensiones.

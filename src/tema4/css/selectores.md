@@ -84,7 +84,7 @@ Pulsa en el botón CSS y añade, de una en una, las siguientes reglas, y observa
       margin-bottom: 20px;
     }
     ```
-   > ⁉️ **Ejercicio:** _Identifica en el HTML a qué elemento se le está aplicando el estilo._
+   > **❓ Ejercicio:** _Identifica en el HTML a qué elemento se le está aplicando el estilo._
 
 1. Selector por atributo del elemento HTML:
     ```css
@@ -95,7 +95,7 @@ Pulsa en el botón CSS y añade, de una en una, las siguientes reglas, y observa
       padding-right: 15px;
     }
     ```
-   > ⁉️ **Pregunta:** _Si hubieras utilizado `th[rowspan="4"]` ¿qué celda de la tabla hubiera cambiado?._
+   > **❓ Pregunta:** _Si hubieras utilizado `th[rowspan="4"]` ¿qué celda de la tabla hubiera cambiado?._
 
 1. Selector por clase del elemento HTML:
     ```css
@@ -103,7 +103,7 @@ Pulsa en el botón CSS y añade, de una en una, las siguientes reglas, y observa
       border-top: 1px solid #bfbfbf;
     }
     ```
-   > ⁉️ **Pregunta:** _En este caso se está utilizando un selector combinado de clase y elemento hijo ¿Qué elementos de nuestro HTML se están seleccionando en este caso?_
+   > **❓ Pregunta:** _En este caso se está utilizando un selector combinado de clase y elemento hijo ¿Qué elementos de nuestro HTML se están seleccionando en este caso?_
 
 1. Selectores por nombre del elemento HTML:
     ```css
@@ -126,7 +126,7 @@ Pulsa en el botón CSS y añade, de una en una, las siguientes reglas, y observa
     }
     ```
 
-    > ⁉️ **Ejercicio:** _La última regla CSS utiliza una pseudo-clase que veremos en la siguiente sección. Intenta modificar ese selector para que aplique a las líneas pares en vez de las impares._
+    > **❓ Ejercicio:** _La última regla CSS utiliza una pseudo-clase que veremos en la siguiente sección. Intenta modificar ese selector para que aplique a las líneas pares en vez de las impares._
 
 > 🔍 **Nota:** _Desde el navegador puedes inspeccionar cada elemento, modificar sus estilos y ver los cambios directamente reflejados: Botón derecho sobre el elemento `➜` "Inspeccionar" `➜` "Inspector" (CSS). Para obtener el selector CSS de un elemento: "Inspector" (HTML) `➜` botón derecho sobre el código HTML del elemento `➜` "Copiar" `➜` "Selector CSS"._
 

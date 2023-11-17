@@ -11,7 +11,7 @@ Para que la experiencia de usuario sea buena en todos los tamaños y densidades 
 
 1. Comprueba que para el mismo dispositivo móvil la página A y la página B se ven distinto.
 
-> ⁉️ **Pregunta:** _¿Cuál es la diferencia de comportamiento y qué etiqueta HTML lo activa?_
+> **❓ Pregunta:** _¿Cuál es la diferencia de comportamiento y qué etiqueta HTML lo activa?_
 
 [^1]: El diseño web "responsivo" se apoya en el uso de CSS y en la definición de elementos con ancho adaptable para evitar el scroll horizontal.
 

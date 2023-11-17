@@ -79,7 +79,7 @@ DELETE FROM USUARIO
 
 </pre>
 
-> ⁉️ **Ejercicio 1:** _Explica qué devolvería la siguiente consulta SQL[^1]:_
+> **❓ Ejercicio 1:** _Explica qué devolvería la siguiente consulta SQL[^1]:_
 > ```sql
 > SELECT USUARIO.EMAIL, OPERACION.TIPO, CONTADOR.NOMBRE
 > FROM USUARIO, OPERACION, CONTADOR
@@ -93,11 +93,11 @@ DELETE FROM USUARIO
 > </details>
 > <br>
 
-> ⁉️ **Ejercicio 2:** _Crea una consulta que devuelva la fecha de creación del contador 'visitas'._
+> **❓ Ejercicio 2:** _Crea una consulta que devuelva la fecha de creación del contador 'visitas'._
 
-> ⁉️ **Ejercicio 3:** _Una aplicación que deje constancia de quien realiza cada operación ¿qué dos operaciones de BD tendría que realizar cuando alguien cree un contador? ¿En qué orden? En caso de que falle la última operación ¿qué habría que hacer para dejar los datos consistentes?_
+> **❓ Ejercicio 3:** _Una aplicación que deje constancia de quien realiza cada operación ¿qué dos operaciones de BD tendría que realizar cuando alguien cree un contador? ¿En qué orden? En caso de que falle la última operación ¿qué habría que hacer para dejar los datos consistentes?_
 
-> ⁉️ **Ejercicio 4:** _Intenta borrar el contador 'visitas' y explica el resultado._
+> **❓ Ejercicio 4:** _Intenta borrar el contador 'visitas' y explica el resultado._
 
 
 [^1]: Otro tipo de `SELECT` involucrando varias tablas, utiliza `JOIN` para añadir datos de otras tablas a los elementos de la tabla indicada en el `FROM`. Por ejemplo, la siguiente SQL lista todos los usuarios, hayan o no hecho operaciones (al contrario que la `SELECT` del ejercicio 1, que sólo puede mostrar los que tienen operaciones/correspondencias): <details><summary><i class="fa fa-picture-o" aria-hidden="true"></i></summary><br>

@@ -5,7 +5,7 @@ HTML Injection consiste en introducir código HTML malicioso en un formulario o 
 
 A continuación vamos a demostrar la vulnerabilidad en una página que procesa el envío de un formulario[^3]:
 
-<iframe src="./files/form-xss.html" width="100%" height="235" style="background:white;"></iframe>
+<iframe src="./files/form-xss.html" width="100%" height="165" style="background:white;"></iframe>
 
 1. Envía un comentario normal.
 2. Envía este otro comentario: 
@@ -17,7 +17,7 @@ A continuación vamos a demostrar la vulnerabilidad en una página que procesa e
    <iframe src="form-clickjacking.html" width="100%" height="175" style="background:white;" onload="this.scrollIntoView()"></iframe>
    ```
 
-> ⁉️ **Pregunta:** _¿Cómo piensas que se puede arreglar la vulnerabilidad?_
+> **❓ Pregunta:** _¿Cómo piensas que se puede arreglar la vulnerabilidad?_
 
 [^1]: Para que eso ocurra la aplicación web debe almacenar el contenido malicioso del atacante y/o servirlo a otros usuarios víctimas.
 

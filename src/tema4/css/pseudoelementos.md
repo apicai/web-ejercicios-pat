@@ -22,4 +22,4 @@ blockquote::after {
   content: '❞';
 }</pre></div>
 
-> ⁉️ **Ejercicio:** _Añade estas comillas `❝` al principio de la cita utilizando solo CSS._
+> **❓ Ejercicio:** _Añade estas comillas `❝` al principio de la cita utilizando solo CSS._

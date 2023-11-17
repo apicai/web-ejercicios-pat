@@ -36,8 +36,8 @@ Vamos a crear un endpoint/recurso SSR `/saludo?nombre=tu-nombre` que devuelva un
 
 > ⚠️ **Importante**: _Todos los fragmentos de código Java de esta web no incluyen los correspondientes `imports`. Tras copiarlos y pegarlos, es necesario importarlos en el IntelliJ pulsando <kbd>alt</kbd>`+`<kbd>↲</kbd> sobre la clase en rojo no reconocida._
 
-> ⁉️ **Ejercicio 1:** _Compila y ejecuta el proyecto desde el IDE. Abre en un navegador la URL [`http://localhost:8080/saludo?nombre=tu-nombre`](http://localhost:8080/saludo?nombre=tu-nombre). Pon un punto de ruptura dentro de la función `saludo` y ejecuta en modo depuración. Comprueba qué pasa cuando no se envía ningún nombre. Modifica el código para que el nombre sea obligatorio._
+> **❓ Ejercicio 1:** _Compila y ejecuta el proyecto desde el IDE. Abre en un navegador la URL [`http://localhost:8080/saludo?nombre=tu-nombre`](http://localhost:8080/saludo?nombre=tu-nombre). Pon un punto de ruptura dentro de la función `saludo` y ejecuta en modo depuración. Comprueba qué pasa cuando no se envía ningún nombre. Modifica el código para que el nombre sea obligatorio._
 
-> ⁉️ **Ejercicio 2:** _Identifica qué partes del código se corresponden con las partes del [flujo MVC](mvc.html)._
+> **❓ Ejercicio 2:** _Identifica qué partes del código se corresponden con las partes del [flujo MVC](mvc.html)._
 
 
