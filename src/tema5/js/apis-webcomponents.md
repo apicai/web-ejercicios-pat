@@ -5,9 +5,9 @@
 
 Son un conjunto de APIs que nos permiten crear nuevas etiquetas HTML con su propia funcionalidad. Por ejemplo, podemos crear la etiqueta `<snap-shot>` que encapsule la funcionalidad del ejemplo anterior con la webcam. Luego, esta etiqueta se podrá utilizar como cualquier otra del HTML estándar en aquellas páginas que lo necesiten[^1].
 
-A continuación, se muestra el ejemplo anterior de la webcam pero implementado con [este Web Component](https://apicai.github.io/web-ejercicios-pat-2023/tema5/js/files/snap-shot.js).
+A continuación, se muestra el ejemplo anterior de la webcam pero implementado con [este Web Component](https://apicai.github.io/web-ejercicios-pat/tema5/js/files/snap-shot.js).
 
-<div class="codepen" data-height="460" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0" data-prefill='{"stylesheets":["https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css","https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"],"scripts":["https://apicai.github.io/web-ejercicios-pat-2023/tema5/js/files/snap-shot.js"]}' data-allow="camera; display-capture; geolocation; microphone">
+<div class="codepen" data-height="460" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0" data-prefill='{"stylesheets":["https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css","https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"],"scripts":["https://apicai.github.io/web-ejercicios-pat/tema5/js/files/snap-shot.js"]}' data-allow="camera; display-capture; geolocation; microphone">
   <pre data-lang="html">&lt;body>
 &lt;div class="card">
   &lt;div class="card-body row">

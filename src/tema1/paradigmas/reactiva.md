@@ -1,7 +1,6 @@
 # Paradigmas de programación
-## Declarativa
 
-Lo contrario de imperativa: no hay estado, no especifica los pasos ni su orden de ejecución, define el "qué" pero no el "cómo".
+## Declarativa
 
 ### Reactiva
 

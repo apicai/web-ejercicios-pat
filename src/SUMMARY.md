@@ -24,10 +24,10 @@
 ----
 - [Paradigmas de programación](tema1/paradigmas/paradigmas.md)
   - [Estructurada](tema1/paradigmas/estructurada.md)
-  - [Imperativa]()
+  - [Imperativa](tema1/paradigmas/imperativa.md)
     - [Procedural](tema1/paradigmas/procedural.md)
     - [Orientada a objetos](tema1/paradigmas/objetos.md)
-  - [Declarativa]()
+  - [Declarativa](tema1/paradigmas/declarativa.md)
     - [Funcional](tema1/paradigmas/funcional.md)
     - [Reactiva](tema1/paradigmas/reactiva.md)
 

@@ -1,7 +1,6 @@
 # Paradigmas de programación
-## Imperativa
 
-Las sentencias cambian el estado del programa.
+## Imperativa
 
 ### Procedural
 

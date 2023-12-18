@@ -27,7 +27,7 @@ Bootstrap facilita la creación de los [contenidos y componentes](https://getboo
   &lt;/nav>
   &lt;main>&lt;/main>
   &lt;footer class="fixed-bottom">
-    &lt;p class="border-top pt-3 text-center text-muted">&copy; 2023 Nombre de la web&lt;/p>
+    &lt;p class="border-top pt-3 text-center text-muted">&copy; 2024 Nombre de la web&lt;/p>
   &lt;/footer>
 &lt;/body></pre>
   <pre data-lang="css">html { font-size: 50%; }</pre></div>
