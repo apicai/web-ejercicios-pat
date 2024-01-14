@@ -2,7 +2,7 @@
 ## Spring Data
 ### Repositorios
 
-Representan **las operaciones** de persistencia que se pueden realizar sobre las entidades. El interfaz `CrudRepository` de Spring Data JPA ya viene con las operaciones básicas para crear, leer, actualizar y borrar (<abbr title="Create Read Update Delete">CRUD</abbr>) su entidad asociada. Para ver cómo se usa, vamos a mejorar el API de contadores para que los guarde en BD:
+Representan **las operaciones** de persistencia que se pueden realizar sobre las entidades. La interfaz `CrudRepository` de Spring Data JPA ya viene con las operaciones básicas para crear, leer, actualizar y borrar (<abbr title="Create Read Update Delete">CRUD</abbr>) su entidad asociada. Para ver cómo se usa, vamos a mejorar el API de contadores para que los guarde en BD:
 
 1. Crea el repositorio CRUD de la entidad `Contador` en un paquete llamado "repositorio":<a name="crud"></a>
    ```java

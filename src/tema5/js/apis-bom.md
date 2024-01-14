@@ -3,7 +3,7 @@
 
 ### <abbr title="Browser Object Model">BOM</abbr>
 
-Es el interfaz con el que JavaScript interacciona con el navegador. Está compuesto por [varias APIs](https://developer.mozilla.org/en-US/docs/Web/API/Window). Estas son algunas de ellas que puedes probar en la consola JavaScript del navegador:
+Es la interfaz con el que JavaScript interacciona con el navegador. Está compuesto por [varias APIs](https://developer.mozilla.org/en-US/docs/Web/API/Window). Estas son algunas de ellas que puedes probar en la consola JavaScript del navegador:
 
 #### URL ventana actual
 
