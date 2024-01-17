@@ -37,7 +37,7 @@ Set-Cookie: mi-cookie-en-otro-path=valor; Path=/ruta
 Set-Cookie: mi-cookie-segura=valor; Secure
 Set-Cookie: mi-cookie-solo-http=valor; HttpOnly
 Connection: keep-alive
-Content-Type: text/html
+Content-Type: text/html; charset=utf-8
 Content-Length: 293
 
 <!DOCTYPE html><html><head></head><body><p>Cookies leídas por JS: <code></code></p><form action="/ruta"><input type="submit" value="Envía a /ruta"></form><script>document.getElementsByTagName("code")[0].textContent=document.cookie;document.cookie="mi-cookie-de-js=valor"</script></body></html>
