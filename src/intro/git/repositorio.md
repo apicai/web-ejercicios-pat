@@ -3,15 +3,16 @@
 
 Los repositorios alojan el código junto con la meta-información asociada al histórico de cambios. Github proporciona uno basado en el VCS Git como un servicio en la nube.
 
-1. Desde tu cuenta personal de Github [crea](https://github.com/new) un nuevo repositorio **público** llamado `ci-cd` inicializado con un fichero `README.md` .
+1. Desde tu cuenta en Github [crea](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=525552024&ref=main&geo=EuropeWest) un Codespace y arráncalo[^1]
 
-1. Desde el nuevo repo `https://github.com/{usuario}/ci-cd` crea un nuevo Codespace. Una vez haya arrancado el entorno, desde el terminal del Codespace teclea:
+1. Una vez haya arrancado el entorno, desde el terminal del Codespace teclea:
    ```bash
-   cd /tmp
-   git clone https://github.com/{usuario}/ci-cd
-   ls ci-cd
-   cat ci-cd/README.md
+   git clone https://github.com/gitt-3-pat/p1
+   ls p1
+   cat p1/README.md
    ```
-   > 🔍 **Nota:** _Cambia `{usuario}` por tu nombre de usuario en Github._
 
-   > **❓ Pregunta:** _¿Para qué vale `git clone`? ¿en qué se diferencia de un "fork" del repo? ¿y de `git init`?_
+> **❓ Pregunta:** _¿Para qué ha valido el `git clone`?_
+
+
+[^1]: Si el enlace anterior no funciona, [crea](https://github.com/codespaces/new) el Codespace en el repo `github/codespaces-blank`

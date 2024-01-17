@@ -1,6 +1,8 @@
 # Git
 
-**Git** es un sistema de control de versiones (VCS) basado en el uso de ramas para gestionar los cambios. **Github** es un servicio de alojamiento de código que usa Git como VCS y sobre el que se ofrecen otras funcionalidades relacionadas con el desarrollo colaborativo de software.
+Un sistema de control de versiones (VCS) tiene 3 propósitos principales: copias de seguridad, control de cambios, y trabajo colaborativo.
+
+**Git** es un VCS basado en el uso de ramas para gestionar los cambios. **Github** es un servicio de alojamiento de código que usa Git como VCS y sobre el que se ofrecen otras funcionalidades relacionadas con el desarrollo colaborativo de software.
 
 ## Objetivos
 
