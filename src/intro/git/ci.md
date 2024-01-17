@@ -3,7 +3,7 @@
 
 La integración continua consiste en la ejecución automática de pruebas y la obtención de sus informes cada vez que cambia el código.
 
-1. Crea un nuevo workflow llamado `ci.yml` desde las Github-Actions del repo (`https://github.com/{usuario}/ci-cd/actions/new`) `➜` "set up a workflow yourself" con el siguiente contenido:
+1. Crea un nuevo workflow **llamado `ci.yml`** desde las Github-Actions del repo (`https://github.com/{usuario}/ci-cd/actions/new`) `➜` "set up a workflow yourself" con el siguiente contenido:
    ```yaml
    name: CI
    on:

@@ -5,6 +5,7 @@ Es el convenio que elige cada equipo de desarrollo para organizar el uso de las 
 
 1. Desde el terminal del Codespace anterior teclea:
    ```bash
+   cd /workspace/ci-cd
    git checkout -b feat/add-body
    ```
 

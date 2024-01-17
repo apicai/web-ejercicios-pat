@@ -3,7 +3,7 @@
 
 El despliegue continuo permite instalar automáticamente los cambios una vez que estos han superado todas las pruebas.
 
-1. Entra en la configuración de Github-Pages del repo (`https://github.com/{usuario}/ci-cd/settings/pages`) `➜` "Source" `➜` "GitHub Actions" `➜` "Static HTML" `➜` "Configure". Renombra el workflow a `cd.yml` y modifica las siguientes propiedades de su contenido:
+1. Entra en la configuración de Github-Pages del repo (`https://github.com/{usuario}/ci-cd/settings/pages`) `➜` "Source" `➜` "GitHub Actions" `➜` "Static HTML" `➜` "Configure". **Renombra el workflow a `cd.yml`** y modifica las siguientes propiedades de su contenido:
    - `name: CD`
    - `path: './src'`
 
