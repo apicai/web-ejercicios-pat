@@ -55,6 +55,7 @@
   // Textarea for each question
   function answerArea(question, questionNumber) {
     const id = global.location.pathname + "#" + questionNumber;
+    question.addEventListener('keydown', e => e.stopPropagation());
     question.innerHTML += '<p><textarea id="' + id + '" class="answer-area" placeholder="Respuesta..."></textarea></p>';
   }
   // Summary of answers
