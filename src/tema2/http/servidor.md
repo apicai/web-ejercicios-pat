@@ -8,7 +8,7 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
    nc -l -s 0.0.0.0 -p 8080
    ```
 
-1. En un navegador web abre o refresca [`http://localhost:8080`](http://localhost:8080) si estás usando **Docker**. En caso de usar **Codespaces** utiliza la URL que se indica al ejecutar el comando anterior en el terminal.
+1. En un navegador web abre o refresca [`http://localhost:8080`](http://localhost:8080) si estás usando **Docker**. En caso de usar **Codespaces** utiliza la URL que se indica al ejecutar el comando anterior en el terminal[^1].
 
 1. Vuelve al terminal y comprueba que ha llegado la petición.
 
@@ -93,3 +93,5 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
    Edita el HTML y quita el `method="post"`. Repite el **paso 1** y envía el formulario con ese cambio.
 
    > **❓ Pregunta:** _¿Cuál es el método por defecto de un formulario web? Si envias "Ñ" en algún campo ¿en qué codificación llega al servidor?_
+
+[^1]: Otra alternativa al Docker y el Codespace es [instalar `netcat`](https://serverspace.io/es/support/help/how-to-install-ncat-tool-on_windows-and-linux/) en tu propio ordenador. Una vez instalado, el comando a ejecutar desde el CMD de Windows es `ncat -l 8080` y desde el terminal de Mac/Linux `nc -l 8080`.
