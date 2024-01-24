@@ -14,8 +14,8 @@ Los textos no pueden contener directamente los caracteres `<` y `>` porque podr�
 </pre>
 </div>
 
-Además, HTML ignora los retornos de carro normales introducidos en el código con la tecla <kbd>↲</kbd>. También, ignora varios espacios consecutivos e interpreta uno solo. En su lugar se usa [`<br>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br) y `&nbsp;` respectivamente.
+Además, HTML ignora los retornos de carro introducidos en el código con la tecla <kbd>↲</kbd>. También ignora varios espacios consecutivos e interpreta uno solo. En su lugar se usa [`<br>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br) y `&nbsp;` respectivamente.
 
 > 🔍 **Nota:** _Ni `<br>` ni `&nbsp;` deben usarse para crear márgenes, ya que eso es estilo/maquetación, y debe realizarse con CSS como veremos en el siguiente tema._
 
-> **❓ Ejercicio:** _Separa en dos líneas el texto `< > & "` anterior. Prueba a introducir varios espacios normales entre caracteres, y comprueba como se visualiza._
+> **❓ Ejercicio:** _Separa en dos líneas el texto `< > & "` anterior. Prueba a introducir varios retornos de carro y espacios entre caracteres, y comprueba como se visualiza._

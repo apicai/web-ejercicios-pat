@@ -27,6 +27,6 @@ Texto después
 
 1. Cambia el valor del atributo `src` a `"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe"`[^1].
 
-> **❓ Pregunta:** _¿Cuáles son las ventajas para los autores al [incrustar su vídeo con un marco](https://support.google.com/youtube/answer/171780?hl=en) respecto a añadirlo directamente con la etiqueta `<video>` que vimos anteriormente?_
+> **❓ Pregunta:** _¿Cuáles son las ventajas para los creadores al [incrustar su vídeo con un marco](https://support.google.com/youtube/answer/171780?hl=en) en vez de añadirlo directamente con la etiqueta `<video>` que vimos anteriormente?_
 
 [^1]: Las webs pueden impedir que otras intenten embeberlas usando la cabecera HTTP `X-Frame-Options: deny` por temas de seguridad o robo de contenido.

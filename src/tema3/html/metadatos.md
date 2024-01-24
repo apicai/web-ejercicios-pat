@@ -1,7 +1,14 @@
 # HTML
 ## Metadatos
 
-El elemento `head` contiene información para procesar el documento: la codificación de caracteres usada, los estilos asociados[^1], los scripts necesarios[^2], las palabras claves para indexar el documento por los buscadores[^3], configuración de la ventana gráfica del navegador, etc. A continuación vemos un par de ejemplos de metadatos.
+El elemento `head` contiene información para procesar el documento: 
+- La codificación de caracteres usada
+- Los estilos asociados[^1]
+- Los scripts necesarios[^2]
+- Las palabras claves para indexar el documento por los buscadores[^3]
+- La configuración de la ventana gráfica del navegador, etc. 
+
+A continuación vemos un par de ejemplos de metadatos.
 
 [^1]: Mediante la etiqueta `<link>` o `<style>`.
 
