@@ -1,7 +1,7 @@
 # HTTP
 ## Cookies
 
-Las cookies son datos creados en el servidor que se envían[^1] a los navegadores para que los almacenen y reenvíen[^2] en cada futura petición al mismo servidor (URL). Esos datos pueden contener información de:
+Las cookies son **datos creados en el servidor** que se envían[^1] a los navegadores para que los almacenen y **reenvíen[^2] en cada futura petición al mismo servidor (URL)**. Esos datos pueden contener información de:
 
 - <details><summary><strong>Acceso (autenticación) ...</strong></summary><br><object type="image/svg+xml" data="./files/cookies.acceso.svg" width="100%"></object></details>
 - Estado (carrito de la compra) 

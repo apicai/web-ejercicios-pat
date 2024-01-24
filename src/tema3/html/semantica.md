@@ -1,11 +1,14 @@
 # HTML
 ## Semántica
 
-Los elementos HTML deben organizarse en bloques semánticos para: mejorar el indexado de contenidos por parte de los buscadores, mejorar la accesibilidad a la web a personas con discapacidad (lectores de pantalla), y organizar el código de forma que es más mantenible.
+Los elementos HTML deben organizarse en bloques semánticos para: 
+- Mejorar el indexado de contenidos por parte de los buscadores
+- Mejorar la accesibilidad a la web a personas con discapacidad (lectores de pantalla)
+- Organizar el código de forma que sea más mantenible.
 
 > 🔍 **Nota:** _Es importante no confundir la organización del contenido (etiquetas semánticas) con su presentación (CSS). Este error es habitual, y de hecho había etiquetas HTML cuya funcionalidad era dar estilo (`<font>`, `<center>`, etc.) y han sido deprecadas. Otro error es abusar de etiquetas de bloque sin semántica (`<div>`, `<span>`)._
 
-A continuación se muestran diferentes elementos HTML usando etiquetas no semánticas:
+A continuación, se muestran diferentes elementos HTML usando etiquetas no semánticas:
 
 ```html
 <span>Título principal</span>
@@ -18,7 +21,7 @@ Más información sobre accesibilidad <a href="">aquí</a>.
 
 > **❓ Pregunta:** _¿Con qué etiquetas semánticas sustituirías los anteriores elementos?_
 
-A continuación se muestra un ejemplo de organización de una web usando los correspondientes bloques semánticos:
+A continuación, se muestra un ejemplo de organización de una web usando los correspondientes bloques semánticos:
 
 ```html
 <body>

@@ -3,7 +3,7 @@
 
 ### Imagen
 
-Realiza de una en una las siguientes modificaciones sobre la etiqueta `<img>` del siguiente HTML:
+Realiza, de una en una, las siguientes modificaciones sobre la etiqueta [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) del siguiente HTML:
 
 <div class="codepen" data-prefill data-height="300" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
 <pre data-lang="html">&lt;body>

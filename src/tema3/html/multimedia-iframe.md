@@ -1,9 +1,9 @@
 # HTML
 ## Multimedia
 
-### Iframe
+### Marco
 
-A veces es interesante embeber otra página web dentro de la actual para proporcionar funcionalidad desarrollada en otros servicios. Realiza de una en una las siguientes modificaciones sobre la etiqueta `<iframe>` del siguiente HTML:
+A veces, es interesante embeber otra página web dentro de la actual para proporcionar funcionalidad desarrollada en otros servicios. Realiza, de una en una, las siguientes modificaciones sobre la etiqueta [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) del siguiente HTML:
 
 <div class="codepen" data-prefill data-height="300" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
 <pre data-lang="html">&lt;body>
@@ -26,5 +26,7 @@ Texto después
 1. Añade el atributo `height="300"`.
 
 1. Cambia el valor del atributo `src` a `"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe"`[^1].
+
+> **❓ Pregunta:** _¿Cuáles son las ventajas para los autores al [incrustar su vídeo con un marco](https://support.google.com/youtube/answer/171780?hl=en) respecto a añadirlo directamente con la etiqueta `<video>` que vimos anteriormente?_
 
 [^1]: Las webs pueden impedir que otras intenten embeberlas usando la cabecera HTTP `X-Frame-Options: deny` por temas de seguridad o robo de contenido.

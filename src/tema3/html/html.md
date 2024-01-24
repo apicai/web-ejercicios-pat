@@ -6,6 +6,6 @@
 
 - Entender la estructura de un documento HTML y los diferentes tipos de etiquetas.
 
-- Crear interfaces que permitan a los usuarios interactuar con la página.
+- Crear interfaces que permitan a los usuarios interactuar con la página y navegar entre ellas.
 
 - Conocer las vulnerabilidades que pueden afectar a las aplicaciones web.

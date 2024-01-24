@@ -3,7 +3,7 @@
 
 ### Vídeo
 
-Realiza de una en una las siguientes modificaciones sobre la etiqueta `<video>` del siguiente HTML:
+Realiza, de una en una, las siguientes modificaciones sobre la etiqueta [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) del siguiente HTML:
 
 <div class="codepen" data-prefill data-height="300" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
 <pre data-lang="html">&lt;body>
@@ -16,7 +16,7 @@ Texto después
 </pre>
 </div>
 
-1. Cambia el valor del atributo `src` a `"https://dl8.webmfiles.org/big-buck-bunny_trailer.webm"`.
+1. Cambia el valor del atributo `src` a `"https://images.uncyclomedia.co/uncyclopedia/en/a/a6/Big-buck-bunny_trailer.webm"`.
 
 1. Añade el atributo `width="200"`.
 
