@@ -97,4 +97,4 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
 
    > **❓ Pregunta:** _¿Cuál es el método por defecto de un formulario web? Si envias "Ñ" en algún campo ¿en qué codificación llega al servidor?_
 
-[^1]: Otra alternativa al Docker y el Codespace es [instalar Nmap](https://nmap.org/download) en tu propio ordenador. Una vez instalado, el comando a ejecutar desde el CMD de Windows es `ncat -l 8080` y desde el terminal de Mac/Linux `nc -l 8080`.
+[^1]: Otra alternativa al Docker y el Codespace es [instalar Nmap](https://nmap.org/download) en tu propio ordenador. Una vez instalado, el comando a ejecutar desde el CMD de Windows es `ncat -l 8080` y desde el terminal de Mac/Linux `nc -l 8080`. En el navegador usarás [http://localhost:8080](http://localhost:8080).
