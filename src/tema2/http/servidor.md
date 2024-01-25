@@ -53,6 +53,9 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
    > **❓ Pregunta:** _¿Podrías conocer el password de un usuario de tu servidor con este tipo de autenticación?_
 
 1. Vamos a ver cómo el navegador manda los datos de un formulario web. Repite el **paso 1**, rellena el formulario siguiente y envíalo. Si usas Codespaces, sustituye `http://localhost:8080` en el HTML por la URL proporcionada en el entorno.
+
+    <details><summary>Ayuda si usas Codespaces...</summary><object type="image/gif" data="./files/codespaces.netcat.form.gif" width="100%"></object></details>
+
     <details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary>Formulario...</summary><br>
     <div class="cp-later" data-height="370" data-theme-id="light" data-default-tab="html,result" data-editable="true" data-prefill style="opacity:0">
     <pre data-lang="html">&lt;form id="myForm" action="http://localhost:8080" method="post">
@@ -94,4 +97,4 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
 
    > **❓ Pregunta:** _¿Cuál es el método por defecto de un formulario web? Si envias "Ñ" en algún campo ¿en qué codificación llega al servidor?_
 
-[^1]: Otra alternativa al Docker y el Codespace es [instalar `netcat`](https://serverspace.io/es/support/help/how-to-install-ncat-tool-on_windows-and-linux/) en tu propio ordenador. Una vez instalado, el comando a ejecutar desde el CMD de Windows es `ncat -l 8080` y desde el terminal de Mac/Linux `nc -l 8080`.
+[^1]: Otra alternativa al Docker y el Codespace es [instalar Nmap](https://nmap.org/download) en tu propio ordenador. Una vez instalado, el comando a ejecutar desde el CMD de Windows es `ncat -l 8080` y desde el terminal de Mac/Linux `nc -l 8080`.
