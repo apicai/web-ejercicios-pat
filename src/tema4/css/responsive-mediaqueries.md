@@ -13,7 +13,7 @@ Para ello se utilizan "media queries" que aplican ciertas reglas CSS solo si se 
   &lt;article class="contenido">Contenido&lt;/article>
   &lt;aside class="secciones">Secciones del sitio web&lt;/aside>
   &lt;aside class="indice">Índice del contenido&lt;/aside>
-  &lt;footer class="pie">Pié de página&lt;/footer>
+  &lt;footer class="pie">Pie de página&lt;/footer>
 &lt;/body></pre>
   <pre data-lang="css">body {
   display: grid;

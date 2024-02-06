@@ -58,20 +58,19 @@ Utilizar dimensiones fijas/absolutas (píxeles) para definir los tamaños de la 
 }
 .pixels p {
   margin: 0 0 16px 0;
-  font-size: 16px;
 }</pre></div>
 
 En el ejemplo anterior, la propiedad `font-size` nos permite reconfigurar las proporciones del primer contenedor fácilmente, pero no del segundo. Ahora está al 100%, lo que indica que se está usando el valor por defecto de este navegador (o el configurado por el usuario). Añade la siguiente media query para ver lo fácil que es cambiar sus proporciones en caso de necesidad:
 
 ```css
 @media (max-width: 30rem) {
-  .relativas { font-size: 50%; }
+  body { font-size: 50%; }
 }
 ```
 
 Para ver la utilidad de lo anterior, vamos a ver lo que implicaría cambiar el segundo contenedor para ajustar sus proporciones a la mitad como hemos hecho con el primero.
 
-> **❓ Ejercicio:** _Las reglas CSS del segundo contenedor utilizan la clase `pixels`. Cambia primero su `font-size` a `8px` para ver como sus proporciones se desajustan solo con el cambio del tamaño de fuente. Luego modifica el resto de sus propiedades con la mitad de píxeles._
+> **❓ Ejercicio:** _Las reglas CSS del segundo contenedor utilizan la clase `pixels`. Como consecuencia todas sus proporciones se han desajustado solo con el cambio del tamaño de fuente. Para arreglarlo, modifica el todas sus propiedades a la mitad de píxeles._
 
 [^1]: Otra unidad relativa ampliamente utilizada es `%`: porcentaje relativo a la misma propiedad en el elemento padre (contenedor). Por ejemplo, un elemento con `width: 50%;` ocupará la mitad del ancho disponible en el contenedor.
 
