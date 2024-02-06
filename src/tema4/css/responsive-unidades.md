@@ -70,7 +70,7 @@ En el ejemplo anterior, la propiedad `font-size` nos permite reconfigurar las pr
 
 Para ver la utilidad de lo anterior, vamos a ver lo que implicaría cambiar el segundo contenedor para ajustar sus proporciones a la mitad como hemos hecho con el primero.
 
-> **❓ Ejercicio:** _Las reglas CSS del segundo contenedor utilizan la clase `pixels`. Como consecuencia todas sus proporciones se han desajustado solo con el cambio del tamaño de fuente. Para arreglarlo, modifica el todas sus propiedades a la mitad de píxeles._
+> **❓ Ejercicio:** _Las reglas CSS del segundo contenedor utilizan la clase `pixels`. Como consecuencia todas sus proporciones se han desajustado solo con el cambio del tamaño de fuente. Para arreglarlo, modifica todas sus propiedades a la mitad de píxeles._
 
 [^1]: Otra unidad relativa ampliamente utilizada es `%`: porcentaje relativo a la misma propiedad en el elemento padre (contenedor). Por ejemplo, un elemento con `width: 50%;` ocupará la mitad del ancho disponible en el contenedor.
 
