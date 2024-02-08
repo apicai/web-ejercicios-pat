@@ -1,0 +1,101 @@
+* {
+  margin: 0; 
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: gray;
+  border-bottom: 2px solid black;
+}
+main {
+  flex: 1 1 0;
+  overflow: auto;
+}
+footer {
+  text-align: center;
+  border-top: 2px solid gray;
+  background-color: white;
+  padding: 1rem;
+}
+ul, p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.menu {
+  display: flex;
+  list-style: none;
+}
+.menu a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
+}
+.menu li {
+  flex: 1 1 0;
+}
+.menu li:hover {
+  background-color: black;
+}
+article {
+  padding: 1rem;
+  display: none;
+}
+article:target {
+  display: block;
+}
+section {
+  padding: 1rem;
+}
+#contacto-contents {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-areas:
+    "cabecera  cabecera"
+    "principal auxiliar1"
+    "principal auxiliar2";
+  gap: 1rem;
+}
+@media (max-width: 600px) {
+  #contacto-contents {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "cabecera"
+      "auxiliar1"
+      "principal"
+      "auxiliar2";
+  }
+}
+#info {
+  grid-area: cabecera;
+  background-color: tomato;
+}
+#formulario {
+  grid-area: principal;
+  background-color: deepskyblue;
+}
+#mapa {
+  grid-area: auxiliar1;
+  background-color: gold;
+}
+#redes {
+  grid-area: auxiliar2;
+  background-color: lightgreen;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+figure {
+  border: 10px solid green;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: white;
+}
