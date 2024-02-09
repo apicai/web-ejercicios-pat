@@ -88,7 +88,7 @@ const verImagenFichero = () => {
 // 4. Para saber si la imagen es correcta
 const validaImagen = () => {
   const imagen = document.getElementById('imagen');
-  const valida = !imagen.getAttribute('src') || imagen.ok;
+  const valida = imagen.getAttribute('src') || imagen.ok || false;
   url.setCustomValidity(valida ? '' : 'Imagen incorrecta');
   formulario.classList.add('was-validated');
   return valida;

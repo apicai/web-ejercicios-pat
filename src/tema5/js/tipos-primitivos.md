@@ -17,7 +17,7 @@ console.log(cadenaConVariables);
 
 Abre la consola JavaScript del navegador (Botón derecho `➜` "Inspeccionar" `➜` "Consola"), realiza los siguientes ejercicios e intenta explicar los resultados.
 
-> **❓ Ejercicio 1:** _Divide, separadamente, el número `10` por el número `0`, la cadena `'2'` y la cadena `'a'`._
+> **❓ Ejercicio 1:** _Divide, separadamente, el número `10` por: el número `0`, la cadena `'2'` y la cadena `'a'`._
 
 > **❓ Ejercicio 2:** _Suma a la cadena `'10'`, separadamente, el número `0`, la cadena `'1'` y el booleano `true`._
 

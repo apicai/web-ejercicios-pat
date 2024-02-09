@@ -3,7 +3,7 @@
 
 ### Web Components
 
-Son un conjunto de APIs que nos permiten crear nuevas etiquetas HTML con su propia funcionalidad. Por ejemplo, podemos crear la etiqueta `<snap-shot>` que encapsule la funcionalidad del ejemplo anterior con la webcam. Luego, esta etiqueta se podrá utilizar como cualquier otra del HTML estándar en aquellas páginas que lo necesiten[^1].
+Son un [conjunto de APIs](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) que nos permiten crear nuevas etiquetas HTML con su propia funcionalidad. Por ejemplo, podemos crear la etiqueta `<snap-shot>` que encapsule la funcionalidad del ejemplo anterior con la webcam. Luego, esta etiqueta se podrá utilizar como cualquier otra del HTML estándar en aquellas páginas que lo necesiten[^1].
 
 A continuación, se muestra el ejemplo anterior de la webcam pero implementado con [este Web Component](https://apicai.github.io/web-ejercicios-pat/tema5/js/files/snap-shot.js).
 
