@@ -14,16 +14,16 @@ fetch('URL', {
   body: JSON.stringify({cuerpo: 'peticion'})
 }).then(respuesta => {
   if (respuesta.ok) {
-    const objeto = respuesta.json();
-    console.log('Respuesta OK:', objeto);
-    // A continuación viene código que usa objeto ...
+    return respuesta.json();
   } else {
-    console.log('Respuesta KO:', respuesta.status);
-    // A continuación viene código que usa la respuesta ...
+    throw respuesta.status;
   }
+}).then(json => {
+    console.log('Respuesta OK:', json);
+    // A continuación viene código que usa objeto del json ...
 }).catch(error => {
   console.error('Error inexperado:', error);
-  // A continuación viene código que usa el error ...
+  // A continuación viene código que trata el error ...
 });
 ```
 
@@ -48,13 +48,14 @@ fetch('URL', {
     headers: {'Accept': 'application/json'}
   }).then(respuesta => {
     if (respuesta.ok) {
-      const objeto = respuesta.json();
-      mostrarMensajes(objeto);
+      return respuesta.json();
     } else {
-      mostrarError(respuesta.status);
+      throw respuesta.status;
     }
+  }).then(objeto => {
+    mostrarMensajes(objeto);
   }).catch(error => {
-    mostrarError(error.message);
+    mostrarError(error);
   });
 }
 // Lógica para cambiar la interfaz de usuario en función
