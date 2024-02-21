@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>P3</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet">
+  </head>
+  <!-- Plantilla HTML preparada para ser manipulada desde el JS -->
+  <body class="p-6 bg-white antialiased">
+    <main class="flex justify-center">
+      <article class="p-4 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl">
+        <img hidden id="foto" src="" alt="Foto" class="object-cover w-full rounded-t-lg h-48 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg">        
+        <figure id="figura" class="flex items-center justify-center w-full rounded h-48 md:w-48">
+          <svg class="w-10 h-10 text-gray-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
+            <path d="M18 0H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm4.376 10.481A1 1 0 0 1 16 15H4a1 1 0 0 1-.895-1.447l3.5-7A1 1 0 0 1 7.468 6a.965.965 0 0 1 .9.5l2.775 4.757 1.546-1.887a1 1 0 0 1 1.618.1l2.541 4a1 1 0 0 1 .028 1.011Z"/>
+          </svg>
+        </figure>
+        <table class="text-sm text-left rtl:text-right text-gray-500">
+          <tr class="border-b">
+            <td class="p-3" colspan="2">
+              <form class="relative z-0 w-full group">
+                <input type="text" name="nombre" id="nombre" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                <label for="nombre" class="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Escribe un nombre</label>
+              </form>
+            </td>
+          </tr>
+          <tr class="border-b">
+            <th scope="row" class="p-3 font-medium text-gray-900 whitespace-nowrap">Edad</th>
+            <td id="edad" class="p-3"></td>
+          </tr>
+          <tr class="border-b">
+            <th scope="row" class="p-3 font-medium text-gray-900 whitespace-nowrap">Género</th>
+            <td id="genero" class="p-3"></td>
+          </tr>
+          <tr>
+            <th scope="row" class="p-3 font-medium text-gray-900 whitespace-nowrap">País</th>
+            <td id="pais" class="p-3"></td>
+          </tr>
+        </table>
+      </article>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
