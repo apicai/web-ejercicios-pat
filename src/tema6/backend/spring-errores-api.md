@@ -10,7 +10,7 @@ Las respuestas JSON de error se pueden definir localmente dentro de cada `RestCo
 
 - Se proporcionan datos incorrectos para crear un contador.
 - Se intenta crear un contador que ya existe.
-- Se intenta usar a un contador que no existe.
+- Se intenta usar un contador que no existe.
 
 Para ello, sobre el proyecto MVC realiza los siguientes cambios:
 

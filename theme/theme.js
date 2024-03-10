@@ -41,7 +41,8 @@
   // Avoid hidden text in textareas with scroll
   function fitContent(element) {
     element.style.height = "5px";
-    element.style.height = (element.scrollHeight)+"px";
+    element.style.height = (element.scrollHeight + 12)+"px";
+    document.getElementById(element.id + '-span').textContent = element.value;
   }
   // All questions in current page
   function getQuestions() {
@@ -56,7 +57,7 @@
   function answerArea(question, questionNumber) {
     const id = global.location.pathname + "#" + questionNumber;
     question.addEventListener('keydown', e => e.stopPropagation());
-    question.innerHTML += '<p><textarea id="' + id + '" class="answer-area" placeholder="Respuesta..."></textarea></p>';
+    question.innerHTML += '<p><textarea id="' + id + '" class="answer-area" placeholder="Respuesta..."></textarea><span id="' + id + '-span" class="answer-span"></span></p>';
   }
   // Summary of answers
   function answerStats() {
