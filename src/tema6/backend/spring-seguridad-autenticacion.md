@@ -15,16 +15,16 @@ public class ConfiguracionSeguridad {
     http.authorizeHttpRequests((authorize) -> authorize.anyRequest().authenticated())
         .formLogin(Customizer.withDefaults())
         .httpBasic(Customizer.withDefaults())
-        .csrf().ignoringRequestMatchers("/api/**");
+        .csrf(csrf -> csrf.ignoringRequestMatchers("/api/**"));
     return http.build();
   }
 
-  @Bean public InMemoryUserDetailsManager usuarios() {
+  @Bean public UserDetailsService usuarios() {
     UserDetails user = User.withDefaultPasswordEncoder()
-            .username("usuario")
-            .password("clave")
-            .roles("USER")
-            .build();
+        .username("usuario")
+        .password("clave")
+        .roles("USER")
+        .build();
     return new InMemoryUserDetailsManager(user);
   }
 }
