@@ -1,10 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="es">
+  <head>
     <meta charset="UTF-8">
-    <title>Aplicación MVC</title>
-</head>
-<body>
-    <p>Aplicación MVC</p>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Título obligatorio</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#estadisticas">Estadísticas</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article id="inicio">
+        <p>Esta es la página de inicio.</p>
+      </article>
+      <article id="nosotros">
+        <p>Esta es la página sobre nosotros.</p>
+      </article>
+      <article id="productos">
+        <p>Estos son los productos que tenemos.</p>
+      </article>
+      <article id="contacto">
+        <p>Esta es la página de contacto.</p>
+      </article>
+      <article id="estadisticas">
+        <p>Esta es la página con las estadísticas de acceso.</p>
+        <form>
+          <label>Contador: <input type="text" id="input-contador" required/></label>
+          <button type="button" onclick="valorContador()">Valor</button>
+          <button type="button" onclick="borraContador()">Borrar</button>
+        </form>
+        <p id="estadisticas-resultado"></p>
+      </article>
+    </main>
+    <footer>
+      Programación de Aplicaciones Telemáticas &copy; 2024
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
+
+
