@@ -4,7 +4,7 @@
 
 Representa **la conexión** (URL, credenciales, etc.) a una base de datos específica usando su driver JDBC. A continuación, vamos a crear un proyecto Spring Data JPA y configurar su base de datos[^1].
 
-1. [Genera el esqueleto](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.1.5&packaging=jar&jvmVersion=17&groupId=edu.comillas.icai.gitt.pat.spring&artifactId=jpa&name=jpa&description=JPA&packageName=edu.comillas.icai.gitt.pat.spring.jpa&dependencies=web,data-jpa,h2) del proyecto y ábrelo en IntelliJ.
+1. [Genera el esqueleto](https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.4&packaging=jar&jvmVersion=17&groupId=edu.comillas.icai.gitt.pat.spring&artifactId=jpa&name=jpa&description=JPA&packageName=edu.comillas.icai.gitt.pat.spring.jpa&dependencies=web,data-jpa,h2) del proyecto y ábrelo en IntelliJ.
 
 2. Añade la siguiente configuración al fichero de propiedades de la aplicación Spring Boot:
    ```properties
