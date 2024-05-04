@@ -12,7 +12,7 @@ Con `await` esperamos a que la operación asíncrona termine (la promesa), y con
       const respuesta = await fetch('URL', {
         method: 'POST',
         mode: 'cors',
-        headers: {'Accept': 'application/json'},
+        headers: {'Accept': 'application/json', 'Content-Type': 'application/json'},
         body: JSON.stringify({cuerpo: 'peticion'}),
       });
       if (respuesta.ok) {

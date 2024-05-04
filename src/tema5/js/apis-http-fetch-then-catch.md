@@ -10,7 +10,7 @@ Con `then` configuramos una función que trata la respuesta, y con `catch` confi
 fetch('URL', {
   method: 'POST',
   mode: 'cors',
-  headers: {'Accept': 'application/json'},
+  headers: {'Accept': 'application/json', 'Content-Type': 'application/json'},
   body: JSON.stringify({cuerpo: 'peticion'})
 }).then(respuesta => {
   if (respuesta.ok) {
@@ -45,7 +45,7 @@ fetch('URL', {
   fetch('https://httpstat.us/200?' + new URLSearchParams({sleep: 4000}), {
     method: 'GET',
     mode: 'cors',
-    headers: {'Accept': 'application/json'}
+    headers: {'Accept': 'application/json', 'Content-Type': 'application/json'}
   }).then(respuesta => {
     if (respuesta.ok) {
       return respuesta.json();
