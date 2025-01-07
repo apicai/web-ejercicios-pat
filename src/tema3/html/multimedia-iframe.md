@@ -5,7 +5,7 @@
 
 A veces, es interesante embeber otra página web dentro de la actual para proporcionar funcionalidad desarrollada en otros servicios. Realiza, de una en una, las siguientes modificaciones sobre la etiqueta [`<iframe>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) del siguiente HTML:
 
-<div class="codepen" data-prefill data-height="300" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
+<div class="codepen" data-prefill="{}" data-height="300" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
 <pre data-lang="html">&lt;body>
 &lt;p>
 Texto antes

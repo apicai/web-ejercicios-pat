@@ -42,7 +42,7 @@ La petición HTTP más sencilla se compone de `{MÉTODO} /{recurso} HTTP/{versio
    1. Entra en [Httpie](https://httpie.io/app).
    2. Envía un `POST` multipart a `https://httpbin.org/anything`.
    3. Previsualiza la petición enviada.
-   > **❓ Pregunta:** _¿En qué caso de uso real puede ser útil "multipart"? ¿y "chunked"?_
+   > **❓ Pregunta:** _Como usuario de páginas web, ¿en qué caso de uso real has podido usar "multipart"?_
    
    > 🔍 **Nota:** _Aparte de los navegadores web y sus herramientas para desarrolladores, existen muchas aplicaciones para hacer peticiones HTTP. La más popular es [Postman](https://www.postman.com/), aunque hay muchas más con interfaz gráfica. También hay clientes por línea de comandos como [Curl](https://curl.se/) y [Wget](https://en.wikipedia.org/wiki/Wget). [Httpie](https://httpie.io/) tiene versión gráfica y por línea de comandos._
 

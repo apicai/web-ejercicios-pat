@@ -3,7 +3,7 @@
 
 Hay selectores de elementos que solo aplicarán cuando el elemento se encuentre en un estado especial (por ejemplo, si el puntero del ratón está encima o si es un campo de formulario con un valor incorrecto). Esos estados se llaman [pseudo-clases](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) y se utilizan así: `selector:pseudo-clase { ... }`.
 
-<div class="codepen" data-prefill data-height="450" data-default-tab="css,result" data-theme-id="light" data-editable="true" style="opacity:0">
+<div class="codepen" data-prefill="{}" data-height="450" data-default-tab="css,result" data-theme-id="light" data-editable="true" style="opacity:0">
   <pre data-lang="html">
 &lt;nav>
  &lt;a href="#menu1">Menú 1&lt;/a>

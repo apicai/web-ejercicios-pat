@@ -20,7 +20,7 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
 
    Respuesta
    ```
-   > **❓ Pregunta:** _Para que netcat se dé cuenta de que la conexión la cerró el navegador, pulsa <kbd>↲</kbd> varias veces. ¿Por qué se cerró la conexión?_
+   > **❓ Pregunta:** _Indica qué cabeceras de la petición HTTP recibida nos permitirían devolver una respuesta adaptada al tipo de dispositivo y navegador del usuario, y en el idioma en el que lo usa._
 
 1. Vamos a simular una descarga. Repite los **pasos anteriores** pero en el último usa esta otra respuesta:
    ```http
@@ -39,7 +39,7 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
    Location: https://www.google.com/search?q=browser+cache+301+redirect
 
    ```
-   > **❓ Pregunta:** _¿Qué pasaría si hubiéramos devuelto una redirección `301` permanente? Consejo: ¡no lo pruebes!_
+   > **❓ Pregunta:** _Explica qué ha ocurrido en el navegador_
 
 1. Vamos a simular una autenticación básica. Repite los **pasos 1, 2 y 3**, y usa esta otra respuesta:
    ```http
@@ -57,7 +57,7 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
     <details><summary>Ayuda si usas Codespaces...</summary><object type="image/gif" data="./files/codespaces.netcat.form.gif" width="100%"></object></details>
 
     <details onclick='setTimeout(function(){__CPEmbed(".cp-later")},1)'><summary>Formulario...</summary><br>
-    <div class="cp-later" data-height="370" data-theme-id="light" data-default-tab="html,result" data-editable="true" data-prefill style="opacity:0">
+    <div class="cp-later" data-height="370" data-theme-id="light" data-default-tab="html,result" data-editable="true" data-prefill="{}" style="opacity:0">
     <pre data-lang="html">&lt;form id="myForm" action="http://localhost:8080" method="post">
     &lt;fieldset>
         &lt;label for="name">Text Input:&lt;/label>
@@ -95,6 +95,6 @@ En una comunicación HTTP, los servidores permanecen a la escucha de peticiones 
 
    Edita el HTML y quita el `method="post"`. Repite el **paso 1** y envía el formulario con ese cambio.
 
-   > **❓ Pregunta:** _¿Cuál es el método por defecto de un formulario web? Si envias "Ñ" en algún campo ¿en qué codificación llega al servidor?_
+   > **❓ Pregunta:** _Explica las diferencias en las peticiones recibidas con y sin `method="post"`._
 
 [^1]: Otra alternativa al Docker y el Codespace es [instalar Nmap](https://nmap.org/download) en tu propio ordenador. Una vez instalado, el comando a ejecutar desde el CMD de Windows es `ncat -l 8080` y desde el terminal de Mac/Linux `nc -l 8080`. En el navegador usarás [http://localhost:8080](http://localhost:8080).

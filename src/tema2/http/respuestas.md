@@ -29,7 +29,7 @@ Las respuestas HTTP tienen un formato similar al de las peticiones, y están com
    GET /gzip HTTP/1.0
 
    ```
-   > **❓ Pregunta:** _Si tuvieras que implementar un navegador web ¿cómo sabrías interpretar cada uno de los cuerpos de las respuestas anteriores?_
+   > **❓ Pregunta:** _Si tuvieras que implementar un navegador web ¿qué cabeceras HTTP de la respuesta mirarías para saber interpretar y procesar cada uno de los cuerpos de las respuestas anteriores?_
 
 1. Un caso de típico de redirección `3xx` sucede cuando se navega a una web usando `http` para redirigir a `https`. Usa este `telnet` para hacer la siguiente petición:
    ```bash
@@ -40,7 +40,7 @@ Las respuestas HTTP tienen un formato similar al de las peticiones, y están com
    Host: github.com
 
    ```
-   > **❓ Pregunta:** _¿Para qué otros casos usarías redirecciones?_
+   > **❓ Pregunta:** _En la respuesta anterior, ¿a qué URL se indica al cliente que se redirija? Razona por qué en este caso de uso es lógico que sea redirección permanente, y no temporal._
 
 1. Los errores `4xx` corresponden a peticiones incorrectas, y normalmente repetirlas no va a hacer que funcione <a name="4xx"></a>. El ejemplo típico es cuando se solicita un recurso inexistente: `404 Not Found`. Otro ejemplo ocurre cuando una web solicita credenciales para acceder. Usa este `telnet` para hacer las siguientes peticiones:
    ```bash
@@ -55,7 +55,7 @@ Las respuestas HTTP tienen un formato similar al de las peticiones, y están com
    Authorization: Basic dXNlcjpwYXNz
 
    ```
-   > **❓ Pregunta:** _La autenticacion básica no cifra el usuario y password de manera segura[^2]<a name="basic-auth"></a>. Para asegurar que no se filtren ¿qué otra cosa deberíamos usar con este tipo de autenticación?_
+   > **❓ Pregunta:** _La autenticacion básica no cifra el usuario y password de manera segura[^2]<a name="basic-auth"></a>. Para asegurar que no se comprometen ¿qué otra cosa deberíamos usar con este tipo de autenticación?_
 
 1. Los errores `5xx` corresponden a problemas en el servidor, como servidor sobrecargado o errores de implementación del servicio. Usa este `telnet` para hacer la siguiente petición:
    ```bash

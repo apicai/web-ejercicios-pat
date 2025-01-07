@@ -11,7 +11,7 @@ Se trata de colocar los elementos en la cuadrícula definida en el contenedor. E
 - Con la propiedad `grid-template-areas` en el contenedor, se definen las áreas disponibles en la cuadrícula.
 - Con la propiedad `grid-area` en el elemento a colocar, se le asigna a una de las áreas indicadas en la propiedad anterior.
 
-<div class="codepen" data-prefill data-height="350" data-theme-id="light" data-default-tab="css,result" data-editable="true" style="opacity:0">
+<div class="codepen" data-prefill="{}" data-height="350" data-theme-id="light" data-default-tab="css,result" data-editable="true" style="opacity:0">
   <pre data-lang="html">&lt;body>
   &lt;header class="cabecera">Cabecera&lt;/header>
   &lt;article class="contenido">Contenido&lt;/article>

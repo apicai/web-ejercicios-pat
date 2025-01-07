@@ -9,7 +9,7 @@ Con [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) podemos c
 - `flex-shrink`: indica en qué proporción encogerá el elemento respecto del resto cuando falte espacio.
 - `flex-basis`: indica el tamaño inicial para el elemento antes de redistribuir el espacio.
 
-<div class="codepen" data-prefill data-height="350" data-theme-id="light" data-default-tab="css,result" data-editable="true" style="opacity:0">
+<div class="codepen" data-prefill="{}" data-height="350" data-theme-id="light" data-default-tab="css,result" data-editable="true" style="opacity:0">
 <pre data-lang="html">&lt;body>
 &lt;nav>
  &lt;ul class="contenedor">

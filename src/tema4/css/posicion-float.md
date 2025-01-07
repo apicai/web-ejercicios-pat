@@ -5,7 +5,7 @@
 
 Para que un elemento flote y los adyacentes lo envuelvan se utiliza `float` (y `clear`):
 
-<div class="codepen" data-prefill data-height="350" data-theme-id="light" data-default-tab="css,result" data-editable="true" style="opacity:0">
+<div class="codepen" data-prefill="{}" data-height="350" data-theme-id="light" data-default-tab="css,result" data-editable="true" style="opacity:0">
 <pre data-lang="html">&lt;body>
 &lt;section class="contenedor">
   &lt;aside class="flota">&lt;/aside>

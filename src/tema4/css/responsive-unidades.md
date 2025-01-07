@@ -8,7 +8,7 @@ Utilizar dimensiones fijas/absolutas (píxeles) para definir los tamaños de la 
 - `rem`, relativa al tamaño de la letra inicial de la página, y 
 - `em`, relativa al tamaño de la letra en el elemento.
 
-<div class="codepen" data-prefill data-height="450" data-default-tab="css,result" data-theme-id="light" data-editable="true" style="opacity:0">
+<div class="codepen" data-prefill="{}" data-height="450" data-default-tab="css,result" data-theme-id="light" data-editable="true" style="opacity:0">
   <pre data-lang="html">&lt;body>
 &lt;section class="relativas">
   &lt;aside class="flota">&lt;/aside>
