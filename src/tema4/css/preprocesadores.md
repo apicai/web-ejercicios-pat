@@ -158,7 +158,7 @@ article {
 
 ---
 
-<div class="codepen" data-prefill data-height="450" data-default-tab="css,result" data-theme-id="light" data-editable="true" style="opacity:0">
+<div class="codepen" data-prefill="{}" data-height="450" data-default-tab="css,result" data-theme-id="light" data-editable="true" style="opacity:0">
   <pre data-lang="html">&lt;body>
 &lt;p>Este es un ejemplo de SCSS con el que puedes jugar directamente sin necesidad de compilar a CSS gracias a que la plataforma Codepen.io lo compila por ti. El mixin de ejemplo llamado "ellipsis" crea bloques de texto del ancho y número de líneas indicado. Si el contenido ocupa más que el número de líneas indicado, el texto se acorta y se muestra una elipsis ("…").&lt;/p>
 &lt;/body></pre>

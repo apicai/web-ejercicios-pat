@@ -5,7 +5,7 @@
 
 Los textos no pueden contener directamente los caracteres `<` y `>` porque podrían interpretarse como código HTML. Para usarlos se han de escribir como [entidades HTML](https://developer.mozilla.org/en-US/docs/Glossary/Entity).
 
-<div class="codepen" data-prefill data-height="200" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
+<div class="codepen" data-prefill="{}" data-height="200" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
 <pre data-lang="html">
 &amp;lt;
 &amp;gt;

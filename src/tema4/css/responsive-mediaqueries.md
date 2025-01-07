@@ -7,7 +7,7 @@ Además de hacer diseños que se adaptan al espacio disponible, hay situaciones 
 
 Para ello se utilizan "media queries" que aplican ciertas reglas CSS solo si se cumple la condición indicada: `@media (condición) { reglas CSS ... }`. Hay varias [condiciones](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries), las más utilizadas son `min-width` y `max-width` que consultan el ancho actual de la ventana gráfica de la página.
 
-<div class="codepen" data-prefill data-height="350" data-theme-id="light" data-default-tab="css,result" data-editable="true" style="opacity:0">
+<div class="codepen" data-prefill="{}" data-height="350" data-theme-id="light" data-default-tab="css,result" data-editable="true" style="opacity:0">
   <pre data-lang="html">&lt;body>
   &lt;header class="cabecera">Cabecera&lt;/header>
   &lt;article class="contenido">Contenido&lt;/article>

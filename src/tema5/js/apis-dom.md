@@ -22,7 +22,7 @@ console.log('HTML del anterior elemento:',
 > <object type="image/svg+xml" data="./files/dom.svg" width="100%"></object>
 > </details>
 
-<div class="codepen" data-prefill data-height="350" data-theme-id="light" data-default-tab="js,html" data-editable="true" style="opacity:0">
+<div class="codepen" data-prefill="{}" data-height="350" data-theme-id="light" data-default-tab="js,html" data-editable="true" style="opacity:0">
   <pre data-lang="html">&lt;body>
   &lt;header>&lt;h1>Cabecera&lt;/h1>&lt;/header>
   &lt;nav>

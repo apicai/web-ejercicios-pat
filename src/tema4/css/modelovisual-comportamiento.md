@@ -13,7 +13,7 @@ Hay tres tipos principales de comportamiento visual del cuadro de un elemento HT
 
 El comportamiento por defecto de cada elemento se puede cambiar con la propiedad CSS `display`.
 
-<div class="codepen" data-prefill data-height="410" data-theme-id="light" data-default-tab="result" data-editable="true" style="opacity:0">
+<div class="codepen" data-prefill="{}" data-height="410" data-theme-id="light" data-default-tab="result" data-editable="true" style="opacity:0">
 <pre data-lang="html">&lt;body>
 &lt;div id="e1">Elemento 1&lt;/div>
 &lt;div id="e2">Elemento 2&lt;/div>

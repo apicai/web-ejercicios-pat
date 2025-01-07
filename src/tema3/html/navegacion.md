@@ -7,7 +7,7 @@ La etiqueta [`<a href="{URL}">texto o bloque</a>`](https://developer.mozilla.org
 - Un elemento de la página actual, indicando el `#fragmento`
 
 > **❓ Ejercicio 1:** _Crea los 3 enlaces indicados en los comentarios del siguiente HTML:_
-> <div class="codepen" data-prefill data-height="350" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
+> <div class="codepen" data-prefill="{}" data-height="350" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
 > <pre data-lang="css">
 > #contenido { margin:120px 0 120px 0; }
 > </pre>

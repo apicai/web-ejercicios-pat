@@ -8,7 +8,7 @@ Permiten crear un **interfaz de usuario para que éste envíe información al se
 > 2. _Otro grupo de campos con las características del producto: modelo, tamaño, color, cantidad y extras, todos obligatorios menos el último._
 > 3. _Otro grupo de campos con las preferencias de entrega: fechas e instrucciones, opcionales._
 > 4. _Otro grupo de controles para enviar y limpiar el formulario._
-> <div class="codepen" data-prefill data-height="600" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
+> <div class="codepen" data-prefill="{}" data-height="600" data-theme-id="light" data-default-tab="html,result" data-editable="true" style="opacity:0">
 > <pre data-lang="html">&lt;body>
 > &lt;form action="URL absoluta o relativa" method="get o post">
 >  &lt;h2>Formulario del pedido&lt;/h2>

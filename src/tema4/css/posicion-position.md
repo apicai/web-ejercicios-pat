@@ -5,7 +5,7 @@
 
 El elemento se puede posicionar estableciendo la distancia a alguno de los lados (`top`, `right`, `bottom` y/o `left`) de la referencia indicada en su propiedad `position`:
 
-<div class="codepen" data-prefill data-height="350" data-theme-id="light" data-default-tab="css,result" data-editable="true" style="opacity:0">
+<div class="codepen" data-prefill="{}" data-height="350" data-theme-id="light" data-default-tab="css,result" data-editable="true" style="opacity:0">
 <pre data-lang="html">&lt;body>
 &lt;section class="contenedor">
   &lt;aside class="posicionado">&lt;/aside>

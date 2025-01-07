@@ -17,7 +17,7 @@ Content-Length: 0
 ```
 Vuelve a repetir los **3 primeros pasos**, y comprueba que ahora el navegador envía la cookie en la petición. Comprueba si con cerrar la pestaña es suficiente o has de salir del navegador para que la cookie de sesión deje de enviarse.
 
-> **❓ Pregunta:** _¿En qué casos utilizarías una cookie de sesión?_
+> **❓ Pregunta:** _De los 4 tipos de información que pueden contener las cookies, ¿en qué casos utilizarías una cookie de sesión?_
 
 Las **cookies "permanentes"** las deja de enviar el navegador en la fecha indicada por el servidor. Repite los pasos para enviar esta respuesta:
 ```http

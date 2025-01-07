@@ -5,7 +5,7 @@ Seleccionan el o los elementos HTML a los que se van a aplicar los estilos[^1] i
 
 La siguiente tabla no tiene ningún estilo. Vamos a ir dándole estilo utilizando cada tipo de selector:
 
-<div class="codepen" data-prefill data-height="420" data-theme-id="light" data-default-tab="result" data-editable="true" style="opacity:0">
+<div class="codepen" data-prefill="{}" data-height="420" data-theme-id="light" data-default-tab="result" data-editable="true" style="opacity:0">
   <pre data-lang="html">&lt;table>
   &lt;caption id="leyenda">Resumen de tipos de selectores&lt;/caption>
   &lt;thead>
